@@ -1,0 +1,62 @@
+.IntcodeMachine {
+    background: #352879; 
+    padding: 20px 50px 20px;
+    display:flex;
+    flex-direction: column;
+    color: #6C5EB5;
+}
+
+.IntcodeMachine .Params {
+    display: flex;
+    flex-direction: column;
+}
+
+.IntcodeMachine .Params span {
+    color: #fff;
+}
+
+.IntcodeMachine .assembly {
+    color: #fff;
+}
+
+.IntcodeMachine .CurrentOp {
+
+}
+
+.IntcodeMachine .ProgramDump span {
+}
+
+.IntcodeMachine .ProgramDump {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    /* height: 200px; */
+    flex-direction: row;
+}
+
+.IntcodeMachine .ProgramDump p {
+    width: 220px;
+}
+
+.IntcodeMachine .ProgramDump span.glow {
+    color: #fff;
+}
+
+.IntcodeMachine .ProgramDump span.read {
+    color: #B8C76F;
+}
+
+.IntcodeMachine .ProgramDump span.write {
+    color: #68372B;
+}
+
+.Parallel {
+    padding: 20px;
+    display: flex;
+    background: #352879;
+    flex-wrap: wrap;
+}
+
+.Parallel > div {
+    width: 420px;
+}
