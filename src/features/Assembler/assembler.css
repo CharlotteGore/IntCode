@@ -1,0 +1,23 @@
+.Assembler {
+  display: flex;
+  background: var(--black);
+}
+
+.Assembler textarea {
+  background: var(--lightgrey);
+  font-size: 16px;
+  border: 0;
+  width: 50%;
+  color: var(--darkgrey);
+  font-family: "C64";
+  height: 75vh;
+}
+
+.invert {
+  color: var(--darkblue);
+}
+
+.Assembler textarea.out {
+  background: var(--darkgrey);
+  color: var(--lightgrey);
+}

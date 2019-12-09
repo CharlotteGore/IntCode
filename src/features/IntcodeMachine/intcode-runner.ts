@@ -1,9 +1,11 @@
 import Debugger from "./intcode-debugger";
 import produce from "immer";
+import input from "../Day/8/input";
 
 export enum MODE {
   POSITION = 0,
-  IMMEDIATE = 1
+  IMMEDIATE = 1,
+  RELATIVE = 2
 }
 export enum PARAM {
   ONE = 1,
@@ -20,11 +22,13 @@ export enum OPCODE {
   JPF = 6,
   JLT = 7,
   JPE = 8,
+  SFT = 9,
   HCF = 99
 }
 export type ParameterModes = Record<PARAM, MODE>;
-export type IntcodeProgram = Int32Array;
+export type IntcodeProgram = Array<number>;
 export type ProgramCounter = number;
+export type RelativeBase = number;
 
 export type IntcodeRunner = AsyncGenerator<number, null, boolean>;
 
@@ -35,6 +39,7 @@ async function* intcodeRunner(
   id: number
 ): IntcodeRunner {
   let pc: ProgramCounter = 0;
+  let rb: RelativeBase = 0;
   let control;
 
   let modes: ParameterModes = {
@@ -48,15 +53,26 @@ async function* intcodeRunner(
     debug.modes = modes;
     control = debug.control();
     debug.pc = pc;
-    console.log(id, "waiting for go signal");
     if (control) await control.next();
-    console.log(id, "is go");
   }
 
-  const getValue = (d: PARAM) =>
-    modes[d] ? program[pc + (d - 1)] : program[program[pc + (d - 1)]];
-  const getPointer = (d: PARAM) =>
-    modes[d] ? pc + (d - 1) : program[pc + (d - 1)];
+  const getValue = (d: PARAM) => {
+    let r;
+    if (modes[d] === MODE.RELATIVE) {
+      r = program[rb + program[pc + (d - 1)]];
+    } else {
+      r = modes[d] ? program[pc + (d - 1)] : program[program[pc + (d - 1)]];
+    }
+    if (!r) return 0;
+    return r;
+  };
+  const getPointer = (d: PARAM) => {
+    if (modes[d] === MODE.RELATIVE) {
+      return rb + program[pc + (d - 1)];
+    } else {
+      return modes[d] ? pc + (d - 1) : program[pc + (d - 1)];
+    }
+  };
 
   while (true) {
     let inst = program[pc++];
@@ -75,7 +91,7 @@ async function* intcodeRunner(
       draft[PARAM.THREE] = p3;
     });
 
-    if (modes[PARAM.THREE] !== MODE.POSITION) {
+    if (modes[PARAM.THREE] === MODE.IMMEDIATE) {
       throw new Error("Param 3 should not have immediate mode");
     }
 
@@ -83,9 +99,7 @@ async function* intcodeRunner(
       debug.pc = pc - 1;
       debug.op = op;
       debug.modes = modes;
-      console.log(id, "waiting for go signal");
       if (control) await control.next();
-      console.log(id, "is go");
     }
 
     switch (op!) {
@@ -106,9 +120,7 @@ async function* intcodeRunner(
         break;
       }
       case OPCODE.REA: {
-        console.log(id, "waiting for input");
         let i = await inputGenerator.next();
-        console.log(id, "input grabbed", i);
         if (i.done === true) {
           console.warn("Shutting down runner because there is no input");
           return null;
@@ -162,6 +174,13 @@ async function* intcodeRunner(
           program[c] = 0;
         }
         pc += 3;
+        break;
+      }
+      case OPCODE.SFT: {
+        let c = getValue(1);
+        rb += c;
+        if (debug) debug.rb = rb;
+        pc++;
         break;
       }
       case OPCODE.HCF: {

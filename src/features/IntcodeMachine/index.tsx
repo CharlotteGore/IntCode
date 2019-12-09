@@ -1,36 +1,87 @@
-import React from 'react';
-import {
-    useParams
-  } from "react-router-dom";
-import './intcode.css';
-import Params from './Params';
-import CurrentOp from './CurrentOp';
-import ProgramDump from './ProgramDump';
-import { useMachine } from './hooks';
+import React, { useState, useEffect } from "react";
+import "./intcode.css";
+import Params from "./Params";
+import CurrentOp from "./CurrentOp";
+import ProgramDump from "./ProgramDump";
+import { Machine } from "./machine";
+import { DebugStateUpdate } from "./intcode-debugger";
+import { OPCODE, MODE, PARAM } from "./intcode-runner";
 
+type DebugControls = {
+  doStep: () => void;
+};
 
-const IntcodeMachine = () => {
-    const { id } = useParams()
-    const {
-        machineState,
-        debugControls,
-        output,
-    } = useMachine(id);
+const useMachine = (machine: Machine) => {
+  const [machineState, setMachineState] = useState<DebugStateUpdate>({
+    program: machine.debug.program,
+    pc: -1,
+    rb: 0,
+    op: OPCODE.NOP,
+    id: machine.config.id,
+    lastOutput: null,
+    modes: {
+      [PARAM.ONE]: MODE.POSITION,
+      [PARAM.TWO]: MODE.POSITION,
+      [PARAM.THREE]: MODE.POSITION
+    }
+  });
+  const [debugControls, setDebugControls] = useState<DebugControls>({
+    doStep: () => {}
+  });
+  useEffect(() => {
+    if (machine) {
+      const { runner, debug } = machine;
 
-    return <div className="IntcodeMachine">
-        {
-            machineState && debugControls && <>
-                <h3>Machine ID: {id}</h3>
-                <Params machine={machineState} />
-                <p>Outputs: {output && output}</p>
-                <CurrentOp machine={machineState} />
-                <button onClick={debugControls.doStep!}>Step</button>
-                <ProgramDump machine={machineState} />
-            </>
-        }
-        
-        
+      debug.onUpdate((update: DebugStateUpdate) => {
+        setMachineState(update);
+      });
+      setDebugControls({
+        doStep: debug.step.bind(debug) // is this bind necessary?
+      });
+      return () => {
+        debug.onFire = true;
+      };
+    }
+  }, [machine]);
+
+  return {
+    machineState,
+    debugControls
+  };
+};
+
+/*
+<button onClick={debugControls.doStep!}>></button>
+*/
+
+const IntcodeMachine = (props: { machine: Machine }) => {
+  const [showDump, setShowDump] = useState<boolean>(false);
+  const { id } = props.machine.config;
+  const toggleShowDump = () => {
+    setShowDump(!showDump);
+  };
+  const { debug } = props.machine;
+
+  const { machineState, debugControls } = useMachine(props.machine);
+
+  return (
+    <div className={`IntcodeMachine ${debug.onFire ? "halted" : ""}`}>
+      {id && (
+        <>
+          <h3>
+            Machine ID: {id}{" "}
+            <button onClick={toggleShowDump}>{showDump ? "V" : "T"}</button>
+          </h3>
+          <p>Base: {machineState.rb}</p>
+          <Params machine={machineState} />
+          <p>Outputs: {machineState.lastOutput}</p>
+          <CurrentOp machine={machineState} />
+          <button onClick={debugControls.doStep!}>></button>
+          {showDump && <ProgramDump machine={machineState} />}
+        </>
+      )}
     </div>
-}
+  );
+};
 
 export default IntcodeMachine;

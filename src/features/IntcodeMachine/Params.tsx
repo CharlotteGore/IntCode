@@ -1,67 +1,89 @@
-import React from 'react'
+import React from "react";
 
-import { OPCODE, PARAM, MODE } from "./intcode-runner";
+import { OPCODE, PARAM, MODE, ParameterModes } from "./intcode-runner";
 import { DebugStateUpdate } from "./intcode-debugger";
 
-const Params = (props: { machine: DebugStateUpdate}) => {
-    const { machine } = props;
-    if (machine !== null) {
-        const { pc, op, modes, program } = machine;
-        let params = [];
-        switch (op) {
-            case OPCODE.ADD:
-            case OPCODE.MUL:
-            case OPCODE.JLT:
-            case OPCODE.JPE:
-                if (modes[PARAM.ONE] === MODE.POSITION) {
-                    params.push(<li key={0}>P1: ${program[pc +1]} (<span>{program[program[pc +1]]}</span>)</li>)
-                } else {
-                    params.push(<li key={0}>P1: <span>{program[pc +1]}</span></li>)
-                }
-                
-                if (modes[PARAM.TWO] === MODE.POSITION) {
-                    params.push(<li key={1}>P2: ${program[pc +2]} (<span>{program[program[pc +2]]}</span>)</li>)
-                } else {
-                    params.push(<li key={1}>P2: <span>{program[pc +2]}</span></li>)
-                }
+const Param = (props: { machine: DebugStateUpdate; param: PARAM }) => {
+  const { pc, modes, program, rb } = props.machine;
+  const { param } = props;
 
-                params.push(<li key={2}>P3: <span>${program[pc +3]}</span> ({program[program[pc +3]]})</li>)
-                break;
-            case OPCODE.JPT:
-            case OPCODE.JPF:
-                if (modes[PARAM.ONE] === MODE.POSITION) {
-                    params.push(<li key={0}>P1: ${program[pc +1]} (<span>{program[program[pc +1]]}</span>)</li>)
-                } else {
-                    params.push(<li key={0}>P1: <span>{program[pc +1]}</span></li>)
-                }
-                if (modes[PARAM.ONE] === MODE.POSITION) {
-                    params.push(<li key={1}>P2: ${program[pc +2]} (<span>{program[program[pc +2]]}</span>)</li>)
-                } else {
-                    params.push(<li key={1}>P2: <span>${program[pc +2]}</span> ({program[program[pc +2]]})</li>)
-                }
-                params.push(<li key={2}>P3: - (-)</li>);
-                break;
-            case OPCODE.WRI:
-            case OPCODE.REA:
-                if (modes[PARAM.ONE] === MODE.POSITION) {
-                    params.push(<li key={0}>P1: ${program[pc +1]} (<span>{program[program[pc +1]]}</span>)</li>)
-                } else {
-                    params.push(<li key={0}>P1: <span>{program[pc +1]}</span></li>)
-                }
-                params.push(<li key={1}>P2: - (-)</li>);
-                params.push(<li key={2}>P3: - (-)</li>);
-                break;
-            default:
-                params.push(<li key={0}>P1: - (-)</li>);
-                params.push(<li key={1}>P2: - (-)</li>);
-                params.push(<li key={2}>P3: - (-)</li>);
-        }
+  if (modes[param] === MODE.POSITION) {
+    return (
+      <li>
+        P{param}: ${program[pc + param]} (
+        <span>{program[rb + program[pc + param]] || 0}</span>)
+      </li>
+    );
+  } else if (modes[param] === MODE.RELATIVE) {
+    return (
+      <li>
+        P{param}: <span>*{program[pc + param]}</span> (
+        <span>${rb + program[pc + param]}</span>{" "}
+        {program[rb + program[pc + param]] || 0})
+      </li>
+    );
+  } else {
+    return (
+      <li>
+        <span>
+          P{param}: {program[pc + param]}
+        </span>
+      </li>
+    );
+  }
+};
 
-        return <ul className='Params'>
-            { [...params] }
-        </ul>
+const NullParam = (props: { param: PARAM }) => <li>P{props.param}: ---</li>;
+
+const Params = (props: { machine: DebugStateUpdate }) => {
+  const { machine } = props;
+  if (machine !== null) {
+    const { pc, op, rb, modes, program } = machine;
+
+    let params = [];
+    switch (op) {
+      case OPCODE.ADD:
+      case OPCODE.MUL:
+      case OPCODE.JLT:
+      case OPCODE.JPE:
+        params.push(
+          <Param key={0} machine={machine} param={PARAM.ONE}></Param>
+        );
+        params.push(
+          <Param key={1} machine={machine} param={PARAM.TWO}></Param>
+        );
+        params.push(
+          <Param key={2} machine={machine} param={PARAM.THREE}></Param>
+        );
+        break;
+      case OPCODE.JPT:
+      case OPCODE.JPF:
+        params.push(
+          <Param key={0} machine={machine} param={PARAM.ONE}></Param>
+        );
+        params.push(
+          <Param key={1} machine={machine} param={PARAM.TWO}></Param>
+        );
+        params.push(<NullParam key={2} param={PARAM.THREE}></NullParam>);
+        break;
+      case OPCODE.WRI:
+      case OPCODE.REA:
+      case OPCODE.SFT:
+        params.push(
+          <Param key={0} machine={machine} param={PARAM.ONE}></Param>
+        );
+        params.push(<NullParam key={1} param={PARAM.TWO}></NullParam>);
+        params.push(<NullParam key={2} param={PARAM.THREE}></NullParam>);
+        break;
+      default:
+        params.push(<NullParam key={0} param={PARAM.ONE}></NullParam>);
+        params.push(<NullParam key={1} param={PARAM.TWO}></NullParam>);
+        params.push(<NullParam key={2} param={PARAM.THREE}></NullParam>);
     }
-    return null;
-}
+
+    return <ul className="Params">{[...params]}</ul>;
+  }
+  return null;
+};
 
 export default Params;
