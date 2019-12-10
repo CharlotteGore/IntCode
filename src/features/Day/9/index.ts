@@ -1,11 +1,7 @@
 import source from "./input";
-import tests from "./tests";
-import { toIntArray, toLines, csvToIntArray } from "../../Helpers/parsers";
 import { createMachine } from "../../IntcodeMachine/machine";
 
 import { TestFunction } from "../hooks";
-import createNullInput from "../../IntcodeMachine/input-generators/null";
-import Debugger from "../../IntcodeMachine/intcode-debugger";
 import createQueueInput from "../../IntcodeMachine/input-generators/queue";
 
 const runner: TestFunction = async (star: string) => {
@@ -39,7 +35,6 @@ const starOne = async (input: string, params: Record<string, any>) => {
   const queue = createQueueInput([]);
   const machine = init.outputToQueue(queue);
   machine.debug.run();
-  machine.debug.step();
   let r = await queue.generator().next();
   return r.value;
 };
@@ -53,10 +48,7 @@ const starTwo = async (input: string, params: Record<string, any>) => {
   const queue = createQueueInput([]);
   const machine = init.outputToQueue(queue);
   machine.debug.run();
-  machine.debug.step();
-  const g = queue.generator();
-  const r = await g.next();
-  console.log(r);
+  let r = await queue.generator().next();
   return r.value;
 };
 

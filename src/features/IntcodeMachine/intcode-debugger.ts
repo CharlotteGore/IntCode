@@ -109,6 +109,9 @@ class Debugger {
   }
   run() {
     this.paused = false;
+    if (this.runNextStep) {
+      this.runNextStep();
+    }
   }
   update() {
     this.externalObservers.forEach(f =>

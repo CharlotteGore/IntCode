@@ -1,4 +1,4 @@
-import React, { useRef, RefObject } from "react";
+import React, { useRef } from "react";
 import { useParams } from "react-router-dom";
 import "./day.css";
 

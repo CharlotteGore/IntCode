@@ -34,13 +34,22 @@ const App = () => {
               <Link to="/day/9/2">9:2</Link>
             </li>
             <li>
+              <Link to="/day/10/1">10:1</Link>
+            </li>
+            <li>
+              <Link to="/day/10/2">10:2</Link>
+            </li>
+            <li>
+              <Link to="/day/11/1">11:1</Link>
+            </li>
+            <li>
+              <Link to="/day/11/2">11:2</Link>
+            </li>
+            <li>
               <Link to="/intcode">Debugger</Link>
             </li>
             <li>
               <Link to="/assembler">Assembler</Link>
-            </li>
-            <li>
-              <Link to="/day/experiment/1">Experiment</Link>
             </li>
           </ul>
         </nav>

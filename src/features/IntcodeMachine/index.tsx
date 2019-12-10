@@ -30,13 +30,13 @@ const useMachine = (machine: Machine) => {
   });
   useEffect(() => {
     if (machine) {
-      const { runner, debug } = machine;
+      const { debug } = machine;
 
       debug.onUpdate((update: DebugStateUpdate) => {
         setMachineState(update);
       });
       setDebugControls({
-        doStep: debug.step.bind(debug) // is this bind necessary?
+        doStep: debug.step.bind(debug) // is this bind necessary? // yep
       });
       return () => {
         debug.onFire = true;
@@ -49,10 +49,6 @@ const useMachine = (machine: Machine) => {
     debugControls
   };
 };
-
-/*
-<button onClick={debugControls.doStep!}>></button>
-*/
 
 const IntcodeMachine = (props: { machine: Machine }) => {
   const [showDump, setShowDump] = useState<boolean>(false);

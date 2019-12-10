@@ -1,6 +1,6 @@
 import React from "react";
 
-import { OPCODE, PARAM, MODE, ParameterModes } from "./intcode-runner";
+import { OPCODE, PARAM, MODE } from "./intcode-runner";
 import { DebugStateUpdate } from "./intcode-debugger";
 
 const Param = (props: { machine: DebugStateUpdate; param: PARAM }) => {
@@ -38,7 +38,7 @@ const NullParam = (props: { param: PARAM }) => <li>P{props.param}: ---</li>;
 const Params = (props: { machine: DebugStateUpdate }) => {
   const { machine } = props;
   if (machine !== null) {
-    const { pc, op, rb, modes, program } = machine;
+    const { op } = machine;
 
     let params = [];
     switch (op) {

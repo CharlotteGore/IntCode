@@ -8,7 +8,6 @@ import {
   MachineConfig,
   UninitialisedMachineType
 } from "../IntcodeMachine/machine";
-import produce from "immer";
 
 import UninitialisedMachine from "../IntcodeMachine/UnitiatialisedMachine";
 
@@ -23,7 +22,6 @@ const useMachineFactory = (machineConfig: Array<MachineConfig>) => {
   const setMachineRunning = (machine: Machine) => {
     const id = machine.config.id;
     const pendingMachine = machines.pending.find(m => m.config.id === id);
-    let newMachines;
     if (pendingMachine) {
       machines.pending.splice(machines.pending.indexOf(pendingMachine), 1);
     }
@@ -50,6 +48,7 @@ const useMachineFactory = (machineConfig: Array<MachineConfig>) => {
         running: machines.running
       });
     }
+    // eslint-disable-next-line
   }, [machineConfig]);
 
   return {
@@ -62,9 +61,6 @@ export const DebuggerPortal = () => {
   const [code, setCode] = useState("default");
   const [initialInput, setInitialInput] = useState("");
   const [machineConfig, setMachineConfig] = useState<Array<MachineConfig>>([]);
-  const [runningMachines, setRunningMachines] = useState<
-    Array<Machine | UninitialisedMachineType>
-  >([]);
   const { machines, setMachineRunning } = useMachineFactory(machineConfig);
 
   const addMachine = () => {

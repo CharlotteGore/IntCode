@@ -1,11 +1,9 @@
 import intcodeRunner, { IntcodeRunner } from "./intcode-runner";
 import createQueueInput, { QueueInput } from "./input-generators/queue";
-import createNullInput, { NullInput } from "./input-generators/null";
 import Debugger from "./intcode-debugger";
 import parse from "./intcode-parser";
 import programs from "./programs";
 import { csvToIntArray } from "../Helpers/parsers";
-
 export type MachineConfig = {
   code: string;
   id: number;
@@ -21,6 +19,7 @@ export type Machine = {
 };
 
 export type MonitorCallback = (value: number | null) => void;
+export type OutputResultsCallback = (results: Array<number>) => void;
 
 export type UninitialisedMachineType = {
   config: MachineConfig;
@@ -29,6 +28,8 @@ export type UninitialisedMachineType = {
   outputToQueue: (queue: QueueInput) => Machine;
   silentRunning: () => Machine;
   outputToConsole: () => Machine;
+  outputToArray: (array: Array<number>) => Machine;
+  outputToCallback: (callback: OutputResultsCallback) => Machine;
 };
 
 const outputToQueue = async (
@@ -74,6 +75,42 @@ const outputToConsole = async (
       console.log(val.value);
     } else {
       if (monitorCb) monitorCb(val.value);
+      break;
+    }
+  }
+};
+
+const outputToArray = async (
+  runner: IntcodeRunner,
+  output: Array<number>,
+  monitorCb?: MonitorCallback
+) => {
+  while (true) {
+    let val = await runner.next();
+    if (val.done !== true) {
+      if (monitorCb) monitorCb(val.value);
+      output.push(val.value);
+    } else {
+      if (monitorCb) monitorCb(val.value);
+      break;
+    }
+  }
+};
+
+const outputToCallback = async (
+  runner: IntcodeRunner,
+  callback: OutputResultsCallback,
+  monitorCb?: MonitorCallback
+) => {
+  const values = [];
+  while (true) {
+    let val = await runner.next();
+    if (val.done !== true) {
+      if (monitorCb) monitorCb(val.value);
+      values.push(val.value);
+    } else {
+      if (monitorCb) monitorCb(val.value);
+      callback(values);
       break;
     }
   }
@@ -131,6 +168,38 @@ export const createMachine = (
         config.id
       );
       outputToQueue(runner, queue, debug.onValue.bind(debug));
+      return {
+        config: config,
+        debug,
+        runner,
+        initialised: true,
+        queue: input
+      };
+    },
+    outputToArray: (output: Array<number>) => {
+      const runner = intcodeRunner(
+        program,
+        input.generator(),
+        debug,
+        config.id
+      );
+      outputToArray(runner, output, debug.onValue.bind(debug));
+      return {
+        config: config,
+        debug,
+        runner,
+        initialised: true,
+        queue: input
+      };
+    },
+    outputToCallback: (callback: OutputResultsCallback) => {
+      const runner = intcodeRunner(
+        program,
+        input.generator(),
+        debug,
+        config.id
+      );
+      outputToCallback(runner, callback, debug.onValue.bind(debug));
       return {
         config: config,
         debug,

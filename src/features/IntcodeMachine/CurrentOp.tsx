@@ -9,7 +9,6 @@ const CurrentOp = (props: { machine: DebugStateUpdate }) => {
     const { pc, op, rb, modes, program } = machine;
 
     const getParam = (param: PARAM, pc: number) => {
-      let type = "";
       if (modes[param] === MODE.POSITION) {
         return `$${program[pc + param]} (${program[program[pc + param]] || 0})`;
       } else if (modes[param] === MODE.RELATIVE) {

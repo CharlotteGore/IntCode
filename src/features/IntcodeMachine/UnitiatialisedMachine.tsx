@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import "./intcode.css";
-import Params from "./Params";
-import CurrentOp from "./CurrentOp";
-import ProgramDump from "./ProgramDump";
 import { Machine, UninitialisedMachineType } from "./machine";
 
 type Output = string;
@@ -16,10 +13,9 @@ const UninitialisedMachine = (props: {
     machine: {
       config: { id }
     },
-    possibleOutputs,
-    onSetOutput
+    possibleOutputs
   } = props;
-  const [selectVal, setSelectVal] = useState("");
+  const [selectVal, setSelectVal] = useState(possibleOutputs[0]);
 
   const handleConfirm = () => {
     props.onSetOutput(selectVal);

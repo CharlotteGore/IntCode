@@ -1,6 +1,5 @@
 import source from "./input";
-import tests from "./tests";
-import { toIntArray, toLines, lsvToIntArray } from "../../Helpers/parsers";
+import { lsvToIntArray } from "../../Helpers/parsers";
 
 import { TestFunction } from "../hooks";
 

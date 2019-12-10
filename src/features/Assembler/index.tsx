@@ -1,6 +1,4 @@
-import React, { useState, useEffect } from "react";
-import * as programs from "../IntcodeMachine/programs";
-import IntcodeMachine from "../IntcodeMachine";
+import React, { useState } from "react";
 import "./assembler.css";
 import { OPCODE, MODE } from "../IntcodeMachine/intcode-runner";
 import { toLines } from "../Helpers/parsers";
@@ -82,14 +80,6 @@ export const Assembler = () => {
         { blocks: [], lastBlockId: null }
       );
 
-    const programLength =
-      blocks.reduce(
-        (sum: number, block: { id: string | null; lines: Array<string> }) => {
-          return sum + block.lines.length;
-        },
-        0
-      ) + defs.length;
-
     const blockNames = blocks.map(block => block.id);
 
     const isNumber = (s: string) => /^[\d-]+$/.test(s);
@@ -110,6 +100,7 @@ export const Assembler = () => {
       return block.lines.map(line => {
         const match = line.match(/^(add|mul|rea|wri|jpt|jpf|jlt|jpe|hcf)/);
         if (match !== null) {
+          // eslint-disable-next-line
           const [_, p1, p2, p3] = line
             .split(/;/)[0]
             .trim()
@@ -183,7 +174,7 @@ export const Assembler = () => {
               if (p1v === null) {
                 setOutput(`Invalid param ${p1} ${line}`);
                 faultFound = true;
-                return;
+                return null;
               }
               if (p1v.val !== null) p1m = MODE.IMMEDIATE;
               const p2v = parseParam(p2);
@@ -246,11 +237,11 @@ export const Assembler = () => {
                 params: [],
                 size: 1
               };
-              break;
           }
         } else {
           setOutput(`invalid op code ${line}`);
         }
+        return null;
       });
     });
     if (!faultFound) {
@@ -268,7 +259,6 @@ export const Assembler = () => {
       });
       const lastBlock = blockSizes[blockSizes.length - 1];
       const codeSize = lastBlock.position + lastBlock.size;
-      const defsSize = defs.length;
       const code = tokenized.reduce((code: Array<number>, block) => {
         return code.concat(
           block.reduce((code: Array<number>, line) => {

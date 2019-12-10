@@ -1,6 +1,5 @@
 import Debugger from "./intcode-debugger";
 import produce from "immer";
-import input from "../Day/8/input";
 
 export enum MODE {
   POSITION = 0,
@@ -90,10 +89,6 @@ async function* intcodeRunner(
       draft[PARAM.TWO] = p2;
       draft[PARAM.THREE] = p3;
     });
-
-    if (modes[PARAM.THREE] === MODE.IMMEDIATE) {
-      throw new Error("Param 3 should not have immediate mode");
-    }
 
     if (debug) {
       debug.pc = pc - 1;
