@@ -1,26 +1,26 @@
 import React, { useState, useEffect } from "react";
 import "./assembler.css";
-import {assemble } from '../IntcodeMachine/assembler';
+import { disassemble } from '../IntcodeMachine/dissassembler';
 
 const useDisassemble = (input: string) => {
   const [output, setOutput] = useState<string>('');
 
   useEffect(() => {
-    assemble(input)
-      .then((output: string) => {
-        setOutput(output);
+    disassemble(input)
+      .then(result => {
+        setOutput(result);
       });
   }, [input]) 
 
   return output;
 }
 
-export const Assembler = () => {
+export const Disassembler = () => {
   const [input, setInput] = useState<string>('');
   const [savedInput, setSavedInput] = useState<string>('');
   const output = useDisassemble(savedInput);
 
-  const assemble = () => {
+  const disassemble = () => {
     setSavedInput(input);
   }
 
@@ -33,8 +33,8 @@ export const Assembler = () => {
         ></textarea>
         <textarea readOnly className="out" value={output}></textarea>
       </div>
-      <button onClick={assemble} className="invert">
-        Assemble
+      <button onClick={disassemble} className="invert">
+        Disassemble
       </button>
     </>
   );

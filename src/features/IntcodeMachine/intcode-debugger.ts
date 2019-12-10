@@ -85,6 +85,12 @@ class Debugger {
       };
     });
   }
+  poke(index: number, value: number) {
+    this._program[index] = value;
+  }
+  peek(index: number) {
+    return this._program[index];
+  }
   addBreakpoint(pc: ProgramCounter) {
     if (!this.breakpoints.includes(pc)) {
       this.breakpoints = produce(this.breakpoints, draft => {
@@ -144,15 +150,16 @@ class Debugger {
   }
   async *control(): AsyncGenerator<boolean, boolean, boolean> {
     while (!this._onFire) {
-      this.update();
       if (!this.paused && this.breakpoints.length === 0) {
         // no breakpoints, not paused - just run
         yield true;
       } else if (this.breakpoints.includes(this._pc)) {
         // not paused, but found a breakpoint.
         // wait for a step signal before continuing.
+        this.update();
         yield await this.readyForNext();
       } else if (this.paused) {
+        this.update();
         yield await this.readyForNext();
       }
     }

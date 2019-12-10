@@ -7,11 +7,15 @@ import { useSolver } from "./hooks";
 export const Day = () => {
   const { day, star } = useParams();
   const canvas = useRef<HTMLCanvasElement>(null);
-  const { output } = useSolver(day || "day8", star || "1", canvas);
+  const { output, isProcessing } = useSolver(day || "day1", star || "1", canvas);
 
   return (
     <>
-      <div className="IntcodeMachine">{output}</div>
+      <div className="IntcodeMachine">
+        {isProcessing ?
+          'processing...' : output
+        }
+      </div>
       {day === "8" && star === "2" && (
         <canvas ref={canvas} width="25" height="6" />
       )}

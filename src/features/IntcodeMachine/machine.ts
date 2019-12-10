@@ -124,6 +124,7 @@ export const createMachine = (
   const input = createQueueInput(initialQueue);
   const codeSrc = programs[config.code];
   const program = parse(codeSrc);
+  debug.program = program
   return {
     config: config,
     queue: input,

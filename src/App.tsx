@@ -5,6 +5,7 @@ import Home from "./features/Home";
 import { Day } from "./features/Day";
 import { DebuggerPortal } from "./features/DebuggerPortal";
 import { Assembler } from "./features/Assembler";
+import { Disassembler } from "./features/Disassembler";
 
 const App = () => {
   return (
@@ -19,7 +20,25 @@ const App = () => {
               <Link to="/day/1/1">1:1</Link>
             </li>
             <li>
-              <Link to="/day/1/1">1:2</Link>
+              <Link to="/day/1/2">1:2</Link>
+            </li>
+            <li>
+              <Link to="/day/2/1">2:1</Link>
+            </li>
+            <li>
+              <Link to="/day/2/2">2:2</Link>
+            </li>
+            <li>
+              <Link to="/day/3/1">3:1</Link>
+            </li>
+            <li>
+              <Link to="/day/3/2">3:2</Link>
+            </li>
+            <li>
+              <Link to="/day/4/1">4:1</Link>
+            </li>
+            <li>
+              <Link to="/day/4/2">4:2</Link>
             </li>
             <li>
               <Link to="/day/8/1">8:1</Link>
@@ -51,6 +70,9 @@ const App = () => {
             <li>
               <Link to="/assembler">Assembler</Link>
             </li>
+            <li>
+              <Link to="/disassembler">Disassembler</Link>
+            </li>
           </ul>
         </nav>
 
@@ -60,6 +82,7 @@ const App = () => {
           <Route path="/day/:day/:star" children={<Day />} />
           <Route path="/intcode" children={<DebuggerPortal />} />
           <Route path="/assembler" children={<Assembler />} />
+          <Route path="/disassembler" children={<Disassembler />} />
           <Route path="/">
             <Home />
           </Route>
