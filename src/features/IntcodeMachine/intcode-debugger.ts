@@ -8,6 +8,7 @@ import {
   RelativeBase
 } from "./intcode-runner";
 import produce from "immer";
+import { MachineConfig } from "./machine";
 
 export type DebugStateUpdate = {
   pc: ProgramCounter;
@@ -24,6 +25,8 @@ export type UpdateCallback = (
   debug?: Debugger
 ) => void;
 
+export type MachineHaltCallback = () => void;
+
 class Debugger {
   private _program: IntcodeProgram;
   private _pc: ProgramCounter;
@@ -36,6 +39,7 @@ class Debugger {
   private externalObservers: Array<UpdateCallback>;
   private _instanceId: number;
   private _lastOutput: number | null;
+  private _halted: MachineHaltCallback;
 
   private runNextStep: Function | null;
 
@@ -56,6 +60,7 @@ class Debugger {
     this.breakpoints = [];
     this.runNextStep = null;
     this._lastOutput = null;
+    this._halted = () => {};
     this.externalObservers = [];
   }
   set pc(pc: ProgramCounter) {
@@ -74,8 +79,12 @@ class Debugger {
     this._modes = modes;
   }
   set onFire(isOnFire: boolean) {
-    console.log("debugger", this._instanceId, "is halting");
+    console.log("debugger", this._instanceId, "is halting", isOnFire);
     this._onFire = isOnFire;
+    this._halted();
+  }
+  get onFire() {
+    return this._onFire;
   }
   private async readyForNext(): Promise<boolean> {
     return new Promise(resolve => {
@@ -147,6 +156,9 @@ class Debugger {
         });
       }
     };
+  }
+  onMachineHalt(fn: MachineHaltCallback) {
+    this._halted = fn;
   }
   async *control(): AsyncGenerator<boolean, boolean, boolean> {
     while (!this._onFire) {

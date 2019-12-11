@@ -2,6 +2,8 @@ import source from "./input";
 import tests from "./tests";
 
 import { TestFunction } from "../hooks";
+import { normal, angleTo, distance } from "../../Helpers/vector";
+import { toLines } from "../../Helpers/parsers";
 
 const runner: TestFunction = (star: string) => {
   let output: Array<string> = [];
@@ -49,7 +51,7 @@ type star = [number, number];
 type normal = [number, number];
 
 const gridToStars = (input: string) => {
-  const parsed = input.split(/\n/g).map(m => m.trim());
+  const parsed = toLines(input).map(m => m.trim());
   return parsed.reduce((stars: Array<star>, line: string, y) => {
     stars = stars.concat(
       Array.from(line).reduce((stars: Array<star>, item: string, x) => {
@@ -59,30 +61,6 @@ const gridToStars = (input: string) => {
     );
     return stars;
   }, []);
-};
-
-const dot = (a: star, b: star): number => a[0] * b[0] + a[1] * b[1];
-const normal = (a: star, b: star): normal => {
-  const v: star = [a[0] - b[0], a[1] - b[1]];
-  const l = length(v);
-  return [
-    parseFloat((v[0] / l).toFixed(12)),
-    parseFloat((v[1] / l).toFixed(12))
-  ];
-};
-const length = (a: star) => {
-  return Math.sqrt(dot(a, a));
-};
-
-const angleTo = (a: star, b: star) => {
-  const n = normal(a, b);
-  const radians = Math.atan2(n[1], n[0]);
-  var degrees = (180 * radians) / Math.PI;
-  return (360 + degrees - 90) % 360;
-};
-
-const distance = (a: star, b: star) => {
-  return Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]);
 };
 
 const findBestStar = (stars: Array<star>) => {

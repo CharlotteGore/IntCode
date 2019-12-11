@@ -5,7 +5,7 @@ import { toIntArray } from "../../Helpers/parsers";
 import { TestFunction } from "../hooks";
 import { RefObject } from "react";
 
-enum COLOR {
+export enum COLOR {
   BLACK = 0,
   WHITE = 1,
   TRANSPARENT = 2
@@ -57,6 +57,8 @@ const runner: TestFunction = (
 
     const result = flatten(layers, width, height);
     if (canvasRef) {
+      canvasRef.current!.width = width;
+      canvasRef.current!.height = height;
       const ctx = canvasRef.current!.getContext("2d");
       const imgData = ctx!.createImageData(width, height);
       for (let i = 0; i < result.length; i++) {

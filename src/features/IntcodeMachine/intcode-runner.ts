@@ -126,11 +126,8 @@ async function* intcodeRunner(
       }
       case OPCODE.WRI: {
         let r = getValue(1);
-
         pc++;
-        console.log(id, "waiting to yield", r);
-        await (yield r);
-        console.log(id, "yielded");
+        yield r;
         break;
       }
       case OPCODE.JPT: {
