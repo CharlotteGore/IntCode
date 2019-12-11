@@ -79,7 +79,6 @@ class Debugger {
     this._modes = modes;
   }
   set onFire(isOnFire: boolean) {
-    console.log("debugger", this._instanceId, "is halting", isOnFire);
     this._onFire = isOnFire;
     this._halted();
   }

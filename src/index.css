@@ -20,11 +20,12 @@ h1, h2, h3, h4, h5, h6, a, p, ul, li, button {
   font-weight: normal;
 }
 
-ul {
+nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 a {

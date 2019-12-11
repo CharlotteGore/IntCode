@@ -41,6 +41,24 @@ const App = () => {
               <Link to="/day/4/2">4:2</Link>
             </li>
             <li>
+              <Link to="/day/5/1">5:1</Link>
+            </li>
+            <li>
+              <Link to="/day/5/2">5:2</Link>
+            </li>
+            <li>
+              <Link to="/day/6/1">6:1</Link>
+            </li>
+            <li>
+              <Link to="/day/6/2">6:2</Link>
+            </li>
+            <li>
+              <Link to="/day/7/1">7:1</Link>
+            </li>
+            <li>
+              <Link to="/day/7/2">7:2</Link>
+            </li>
+            <li>
               <Link to="/day/8/1">8:1</Link>
             </li>
             <li>
@@ -63,6 +81,12 @@ const App = () => {
             </li>
             <li>
               <Link to="/day/11/2">11:2</Link>
+            </li>
+            <li>
+              <Link to="/day/12/1">12:1</Link>
+            </li>
+            <li>
+              <Link to="/day/12/2">12:2</Link>
             </li>
             <li>
               <Link to="/intcode">Debugger</Link>

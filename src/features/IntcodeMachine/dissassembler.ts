@@ -68,7 +68,9 @@ export const disassemble = (input: string) => {
                     pc += 1;
                     break;
                 default:
+                    pc ++;
                     break;
+                    
                 
             }
         }

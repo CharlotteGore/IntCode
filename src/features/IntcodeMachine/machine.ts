@@ -1,4 +1,4 @@
-import intcodeRunner, { IntcodeRunner } from "./intcode-runner";
+import intcodeRunner, { IntcodeRunner, IntcodeProgram } from "./intcode-runner";
 import createQueueInput, { QueueInput } from "./input-generators/queue";
 import Debugger from "./intcode-debugger";
 import parse from "./intcode-parser";
@@ -116,12 +116,25 @@ const outputToCallback = async (
   }
 };
 
+export const createJSControlledMachine = (code?: string, program?: IntcodeProgram) => {
+  return {
+
+  }
+}
+
 export const createMachine = (
-  config: MachineConfig
+  config: MachineConfig,
+  queue?: QueueInput,
 ): UninitialisedMachineType => {
-  const initialQueue = csvToIntArray(config.initialInput) || [];
+  
   const debug = new Debugger(config.id);
-  const input = createQueueInput(initialQueue);
+  let input: QueueInput;
+  if (queue) {
+    input = queue;
+  } else {
+    const initialQueue = csvToIntArray(config.initialInput) || [];
+    input = createQueueInput(initialQueue);
+  }
   const codeSrc = programs[config.code];
   const program = parse(codeSrc);
   debug.program = program

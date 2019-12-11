@@ -18,7 +18,7 @@ export const Day = () => {
       <div className="IntcodeMachine">
         {isProcessing ? "processing..." : output}
       </div>
-      {day === "8" || (day === "11" && star === "2" && <canvas ref={canvas} />)}
+      {(day === "8" || day === "11") && star === "2" && <canvas ref={canvas} />}
     </>
   );
 };

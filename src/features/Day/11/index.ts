@@ -65,13 +65,12 @@ const starOne = async (_: string, params: Record<string, any>) => {
   const init = createMachine({
     id: 0,
     code: "day11",
-    initialInput: "0"
+    initialInput: ""
   });
   const output = createQueueInput([]);
   const machine = init.outputToQueue(output);
   const input = machine.queue;
   machine.debug.run();
-  let cells: Array<[number, number, number]> = [];
   let grid: Record<number, Record<number, number>> = {};
   let pos: Vector2d = [0, 0];
   let cellsVisited = 0;
@@ -88,8 +87,6 @@ const starOne = async (_: string, params: Record<string, any>) => {
       if (cellsVisited > 0) {
         grid[pos[0]][pos[1]] = 0;
         input.addItem(0);
-      } else {
-        grid[pos[0]][pos[1]] = 0;
       }
       cellsVisited++;
     } else {
@@ -121,7 +118,7 @@ const starTwo = async (_: string, params: Record<string, any>) => {
   const init = createMachine({
     id: 0,
     code: "day11",
-    initialInput: "1"
+    initialInput: ""
   });
   const output = createQueueInput([]);
   const machine = init.outputToQueue(output);
@@ -153,7 +150,8 @@ const starTwo = async (_: string, params: Record<string, any>) => {
         grid[pos[0]][pos[1]] = 0;
         input.addItem(0);
       } else {
-        grid[pos[0]][pos[1]] = 0;
+        grid[pos[0]][pos[1]] = 1;
+        input.addItem(1);
       }
       cellsVisited++;
     } else {
