@@ -89,6 +89,12 @@ const App = () => {
               <Link to="/day/12/2">12:2</Link>
             </li>
             <li>
+              <Link to="/day/13/1">13:1</Link>
+            </li>
+            <li>
+              <Link to="/day/13/2">13:2</Link>
+            </li>
+            <li>
               <Link to="/intcode">Debugger</Link>
             </li>
             <li>
@@ -96,6 +102,12 @@ const App = () => {
             </li>
             <li>
               <Link to="/disassembler">Disassembler</Link>
+            </li>
+            <li>
+              <Link to="/day/17-2018/1">17 (2018):1</Link>
+            </li>
+            <li>
+              <Link to="/day/17-2018/2">17 (2018):2</Link>
             </li>
           </ul>
         </nav>
