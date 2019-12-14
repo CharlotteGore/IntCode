@@ -42,7 +42,6 @@ enum Tile {
 }
 
 type Pixel = Tile;
-type Screen = Record<number, Record<number, Pixel>>;
 
 const render = (arr: Array<number>) => {
   let html = document.getElementById("out");
@@ -78,8 +77,6 @@ const starOne = async (input: string, params: Record<string, any>) => {
     id: 0,
     code: "day13"
   });
-
-  debugger;
 
   let arr = new Array(24 * 41).fill(0);
   let i = 0;
