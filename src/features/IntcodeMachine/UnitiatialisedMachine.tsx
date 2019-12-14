@@ -1,18 +1,16 @@
 import React, { useState } from "react";
 import "./intcode.css";
-import { Machine, UninitialisedMachineType } from "./machine";
+import { MachineConfig } from "./machine";
 
 type Output = string;
 
 const UninitialisedMachine = (props: {
-  machine: Machine | UninitialisedMachineType;
+  machine: MachineConfig;
   onSetOutput: (output: Output) => void;
   possibleOutputs: Array<Output>;
 }) => {
   const {
-    machine: {
-      config: { id }
-    },
+    machine: { id },
     possibleOutputs
   } = props;
   const [selectVal, setSelectVal] = useState(possibleOutputs[0]);

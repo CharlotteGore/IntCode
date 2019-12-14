@@ -3,7 +3,7 @@ import "./intcode.css";
 import Params from "./Params";
 import CurrentOp from "./CurrentOp";
 import ProgramDump from "./ProgramDump";
-import { Machine } from "./machine";
+import { Machine, DebugMachine } from "./machine";
 import { DebugStateUpdate } from "./intcode-debugger";
 import { OPCODE, MODE, PARAM } from "./intcode-runner";
 
@@ -11,7 +11,7 @@ type DebugControls = {
   doStep: () => void;
 };
 
-const useMachine = (machine: Machine) => {
+const useMachine = (machine: DebugMachine) => {
   const [machineState, setMachineState] = useState<DebugStateUpdate>({
     program: machine.debug.program,
     pc: -1,
@@ -50,14 +50,14 @@ const useMachine = (machine: Machine) => {
   };
 };
 
-const IntcodeMachine = (props: { machine: Machine }) => {
+const IntcodeMachine = (props: { machine: DebugMachine }) => {
   const [showDump, setShowDump] = useState<boolean>(false);
   const { id } = props.machine.config;
   const toggleShowDump = () => {
     setShowDump(!showDump);
   };
-  const { debug } = props.machine;
 
+  const { debug } = props.machine;
   const { machineState, debugControls } = useMachine(props.machine);
 
   return (

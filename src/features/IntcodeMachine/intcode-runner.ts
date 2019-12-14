@@ -1,5 +1,8 @@
 import Debugger from "./intcode-debugger";
 import produce from "immer";
+import { IntcodePipe } from "./input-generators/pipe";
+
+let instanceId = 0;
 
 export enum MODE {
   POSITION = 0,
@@ -29,17 +32,16 @@ export type IntcodeProgram = Array<number>;
 export type ProgramCounter = number;
 export type RelativeBase = number;
 
-export type IntcodeRunner = AsyncGenerator<number, null, boolean>;
-
-async function* intcodeRunner(
+export const intcodeRunner = async (
   program: IntcodeProgram,
-  inputGenerator: AsyncGenerator<number, null, boolean>,
-  debug: Debugger | null,
-  id: number
-): IntcodeRunner {
+  input: IntcodePipe,
+  output: IntcodePipe,
+  debug: Debugger | null
+) => {
   let pc: ProgramCounter = 0;
   let rb: RelativeBase = 0;
   let control;
+  let id = instanceId++;
 
   let modes: ParameterModes = {
     [PARAM.ONE]: MODE.POSITION,
@@ -115,7 +117,7 @@ async function* intcodeRunner(
         break;
       }
       case OPCODE.REA: {
-        let i = await inputGenerator.next();
+        let i = await input.generator().next();
         if (i.done === true) {
           console.warn("Shutting down runner because there is no input");
           return null;
@@ -127,7 +129,7 @@ async function* intcodeRunner(
       case OPCODE.WRI: {
         let r = getValue(1);
         pc++;
-        yield r;
+        output.addItem(r);
         break;
       }
       case OPCODE.JPT: {
@@ -179,6 +181,7 @@ async function* intcodeRunner(
         if (debug) {
           debug.onFire = true;
         }
+        output.close();
         return null;
       }
       default: {
@@ -186,6 +189,6 @@ async function* intcodeRunner(
       }
     }
   }
-}
+};
 
 export default intcodeRunner;

@@ -3,29 +3,33 @@ import programs from "../IntcodeMachine/programs";
 import IntcodeMachine from "../IntcodeMachine";
 import "./debuggerportal.css";
 import {
-  createMachine,
   Machine,
   MachineConfig,
-  UninitialisedMachineType
+  createDebugMachine,
+  DebugMachine
 } from "../IntcodeMachine/machine";
 
 import UninitialisedMachine from "../IntcodeMachine/UnitiatialisedMachine";
+import createIntcodePipe, {
+  IntcodePipe
+} from "../IntcodeMachine/input-generators/pipe";
 
 let instanceId = 1;
 
 const useMachineFactory = (machineConfig: Array<MachineConfig>) => {
   const [machines, setMachines] = useState<{
-    pending: Array<UninitialisedMachineType>;
-    running: Array<Machine>;
+    pending: Array<MachineConfig>;
+    running: Array<DebugMachine>;
   }>({ pending: [], running: [] });
 
-  const setMachineRunning = (machine: Machine) => {
-    const id = machine.config.id;
-    const pendingMachine = machines.pending.find(m => m.config.id === id);
+  const setMachineRunning = (machine: MachineConfig, output?: IntcodePipe) => {
+    const id = machine.id;
+    const pendingMachine = machines.pending.find(m => m.id === id);
     if (pendingMachine) {
       machines.pending.splice(machines.pending.indexOf(pendingMachine), 1);
+      let runningMachine = createDebugMachine(pendingMachine);
+      machines.running.push(runningMachine);
     }
-    machines.running.push(machine);
     setMachines({
       pending: machines.pending,
       running: machines.running
@@ -34,9 +38,13 @@ const useMachineFactory = (machineConfig: Array<MachineConfig>) => {
 
   useEffect(() => {
     const newMachines = machineConfig.reduce(
-      (newMachines: Array<UninitialisedMachineType>, config) => {
-        if (!machines.pending.find(m => m.config.id === config.id)) {
-          newMachines.push(createMachine(config));
+      (newMachines: Array<MachineConfig>, config) => {
+        if (!machines.pending.find(m => m.id === config.id)) {
+          config.io = {
+            input: createIntcodePipe(),
+            output: createIntcodePipe()
+          };
+          newMachines.push(config);
         }
         return newMachines;
       },
@@ -69,33 +77,35 @@ export const DebuggerPortal = () => {
     );
   };
 
-  const handleSetOutput = (
-    machine: UninitialisedMachineType,
-    output: string
-  ) => {
-    if (output === "silent-running") {
-      setMachineRunning(machine.silentRunning());
-    } else if (output === "output-to-console") {
-      setMachineRunning(machine.outputToConsole());
+  const handleSetOutput = (machine: MachineConfig, output: string) => {
+    if (output === "to-screen") {
+      setMachineRunning(machine);
     } else {
       const id = parseInt(output.split("output-to-#")[1], 10);
-      let otherMachine:
-        | Machine
-        | UninitialisedMachineType
-        | undefined = machines.pending.find(m => m.config.id === id);
-      if (!otherMachine)
-        otherMachine = machines.running.find(m => m.config.id === id);
-      if (otherMachine) {
-        setMachineRunning(machine.outputToQueue(otherMachine.queue));
+      let pending: MachineConfig | undefined = machines.pending.find(
+        m => m.id === id
+      );
+      if (pending !== undefined) {
+        if (pending.io && pending.io.input) {
+          machine.io!.output = pending.io.input;
+          setMachineRunning(machine);
+        }
+      } else {
+        let running: DebugMachine | undefined = machines.running.find(
+          m => m.config.id === id
+        );
+        if (running !== undefined) {
+          machine.io!.output = running.input;
+          setMachineRunning(machine);
+        }
       }
     }
   };
 
   const posOuts = [
-    "silent-running",
-    "output-to-console",
+    "to-screen",
     ...machines.pending.map(n => {
-      return `output-to-#${n.config.id}`;
+      return `output-to-#${n.id}`;
     }),
     ...machines.running.map(n => {
       return `output-to-#${n.config.id}`;
@@ -135,9 +145,9 @@ export const DebuggerPortal = () => {
         </button>
       </div>
       <div key={"pending"} className="MachineContainers">
-        {machines.pending.map((m: UninitialisedMachineType) => (
+        {machines.pending.map((m: MachineConfig) => (
           <UninitialisedMachine
-            key={m.config.id}
+            key={m.id}
             machine={m}
             possibleOutputs={posOuts}
             onSetOutput={(output: string) => {
@@ -149,7 +159,7 @@ export const DebuggerPortal = () => {
       <button onClick={stepAll}>STEP ALL</button>
       <div key={"running"} className="MachineContainers">
         {machines.running.map((m: Machine) => (
-          <IntcodeMachine key={m.config.id} machine={m as Machine} />
+          <IntcodeMachine key={m.config.id} machine={m as DebugMachine} />
         ))}
       </div>
     </>

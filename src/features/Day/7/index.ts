@@ -1,11 +1,11 @@
 import source from "./input";
-import tests from "./tests";
-import { toIntArray, toLines } from "../../Helpers/parsers";
 
 import { TestFunction } from "../hooks";
-import { allPermutations } from "../../Helpers/mashers";
+import { allPermutations, generate } from "../../Helpers/mashers";
 import { createMachine, Machine } from "../../IntcodeMachine/machine";
-import createQueueInput, { QueueInput } from "../../IntcodeMachine/input-generators/queue";
+import createIntcodePipe, {
+  IntcodePipe
+} from "../../IntcodeMachine/input-generators/pipe";
 import Debugger from "../../IntcodeMachine/intcode-debugger";
 
 const runner: TestFunction = async (star: string) => {
@@ -28,134 +28,181 @@ const runner: TestFunction = async (star: string) => {
   }
 };
 
-const queueConnector = async (from: QueueInput, to: QueueInput) => {
-  while(true) {
-    let val = await from.generator().next();
-    if (val.done) {
-      break;
-    } else {
-      to.addItem(val.value);
-    }
-  }
-}
+const starOne = async (_: string, params: Record<string, any>) => {
+  // this is chained machines!
+  return new Promise((resolve, reject) => {
+    setTimeout(async () => {
+      let perms = allPermutations<number>(params.starOne);
+      let max = -Infinity;
 
-async function* monitoringQueueConnector (from: QueueInput, to: QueueInput, debug: Debugger): AsyncGenerator<number, null, boolean> {
-  const fromGen = from.generator();
-  while(!debug.onFire) {
-    let val = await fromGen.next();
-    if (val.done) {
-      break;
-    } else {
-      to.addItem(val.value);
-      yield val.value;
-    }
-  }
-  return null;
-}
+      for (let perm of perms) {
+        let inputs: Array<IntcodePipe> = generate<IntcodePipe>(5, i => {
+          let pipe = createIntcodePipe();
+          pipe.setId("input" + i);
+          return pipe;
+        });
 
-const starOne = async (input: string, params: Record<string, any>) => {
-  // this is chained machines
-  const permutations = allPermutations([0,1,2,3,4]);
-  let max = -Infinity;
-  let winningPerm: Array<number> = [];
-  for (const permutation of permutations) {
-    debugger;
-    let outputs: Array<QueueInput> = [];
-    let machines: Array<Machine> = [];
-    let mainOutput = createQueueInput([]);
-    let mainInput = createQueueInput([]);
-    for (let i = 0; i < permutation.length; i++) {
-      let input: QueueInput = createQueueInput([permutation[i]]);
-      let output: QueueInput;
-      if (i === 0) {
-        mainInput = input;
-        output = createQueueInput([]);
-      } else if (i === permutation.length -1) {
-        output = mainOutput;
-        queueConnector(outputs[i - 1], input);
-      } else {
-        output = createQueueInput([]);
-        queueConnector(outputs[i - 1], input);
+        let mainOutput = createIntcodePipe();
+        mainOutput.setId("main output");
+
+        let mainInput = inputs[0];
+        mainInput.setId("main input");
+
+        let io: {
+          input?: IntcodePipe;
+          output?: IntcodePipe;
+        } = {};
+
+        for (let i = 0; i < perm.length; i++) {
+          if (i === perm.length - 1) {
+            // last
+            io.input = inputs[perm.length - 1];
+            io.output = mainOutput;
+          } else {
+            io.input = inputs[i];
+            io.output = inputs[i + 1];
+          }
+          inputs[i].addItem(perm[i]);
+
+          createMachine({
+            id: perm[i],
+            code: "day7",
+            io
+          });
+        }
+
+        mainInput.addItem(0);
+
+        let result = await mainOutput.generator().next();
+        if (!result.done) {
+          if (result.value > max) {
+            max = result.value;
+          }
+        }
       }
-
-      outputs.push(output);
-
-      let pending = createMachine({ 
-        id: permutation[i], 
-        code: 'day7',
-        initialInput: ''
-      }, input);
-
-      let machine = pending.outputToQueue(output)
-      machine.debug.run();
-      machines.push(machine);
-    }
-    mainInput.addItem(0);
-    let result = await mainOutput.generator().next();
-    if (!result.done) {
-      if (result.value > max) {
-        max = result.value;
-        winningPerm = permutation;
-      }
-    }
-  }
-
-  return max;
-
+      resolve(max);
+    }, 10);
+  });
 };
 
-const starTwo = async (input: string, params: Record<string, any>) => {
-  const permutations = allPermutations([5,6,7,8,9]);
-  let max = -Infinity;
-  let winningPerm: Array<number> = [];
-  for (const permutation of permutations) {
-    debugger;
-    let outputs: Array<QueueInput> = [];
-    let machines: Array<Machine> = [];
-    let mainOutput = createQueueInput([]);
-    let mainInput = createQueueInput([]);
-    for (let i = 0; i < permutation.length; i++) {
-      let input: QueueInput = createQueueInput([permutation[i]]);
-      let output: QueueInput;
-      if (i === 0) {
-        mainInput = input;
-        output = createQueueInput([]);
-      } else if (i === permutation.length -1) {
-        output = mainOutput;
-        queueConnector(outputs[i - 1], input);
-      } else {
-        output = createQueueInput([]);
-        queueConnector(outputs[i - 1], input);
-      }
+const starTwo = (input: string, params: Record<string, any>) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(async () => {
+      let perms = allPermutations<number>(params.starTwo);
+      let max = -Infinity;
 
-      outputs.push(output);
+      for (let perm of perms) {
+        let inputs: Array<IntcodePipe> = generate<IntcodePipe>(5, i => {
+          let pipe = createIntcodePipe();
+          pipe.setId("input" + i);
+          return pipe;
+        });
 
-      let pending = createMachine({ 
-        id: permutation[i], 
-        code: 'day7',
-        initialInput: ''
-      }, input);
+        let mainOutput = createIntcodePipe();
+        mainOutput.setId("main output");
 
-      let machine = pending.outputToQueue(output)
-      machine.debug.run();
-      machines.push(machine);
-    }
-    let mainOutputGenerator = monitoringQueueConnector(outputs[permutation.length -1], mainInput, machines[machines.length -1].debug);
-    mainInput.addItem(0);
-    while (true) {
-      let result = await mainOutputGenerator.next();
-      if (!result.done) {
-        if (result.value > max) {
-          max = result.value;
+        let mainInput = inputs[0];
+        mainInput.setId("main input");
+
+        let io: {
+          input?: IntcodePipe;
+          output?: IntcodePipe;
+        } = {};
+
+        for (let i = 0; i < perm.length; i++) {
+          if (i === perm.length - 1) {
+            // last
+            io.input = inputs[perm.length - 1];
+            io.output = mainOutput;
+          } else {
+            io.input = inputs[i];
+            io.output = inputs[i + 1];
+          }
+          inputs[i].addItem(perm[i]);
+
+          createMachine({
+            id: perm[i],
+            code: "day7",
+            io
+          });
         }
-      } else {
-        // combination tested
-        break;
-      }
-    }
-  }
 
-  return max;
+        mainInput.addItem(0);
+
+        while (true) {
+          let result = await mainOutput.generator().next();
+          if (!result.done) {
+            mainInput.addItem(result.value);
+            if (result.value > max) {
+              max = result.value;
+            }
+          } else {
+            break;
+          }
+        }
+      }
+      resolve(max);
+      /*
+      const permutations = allPermutations([5, 6, 7, 8, 9]);
+      let max = -Infinity;
+      for (const permutation of permutations) {
+        let outputs: Array<IntcodePipe> = [];
+        let machines: Array<Machine> = [];
+        let mainOutput = createQueueInput([]);
+        let mainInput = createQueueInput([]);
+        for (let i = 0; i < permutation.length; i++) {
+          let input: IntcodePipe = createQueueInput([permutation[i]]);
+          let output: IntcodePipe;
+          if (i === 0) {
+            mainInput = input;
+            output = createQueueInput([]);
+          } else if (i === permutation.length - 1) {
+            output = mainOutput;
+            queueConnector(outputs[i - 1], input);
+          } else {
+            output = createQueueInput([]);
+            queueConnector(outputs[i - 1], input);
+          }
+
+          outputs.push(output);
+
+          let pending = createMachine(
+            {
+              id: permutation[i],
+              code: "day7",
+              initialInput: ""
+            },
+            input
+          );
+
+          let machine = pending.outputToQueue(output);
+          machine.debug.run();
+          machines.push(machine);
+        }
+        let mainOutputGenerator = monitoringQueueConnector(
+          outputs[permutation.length - 1],
+          mainInput,
+          machines[machines.length - 1].debug
+        );
+        mainInput.addItem(0);
+        while (true) {
+          let result = await mainOutputGenerator.next();
+          if (!result.done) {
+            if (result.value > max) {
+              max = result.value;
+            }
+          } else {
+            // combination tested
+            break;
+          }
+        }
+      }
+
+      resolve(max);
+      */
+      resolve("Broken, needs fixing");
+    }, 10);
+  });
 };
 
 export default runner;

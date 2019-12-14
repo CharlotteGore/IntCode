@@ -1,20 +1,33 @@
 @font-face {
-  font-family: 'C64';
-  src: url('./C64_Pro_Mono-STYLE.woff2') format('woff2');
+  font-family: "C64";
+  src: url("./C64_Pro_Mono-STYLE.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
   margin: 0;
-  font-family: 'C64';
+  font-family: "C64";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #6C5EB5;
+  background: #6c5eb5;
   color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6, a, p, ul, li, button {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+li,
+button,
+pre,
+select,
+input {
   font-size: 16px;
   line-height: 16px;
   font-weight: normal;
@@ -39,7 +52,7 @@ nav {
 }
 
 nav a {
-  color: #6F4F25;
+  color: #6f4f25;
 }
 
 nav li {
@@ -47,24 +60,24 @@ nav li {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 button {
   background: none;
   border: none;
-  font-family: 'C64';
+  font-family: "C64";
   font-size: 1rem;
-  color: #6C5EB5;
+  color: #6c5eb5;
   cursor: pointer;
   margin: 10px 0px;
 }
 
 button::before {
-  content: '['
+  content: "[";
 }
 
 button::after {
-  content: ']'
+  content: "]";
 }

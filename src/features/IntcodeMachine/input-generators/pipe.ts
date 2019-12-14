@@ -1,23 +1,25 @@
-export type QueueInput = {
+export type IntcodePipe = {
   generator: () => AsyncGenerator<number, null, boolean>;
   addItem: (item: number) => void;
-  addItems: (items: Array<number>) => void;
-  setQueue: (newQueue: Array<number>) => void;
-  quit: () => void;
+  close: () => void;
+  setId: (id: string | number) => void;
+  getId: () => string | number | null;
 };
 
-const createQueueInput = (array: Array<number>): QueueInput => {
-  let quit = false;
+const createIntcodePipe = (array: Array<number | null> = []): IntcodePipe => {
+  let _id: string | number | null = null;
   async function* generator(): AsyncGenerator<number, null, boolean> {
-    while (!quit) {
+    while (true) {
       if (array.length) {
         const next = array.pop();
+        if (next === null) {
+          return null;
+        }
         yield next!;
       } else {
         await itemAvailable();
       }
     }
-    return null;
   }
 
   let unblocker: (() => void) | null = null;
@@ -36,27 +38,24 @@ const createQueueInput = (array: Array<number>): QueueInput => {
     if (unblocker) unblocker();
   };
 
-  const addItems = (items: Array<number>) => {
-    array.unshift(...items);
+  const setId = (id: string | number) => {
+    _id = id;
+  };
+
+  const getId = () => _id;
+
+  const close = () => {
+    array.unshift(null);
     if (unblocker) unblocker();
-  };
-
-  const setQueue = (newQueue: Array<number>) => {
-    array = newQueue;
-    if (array.length && unblocker) unblocker();
-  };
-
-  const doQuit = () => {
-    quit = true;
   };
 
   return {
     generator,
     addItem,
-    addItems,
-    setQueue,
-    quit: doQuit
+    close,
+    getId,
+    setId
   };
 };
 
-export default createQueueInput;
+export default createIntcodePipe;

@@ -2,3 +2,12 @@ canvas {
   width: 400px;
   image-rendering: pixelated;
 }
+
+.IntcodeMachine {
+  background: #352879;
+  padding: 20px 50px 20px;
+  display: flex;
+  flex-direction: column;
+  color: #6c5eb5;
+  border: solid 5px var(--cyan);
+}

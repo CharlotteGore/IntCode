@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Home from "./features/Home";
 import { Day } from "./features/Day";
-import { DebuggerPortal } from "./features/DebuggerPortal";
+// import { DebuggerPortal } from "./features/DebuggerPortal";
 import { Assembler } from "./features/Assembler";
 import { Disassembler } from "./features/Disassembler";
 
@@ -95,6 +95,18 @@ const App = () => {
               <Link to="/day/13/2">13:2</Link>
             </li>
             <li>
+              <Link to="/day/14/1">14:1</Link>
+            </li>
+            <li>
+              <Link to="/day/14/2">14:2</Link>
+            </li>
+            <li>
+              <Link to="/day/15/1">15:1</Link>
+            </li>
+            <li>
+              <Link to="/day/15/2">15:2</Link>
+            </li>
+            <li>
               <Link to="/intcode">Debugger</Link>
             </li>
             <li>
@@ -116,7 +128,7 @@ const App = () => {
         renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/day/:day/:star" children={<Day />} />
-          <Route path="/intcode" children={<DebuggerPortal />} />
+          {/* <Route path="/intcode" children={<DebuggerPortal />} /> */}
           <Route path="/assembler" children={<Assembler />} />
           <Route path="/disassembler" children={<Disassembler />} />
           <Route path="/">

@@ -1,9 +1,7 @@
 import source from "./input";
-import { createMachine } from "../../IntcodeMachine/machine";
+import { createDebugMachine } from "../../IntcodeMachine/machine";
 
 import { TestFunction } from "../hooks";
-import createQueueInput from "../../IntcodeMachine/input-generators/queue";
-import createNullInput from "../../IntcodeMachine/input-generators/null";
 
 const runner: TestFunction = async (star: string) => {
   let output: Array<string> = [];
@@ -27,60 +25,51 @@ const runner: TestFunction = async (star: string) => {
   }
 };
 
-const starOne = async (input: string, params: Record<string, any>) => {
-  const init = createMachine({
-    id: 0,
-    code: "day2",
-    initialInput: "1"
+const starOne = (input: string, params: Record<string, any>) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(async () => {
+      const { output, debug } = createDebugMachine({
+        id: 0,
+        code: "day2"
+      });
+
+      debug.poke(1, 1);
+      debug.poke(2, 12);
+      debug.run();
+
+      await output.generator().next();
+      resolve(debug.peek(0));
+    }, 10);
   });
-  const queue = createNullInput();
-  const machine = init.silentRunning();
-
-  machine.debug.poke(1, 12);
-  machine.debug.poke(2, 2);
-
-  machine.debug.run();
-  while(true) {
-    const val = await machine.runner.next();
-    if (val.done) {
-      break;
-    }
-  }
-  return machine.debug.peek(0);
 };
 
-const starTwo = async (input: string, params: Record<string, any>) => {
-  const runTest = async (a: number, b: number) => {
-    const init = createMachine({
-      id: 0,
-      code: "day2",
-      initialInput: "1"
-    });
-    const queue = createNullInput();
-    const machine = init.silentRunning();
-  
-    machine.debug.poke(1, a);
-    machine.debug.poke(2, b);
-  
-    machine.debug.run();
-    while(true) {
-      const val = await machine.runner.next();
-      if (val.done) {
-        break;
-      }
-    }
-    return machine.debug.peek(0);
-  }
+const starTwo = (input: string, params: Record<string, any>) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(async () => {
+      const runTest = async (a: number, b: number) => {
+        const { output, debug } = createDebugMachine({
+          id: 0,
+          code: "day2"
+        });
 
-  for (let i = 0; i < 100; i++) {
-    for (let j = 0; j < 100; j++) {
-      let result = await runTest(i, j);
-      if (result === 19690720) {
-        return (100 * i + j);
-      }
-    }
-  }
+        debug.poke(1, a);
+        debug.poke(2, b);
+        debug.run();
 
+        await output.generator().next();
+        return debug.peek(0);
+      };
+
+      for (let i = 0; i < 100; i++) {
+        for (let j = 0; j < 100; j++) {
+          let result = await runTest(i, j);
+          if (result === 19690720) {
+            resolve(100 * i + j);
+          }
+        }
+      }
+    }, 10);
+  });
 };
 
 export default runner;

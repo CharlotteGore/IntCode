@@ -12,6 +12,8 @@ import day10 from "./10";
 import day11 from "./11";
 import day12 from "./12";
 import day13 from "./13";
+import day14 from "./14";
+import day15 from "./15";
 import day172018 from "./17-2018";
 
 export type TestFunction = (
@@ -33,6 +35,8 @@ const days: Record<string, TestFunction> = {
   "11": day11,
   "12": day12,
   "13": day13,
+  "14": day14,
+  "15": day15,
   "17-2018": day172018
 };
 

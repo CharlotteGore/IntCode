@@ -2,7 +2,6 @@ import source from "./input";
 import { createMachine } from "../../IntcodeMachine/machine";
 
 import { TestFunction } from "../hooks";
-import createQueueInput from "../../IntcodeMachine/input-generators/queue";
 
 const runner: TestFunction = async (star: string) => {
   let output: Array<string> = [];
@@ -27,29 +26,53 @@ const runner: TestFunction = async (star: string) => {
 };
 
 const starOne = async (input: string, params: Record<string, any>) => {
-  const init = createMachine({
-    id: 0,
-    code: "day9",
-    initialInput: "1"
+  return new Promise((resolve, reject) => {
+    setTimeout(async () => {
+      const { output, input } = createMachine({
+        id: 0,
+        code: "day9",
+        initialInput: params.starOne.toString()
+      });
+
+      for (const value of params.starOne) {
+        input.addItem(value);
+      }
+
+      while (true) {
+        const out = await output.generator().next();
+        if (!out.done) {
+          if (out.value !== 0) {
+            resolve(out.value);
+          }
+        }
+      }
+    }, 10);
   });
-  const queue = createQueueInput([]);
-  const machine = init.outputToQueue(queue);
-  machine.debug.run();
-  let r = await queue.generator().next();
-  return r.value;
 };
 
 const starTwo = async (input: string, params: Record<string, any>) => {
-  const init = createMachine({
-    id: 0,
-    code: "day9",
-    initialInput: "2"
+  return new Promise((resolve, reject) => {
+    setTimeout(async () => {
+      const { output, input } = createMachine({
+        id: 0,
+        code: "day9",
+        initialInput: params.starTwo.toString()
+      });
+
+      for (const value of params.starTwo) {
+        input.addItem(value);
+      }
+
+      while (true) {
+        const out = await output.generator().next();
+        if (!out.done) {
+          if (out.value !== 0) {
+            resolve(out.value);
+          }
+        }
+      }
+    }, 10);
   });
-  const queue = createQueueInput([]);
-  const machine = init.outputToQueue(queue);
-  machine.debug.run();
-  let r = await queue.generator().next();
-  return r.value;
 };
 
 export default runner;
