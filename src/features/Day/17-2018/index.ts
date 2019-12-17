@@ -1,55 +1,8 @@
 import source from "./input";
 import tests from "./tests";
-import { toIntArray, toLines } from "../../Helpers/parsers";
+import { toLines } from "../../Helpers/parsers";
 
 import { TestFunction } from "../hooks";
-import { normalize } from "path";
-import { normal, distance, Vector2d } from "../../Helpers/vector";
-import { string } from "prop-types";
-
-/*
-
-const coords = input.map(a => {
-    l = Math.abs(a.f.x - a.t.x) + Math.abs(a.f.y - a.t.y);
-    return [a.f.x, a.f.y, l, (a.t.x - a.f.x) / l, (a.t.y - a.f.y) / l]
-});
-
-const writeVein = ([x, y, l, hd, vd]) => {
-    while(l > 0) {
-        write(x, y, CLAY);
-        x += hd;
-        y += vd;
-        l--
-    }
-}
-
-let html = document.getElementById('out');
-const render = () => {
-    if (!html) {
-        html = document.createElement('pre');
-        html.id = 'out';
-        document.body.appendChild(html);
-    }
-
-    let str = ``;
-    for (let i = 0; i < height; i++) {
-        for (let j = 0; j < width; j++) {
-           if (grid[(i * width) + j] === CLAY) {
-              str += '#';
-              continue;
-           }
-           str += ' ';
-        }
-        str += '\n';
-    }
-    html.innerHTML = str;
-}
-
-coords.forEach(v => writeVein(v));
-render();
-   
-}
-*/
 
 const runner: TestFunction = (star: string) => {
   let output: Array<string> = [];
@@ -230,8 +183,8 @@ const starOne = (input: string, params: Record<string, any>) => {
     veinWriter(vein);
   }
 
-  const fallPoints: Array<Vector2d> = [];
-  const junctions: Array<Vector2d> = [];
+  // const fallPoints: Array<Vector2d> = [];
+  // const junctions: Array<Vector2d> = [];
 
   /*
     okay whenever we fall we eventually hit ground.

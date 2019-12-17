@@ -1,5 +1,4 @@
 import source from "./input";
-import createQueueInput from "../../IntcodeMachine/input-generators/pipe";
 import { createMachine } from "../../IntcodeMachine/machine";
 
 const runner = async (star: string) => {

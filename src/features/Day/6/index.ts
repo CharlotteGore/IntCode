@@ -1,6 +1,6 @@
 import source from "./input";
 import tests from "./tests";
-import { toIntArray, toLines } from "../../Helpers/parsers";
+import { toLines } from "../../Helpers/parsers";
 
 import { TestFunction } from "../hooks";
 
@@ -47,18 +47,19 @@ const runner: TestFunction = (star: string) => {
 };
 
 type Node = {
-  id: string,
-  children: Array<Node>,
-  parent: Node | null
-}
+  id: string;
+  children: Array<Node>;
+  parent: Node | null;
+};
 
 const createNode = (id: string): Node => ({
   id,
   children: [],
   parent: null
-}) 
+});
 
-const inputToNodeIds = (input:string) => toLines(input).map(m => m.split(/\)/).map(m => m.trim()));
+const inputToNodeIds = (input: string) =>
+  toLines(input).map(m => m.split(/\)/).map(m => m.trim()));
 
 const starOne = (input: string, params: Record<string, any>) => {
   const map = new Map<string, Node>();
@@ -80,7 +81,7 @@ const starOne = (input: string, params: Record<string, any>) => {
     let search = node;
     while (search.parent) {
       search = search.parent;
-      count++
+      count++;
     }
     sum = sum + count;
   }
@@ -122,22 +123,23 @@ const starTwo = (input: string, params: Record<string, any>) => {
     }
   }
 
-  // find a node they have in common, then return 
+  // find a node they have in common, then return
   // the number of steps they've taken
   let firstMatch: null | Node = null;
   for (const nodeA of aAncestors) {
     for (const nodeB of bAncestors) {
       if (nodeA === nodeB) {
         firstMatch = nodeA;
-        return (aAncestors.indexOf(nodeA) + bAncestors.indexOf(nodeB)).toString();
-        break;
+        return (
+          aAncestors.indexOf(nodeA) + bAncestors.indexOf(nodeB)
+        ).toString();
       }
     }
     if (firstMatch !== null) {
       break;
     }
   }
-  return 'Incomplete'
+  return "Incomplete";
 };
 
 export default runner;

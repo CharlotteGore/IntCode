@@ -107,6 +107,18 @@ const App = () => {
               <Link to="/day/15/2">15:2</Link>
             </li>
             <li>
+              <Link to="/day/16/1">16:1</Link>
+            </li>
+            <li>
+              <Link to="/day/16/2">16:2</Link>
+            </li>
+            <li>
+              <Link to="/day/17/1">17:1</Link>
+            </li>
+            <li>
+              <Link to="/day/17/2">17:2</Link>
+            </li>
+            <li>
               <Link to="/intcode">Debugger</Link>
             </li>
             <li>

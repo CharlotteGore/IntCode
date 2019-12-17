@@ -2,8 +2,6 @@ import Debugger from "./intcode-debugger";
 import produce from "immer";
 import { IntcodePipe } from "./input-generators/pipe";
 
-let instanceId = 0;
-
 export enum MODE {
   POSITION = 0,
   IMMEDIATE = 1,
@@ -32,30 +30,23 @@ export type IntcodeProgram = Array<number>;
 export type ProgramCounter = number;
 export type RelativeBase = number;
 
-export const intcodeRunner = async (
+export const intcodeRunner = (
   program: IntcodeProgram,
   input: IntcodePipe,
   output: IntcodePipe,
-  debug: Debugger | null
+  debug: Debugger | null,
+  initialPC: number = 0,
+  initialRB: number = 0
 ) => {
-  let pc: ProgramCounter = 0;
-  let rb: RelativeBase = 0;
-  let control;
-  let id = instanceId++;
+  let pc: ProgramCounter = initialPC;
+  let rb: RelativeBase = initialRB;
+  let control: AsyncGenerator<boolean, boolean, boolean>;
 
   let modes: ParameterModes = {
     [PARAM.ONE]: MODE.POSITION,
     [PARAM.TWO]: MODE.POSITION,
     [PARAM.THREE]: MODE.POSITION
   };
-
-  if (debug) {
-    debug.program = program;
-    debug.modes = modes;
-    control = debug.control();
-    debug.pc = pc;
-    if (control) await control.next();
-  }
 
   const getValue = (d: PARAM) => {
     let r;
@@ -75,120 +66,139 @@ export const intcodeRunner = async (
     }
   };
 
-  while (true) {
-    let inst = program[pc++];
-    let op: OPCODE | null;
+  return {
+    cloneData: (): [number[], number, number] => [
+      program.slice(0, program.length - 1),
+      pc,
+      rb
+    ],
+    run: async () => {
+      if (debug) {
+        debug.program = program;
+        debug.modes = modes;
+        control = debug.control();
+        debug.pc = pc;
+        if (control) await control.next();
+        console.log("Machine running");
+      }
 
-    let p3 = ~~(inst / 10000);
-    op = inst - p3 * 10000;
-    let p2 = ~~(op / 1000);
-    op = op - p2 * 1000;
-    let p1 = ~~(op / 100);
-    op = op - p1 * 100;
+      while (true) {
+        let inst = program[pc++];
+        let op: OPCODE | null;
 
-    modes = produce(modes, draft => {
-      draft[PARAM.ONE] = p1;
-      draft[PARAM.TWO] = p2;
-      draft[PARAM.THREE] = p3;
-    });
+        let p3 = ~~(inst / 10000);
+        op = inst - p3 * 10000;
+        let p2 = ~~(op / 1000);
+        op = op - p2 * 1000;
+        let p1 = ~~(op / 100);
+        op = op - p1 * 100;
 
-    if (debug) {
-      debug.pc = pc - 1;
-      debug.op = op;
-      debug.modes = modes;
-      if (control) await control.next();
-    }
+        modes = produce(modes, draft => {
+          draft[PARAM.ONE] = p1;
+          draft[PARAM.TWO] = p2;
+          draft[PARAM.THREE] = p3;
+        });
 
-    switch (op!) {
-      case OPCODE.ADD: {
-        let a = getValue(1);
-        let b = getValue(2);
-        program[getPointer(3)] = a + b;
-
-        pc += 3;
-        break;
-      }
-      case OPCODE.MUL: {
-        let a = getValue(1);
-        let b = getValue(2);
-        program[getPointer(3)] = a * b;
-
-        pc += 3;
-        break;
-      }
-      case OPCODE.REA: {
-        let i = await input.generator().next();
-        if (i.done === true) {
-          console.warn("Shutting down runner because there is no input");
-          return null;
-        }
-        program[getPointer(1)] = i.value;
-        pc += 1;
-        break;
-      }
-      case OPCODE.WRI: {
-        let r = getValue(1);
-        pc++;
-        output.addItem(r);
-        break;
-      }
-      case OPCODE.JPT: {
-        if (getValue(1)) {
-          pc = getValue(2);
-        } else {
-          pc += 2;
-        }
-
-        break;
-      }
-      case OPCODE.JPF: {
-        if (!getValue(1)) {
-          pc = getValue(2);
-        } else {
-          pc += 2;
-        }
-        break;
-      }
-      case OPCODE.JLT: {
-        let c = getPointer(3);
-        if (getValue(1) < getValue(2)) {
-          program[c] = 1;
-        } else {
-          program[c] = 0;
-        }
-
-        pc += 3;
-        break;
-      }
-      case OPCODE.JPE: {
-        let c = getPointer(3);
-        if (getValue(1) === getValue(2)) {
-          program[c] = 1;
-        } else {
-          program[c] = 0;
-        }
-        pc += 3;
-        break;
-      }
-      case OPCODE.SFT: {
-        let c = getValue(1);
-        rb += c;
-        if (debug) debug.rb = rb;
-        pc++;
-        break;
-      }
-      case OPCODE.HCF: {
         if (debug) {
-          debug.onFire = true;
+          debug.pc = pc - 1;
+          debug.op = op;
+          debug.modes = modes;
+          if (control) await control.next();
         }
-        output.close();
-        return null;
-      }
-      default: {
-        throw new Error(`Invalid Op Code ${op!}`);
+
+        switch (op!) {
+          case OPCODE.ADD: {
+            let a = getValue(1);
+            let b = getValue(2);
+            program[getPointer(3)] = a + b;
+
+            pc += 3;
+            break;
+          }
+          case OPCODE.MUL: {
+            let a = getValue(1);
+            let b = getValue(2);
+            program[getPointer(3)] = a * b;
+
+            pc += 3;
+            break;
+          }
+          case OPCODE.REA: {
+            let i = await input.generator().next();
+            if (i.done === true) {
+              console.warn("Shutting down runner because there is no input");
+              return null;
+            }
+            program[getPointer(1)] = i.value;
+            pc += 1;
+            break;
+          }
+          case OPCODE.WRI: {
+            let r = getValue(1);
+            pc++;
+            output.addItem(r);
+            break;
+          }
+          case OPCODE.JPT: {
+            if (getValue(1)) {
+              pc = getValue(2);
+            } else {
+              pc += 2;
+            }
+
+            break;
+          }
+          case OPCODE.JPF: {
+            if (!getValue(1)) {
+              pc = getValue(2);
+            } else {
+              pc += 2;
+            }
+            break;
+          }
+          case OPCODE.JLT: {
+            let c = getPointer(3);
+            if (getValue(1) < getValue(2)) {
+              program[c] = 1;
+            } else {
+              program[c] = 0;
+            }
+
+            pc += 3;
+            break;
+          }
+          case OPCODE.JPE: {
+            let c = getPointer(3);
+            if (getValue(1) === getValue(2)) {
+              program[c] = 1;
+            } else {
+              program[c] = 0;
+            }
+            pc += 3;
+            break;
+          }
+          case OPCODE.SFT: {
+            let c = getValue(1);
+            rb += c;
+            if (debug) debug.rb = rb;
+            pc++;
+            break;
+          }
+          case OPCODE.HCF: {
+            if (debug) {
+              debug.onFire = true;
+              console.log("Machine halting");
+            }
+            output.close();
+            return null;
+          }
+          default: {
+            throw new Error(`Invalid Op Code ${op!}`);
+          }
+        }
       }
     }
-  }
+  };
 };
 
 export default intcodeRunner;

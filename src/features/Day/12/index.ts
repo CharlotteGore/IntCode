@@ -52,7 +52,7 @@ type Moon = [Vector3d, Vector3d];
 
 const applyVelocity = (moons: Array<Moon>) => {
   for (const [posa, vela] of moons) {
-    for (const [posb, velb] of moons) {
+    for (const [posb] of moons) {
       if (posa !== posb) {
         for (let i = 0; i < posa.length; i++) {
           if (posa[i] < posb[i]) {
@@ -85,19 +85,13 @@ const computeEnergy = (moons: Array<Moon>) => {
   return sum;
 };
 
-const print = (moons: Array<Moon>) => {
-  let str = "";
-  for (const [pos, vel] of moons) {
-    str += `pos=<x=${pos[0]}, y=${pos[1]}, z=${pos[2]}> vel=<x=${vel[0]}, y=${vel[1]}, z=${vel[2]}>\n`;
-  }
-};
-
 const starOne = async (input: string, params: Record<string, any>) => {
   const moons: Array<Moon> = input
     .split(/\n/g)
     .map(m => m.match(/<x=([\d-]+),\s+y=([\d-]+),\s+z=([\d-]+)>/))
     .map(m => {
       if (m !== null) {
+        // eslint-disable-next-line
         const [_, x, y, z] = m;
         return [
           [~~x, ~~y, ~~z],
@@ -115,7 +109,6 @@ const starOne = async (input: string, params: Record<string, any>) => {
     applyVelocity(moons);
     updatePositions(moons);
   }
-  print(moons);
 
   return computeEnergy(moons).toString();
 };
@@ -126,6 +119,7 @@ const starTwo = async (input: string, params: Record<string, any>) => {
     .map(m => m.match(/<x=([\d-]+),\s+y=([\d-]+),\s+z=([\d-]+)>/))
     .map(m => {
       if (m !== null) {
+        // eslint-disable-next-line
         const [_, x, y, z] = m;
         return [
           [~~x, ~~y, ~~z],

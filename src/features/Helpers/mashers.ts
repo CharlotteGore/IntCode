@@ -20,7 +20,7 @@ export const allPermutations = <T>(input: Array<T>): Array<Array<T>> => {
 };
 
 export const gcd = (a: number, b: number): number => {
-  if (a == 0) return b;
+  if (a === 0) return b;
   return gcd(b % a, a);
 };
 

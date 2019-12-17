@@ -1,6 +1,4 @@
 import source from "./input";
-import tests from "./tests";
-import { toIntArray, toLines } from "../../Helpers/parsers";
 
 import { TestFunction } from "../hooks";
 import { binaryIntSearch } from "../../Helpers/mashers";

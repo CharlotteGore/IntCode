@@ -2,11 +2,10 @@ import source from "./input";
 
 import { TestFunction } from "../hooks";
 import { allPermutations, generate } from "../../Helpers/mashers";
-import { createMachine, Machine } from "../../IntcodeMachine/machine";
+import { createMachine } from "../../IntcodeMachine/machine";
 import createIntcodePipe, {
   IntcodePipe
 } from "../../IntcodeMachine/input-generators/pipe";
-import Debugger from "../../IntcodeMachine/intcode-debugger";
 
 const runner: TestFunction = async (star: string) => {
   let output: Array<string> = [];

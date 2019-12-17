@@ -8,7 +8,6 @@ import {
   RelativeBase
 } from "./intcode-runner";
 import produce from "immer";
-import { MachineConfig } from "./machine";
 
 export type DebugStateUpdate = {
   pc: ProgramCounter;
@@ -16,7 +15,7 @@ export type DebugStateUpdate = {
   rb: RelativeBase;
   modes: ParameterModes;
   program: IntcodeProgram;
-  id: number;
+  id: number | string | undefined;
   lastOutput: number | null;
 };
 
@@ -37,13 +36,13 @@ class Debugger {
   private paused: boolean;
   private breakpoints: Array<ProgramCounter>;
   private externalObservers: Array<UpdateCallback>;
-  private _instanceId: number;
+  private _instanceId: number | string;
   private _lastOutput: number | null;
   private _halted: MachineHaltCallback;
 
   private runNextStep: Function | null;
 
-  constructor(instanceId: number, paused: boolean = true) {
+  constructor(instanceId: number | string, paused: boolean = true) {
     this._program = [];
     this._modes = {
       [PARAM.ONE]: MODE.POSITION,
