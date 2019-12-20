@@ -138,6 +138,36 @@ const App = () => {
               <Link to="/day/20/2">20:2</Link>
             </li>
             <li>
+              <Link to="/day/21/1">21:1</Link>
+            </li>
+            <li>
+              <Link to="/day/21/2">21:2</Link>
+            </li>
+            <li>
+              <Link to="/day/22/1">22:1</Link>
+            </li>
+            <li>
+              <Link to="/day/22/2">22:2</Link>
+            </li>
+            <li>
+              <Link to="/day/23/1">23:1</Link>
+            </li>
+            <li>
+              <Link to="/day/23/2">23:2</Link>
+            </li>
+            <li>
+              <Link to="/day/24/1">24:1</Link>
+            </li>
+            <li>
+              <Link to="/day/24/2">24:2</Link>
+            </li>
+            <li>
+              <Link to="/day/25/1">25:1</Link>
+            </li>
+            <li>
+              <Link to="/day/25/2">25:2</Link>
+            </li>
+            <li>
               <Link to="/intcode">Debugger</Link>
             </li>
             <li>

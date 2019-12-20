@@ -1,10 +1,7 @@
 import source from "./input";
-import tests from "./tests";
-import { toIntArray, toLines } from "../../Helpers/parsers";
 
 import { TestFunction } from "../hooks";
 import { createMachine } from "../../IntcodeMachine/machine";
-import { resolveSoa } from "dns";
 
 const runner: TestFunction = async (star: string) => {
   let output: Array<string> = [];
