@@ -6,6 +6,7 @@ import { Day } from "./features/Day";
 // import { DebuggerPortal } from "./features/DebuggerPortal";
 import { Assembler } from "./features/Assembler";
 import { Disassembler } from "./features/Disassembler";
+import { DebuggerPortal } from "./features/DebuggerPortal";
 
 const App = () => {
   return (
@@ -119,6 +120,24 @@ const App = () => {
               <Link to="/day/17/2">17:2</Link>
             </li>
             <li>
+              <Link to="/day/18/1">18:1</Link>
+            </li>
+            <li>
+              <Link to="/day/18/2">18:2</Link>
+            </li>
+            <li>
+              <Link to="/day/19/1">19:1</Link>
+            </li>
+            <li>
+              <Link to="/day/19/2">19:2</Link>
+            </li>
+            <li>
+              <Link to="/day/20/1">20:1</Link>
+            </li>
+            <li>
+              <Link to="/day/20/2">20:2</Link>
+            </li>
+            <li>
               <Link to="/intcode">Debugger</Link>
             </li>
             <li>
@@ -140,7 +159,7 @@ const App = () => {
         renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/day/:day/:star" children={<Day />} />
-          {/* <Route path="/intcode" children={<DebuggerPortal />} /> */}
+          <Route path="/intcode" children={<DebuggerPortal />} />
           <Route path="/assembler" children={<Assembler />} />
           <Route path="/disassembler" children={<Disassembler />} />
           <Route path="/">

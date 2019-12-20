@@ -80,7 +80,7 @@ export const createMachine = (config: MachineConfig): Machine => {
   }
 
   if (isWithProgram(config)) {
-    program = config.program;
+    program = config.program.slice(0);
   }
 
   const runner = intcodeRunner(
@@ -141,7 +141,7 @@ export const createDebugMachine = (config: MachineConfig): DebugMachine => {
   }
 
   if (isWithProgram(config)) {
-    program = config.program;
+    program = config.program.slice(0);
   }
 
   if (program === null) {

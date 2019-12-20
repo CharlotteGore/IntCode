@@ -34,7 +34,7 @@ const CurrentOp = (props: { machine: DebugStateUpdate }) => {
           program[pc + 3]
         ];
         assembled = `${assembled} ${getParam(PARAM.ONE, pc)} ${getParam(
-          PARAM.ONE,
+          PARAM.TWO,
           pc
         )} ${getParam(PARAM.THREE, pc)}`;
         break;
@@ -42,7 +42,7 @@ const CurrentOp = (props: { machine: DebugStateUpdate }) => {
       case OPCODE.JPF:
         rawStr = [program[pc], program[pc + 1], program[pc + 2]];
         assembled = `${assembled} ${getParam(PARAM.ONE, pc)} ${getParam(
-          PARAM.ONE,
+          PARAM.TWO,
           pc
         )}`;
         break;

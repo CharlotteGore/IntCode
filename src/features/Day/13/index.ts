@@ -71,14 +71,16 @@ const starOne = async (input: string, params: Record<string, any>) => {
     code: "day13"
   });
 
+  const out = output.generator();
+
   let arr = new Array(24 * 41).fill(0);
   let i = 0;
   do {
-    const x = await output.generator().next();
+    const x = await out.next();
     if (x.done) break;
-    const y = await output.generator().next();
+    const y = await out.next();
     if (y.done) break;
-    const z = await output.generator().next();
+    const z = await out.next();
     if (z.done) break;
     i = y.value * 41 + x.value;
     arr[i] = z.value;
@@ -97,12 +99,14 @@ const starOne = async (input: string, params: Record<string, any>) => {
 };
 
 const starTwo = (_: string, params: Record<string, any>) => {
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
     setTimeout(async () => {
       let { input, output, debug } = createDebugMachine({
         id: 0,
         code: "day13"
       });
+
+      const out = output.generator();
 
       debug.poke(0, 2);
       debug.run();
@@ -121,11 +125,11 @@ const starTwo = (_: string, params: Record<string, any>) => {
       requestAnimationFrame(r);
 
       do {
-        const x = await output.generator().next();
+        const x = await out.next();
         if (x.done) break;
-        const y = await output.generator().next();
+        const y = await out.next();
         if (y.done) break;
-        const z = await output.generator().next();
+        const z = await out.next();
         if (z.done) break;
         if (x.value === -1 && y.value === 0) {
           score = z.value;

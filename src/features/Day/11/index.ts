@@ -1,5 +1,8 @@
 import source from "./input";
-import { createMachine } from "../../IntcodeMachine/machine";
+import {
+  createMachine,
+  createDebugMachine
+} from "../../IntcodeMachine/machine";
 import { Vector2d, UnitVector2d, add } from "../../Helpers/vector";
 import { RefObject } from "react";
 import { COLOR } from "../8";
@@ -60,10 +63,13 @@ const runner = async (
 const starOne = async (_: string, params: Record<string, any>) => {
   return new Promise((resolve, reject) => {
     setTimeout(async () => {
-      const { input, output } = createMachine({
-        id: 0,
+      const { input, output /* debug */ } = createMachine({
         code: "day11"
       });
+
+      const gen = output.generator();
+
+      //debug.run();
 
       let grid: Record<number, Record<number, number>> = {};
       let pos: Vector2d = [0, 0];
@@ -86,8 +92,8 @@ const starOne = async (_: string, params: Record<string, any>) => {
         if (cell === undefined) {
           input.addItem(cell);
         }
-        let color = await output.generator().next();
-        let direction = await output.generator().next();
+        let color = await gen.next();
+        let direction = await gen.next();
         if (
           color.done ||
           direction.done ||
@@ -119,9 +125,11 @@ const starTwo = async (
   return new Promise((resolve, reject) => {
     setTimeout(async () => {
       const { input, output } = createMachine({
-        id: 0,
         code: "day11"
       });
+
+      let gen = output.generator();
+
       let grid: Record<number, Record<number, number>> = {};
       let pos: Vector2d = [0, 0];
       let cellsVisited = 0;
@@ -154,8 +162,8 @@ const starTwo = async (
         if (cell === undefined) {
           input.addItem(cell);
         }
-        let color = await output.generator().next();
-        let direction = await output.generator().next();
+        let color = await gen.next();
+        let direction = await gen.next();
         if (
           color.done ||
           direction.done ||

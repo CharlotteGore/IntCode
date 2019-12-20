@@ -29,15 +29,16 @@ const starOne = (input: string, params: Record<string, any>) => {
   return new Promise((resolve, reject) => {
     setTimeout(async () => {
       const { output, debug } = createDebugMachine({
-        id: 0,
         code: "day2"
       });
 
-      debug.poke(1, 1);
-      debug.poke(2, 12);
+      debug.poke(1, 12);
+      debug.poke(2, 2);
+      const start = performance.now();
       debug.run();
 
       await output.generator().next();
+      console.log(performance.now() - start);
       resolve(debug.peek(0));
     }, 10);
   });
@@ -48,7 +49,6 @@ const starTwo = (input: string, params: Record<string, any>) => {
     setTimeout(async () => {
       const runTest = async (a: number, b: number) => {
         const { output, debug } = createDebugMachine({
-          id: 0,
           code: "day2"
         });
 
@@ -59,13 +59,16 @@ const starTwo = (input: string, params: Record<string, any>) => {
         await output.generator().next();
         return debug.peek(0);
       };
-
+      let done = false;
       for (let i = 0; i < 100; i++) {
         for (let j = 0; j < 100; j++) {
           let result = await runTest(i, j);
           if (result === 19690720) {
             resolve(100 * i + j);
+            done = true;
+            break;
           }
+          if (done) break;
         }
       }
     }, 10);

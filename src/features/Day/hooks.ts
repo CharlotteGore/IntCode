@@ -17,6 +17,15 @@ import day15 from "./15";
 import day16 from "./16";
 import day17 from "./17";
 import day18 from "./18";
+import day19 from "./19";
+
+import day20 from "./20";
+import day21 from "./21";
+import day22 from "./22";
+import day23 from "./23";
+import day24 from "./24";
+import day25 from "./25";
+
 import day172018 from "./17-2018";
 
 export type TestFunction = (
@@ -43,6 +52,13 @@ const days: Record<string, TestFunction> = {
   "16": day16,
   "17": day17,
   "18": day18,
+  "19": day19,
+  "20": day20,
+  "21": day21,
+  "22": day22,
+  "23": day23,
+  "24": day24,
+  "25": day25,
   "17-2018": day172018
 };
 

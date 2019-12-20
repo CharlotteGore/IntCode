@@ -41,6 +41,7 @@ export const intcodeRunner = (
   let pc: ProgramCounter = initialPC;
   let rb: RelativeBase = initialRB;
   let control: AsyncGenerator<boolean, boolean, boolean>;
+  let mem = program;
 
   let modes: ParameterModes = {
     [PARAM.ONE]: MODE.POSITION,
@@ -51,30 +52,30 @@ export const intcodeRunner = (
   const getValue = (d: PARAM) => {
     let r;
     if (modes[d] === MODE.RELATIVE) {
-      r = program[rb + program[pc + (d - 1)]];
+      r = mem[rb + mem[pc + (d - 1)]];
     } else {
-      r = modes[d] ? program[pc + (d - 1)] : program[program[pc + (d - 1)]];
+      r = modes[d] ? mem[pc + (d - 1)] : mem[mem[pc + (d - 1)]];
     }
     if (!r) return 0;
     return r;
   };
   const getPointer = (d: PARAM) => {
     if (modes[d] === MODE.RELATIVE) {
-      return rb + program[pc + (d - 1)];
+      return rb + mem[pc + (d - 1)];
     } else {
-      return modes[d] ? pc + (d - 1) : program[pc + (d - 1)];
+      return modes[d] ? pc + (d - 1) : mem[pc + (d - 1)];
     }
   };
 
   return {
     cloneData: (): [number[], number, number] => [
-      program.slice(0, program.length - 1),
+      mem.slice(0, mem.length - 1),
       pc,
       rb
     ],
     run: async () => {
       if (debug) {
-        debug.program = program;
+        debug.program = mem;
         debug.modes = modes;
         control = debug.control();
         debug.pc = pc;
@@ -83,7 +84,7 @@ export const intcodeRunner = (
       }
 
       while (true) {
-        let inst = program[pc++];
+        let inst = mem[pc++];
         let op: OPCODE | null;
 
         let p3 = ~~(inst / 10000);
@@ -110,7 +111,7 @@ export const intcodeRunner = (
           case OPCODE.ADD: {
             let a = getValue(1);
             let b = getValue(2);
-            program[getPointer(3)] = a + b;
+            mem[getPointer(3)] = a + b;
 
             pc += 3;
             break;
@@ -118,7 +119,7 @@ export const intcodeRunner = (
           case OPCODE.MUL: {
             let a = getValue(1);
             let b = getValue(2);
-            program[getPointer(3)] = a * b;
+            mem[getPointer(3)] = a * b;
 
             pc += 3;
             break;
@@ -129,7 +130,7 @@ export const intcodeRunner = (
               console.warn("Shutting down runner because there is no input");
               return null;
             }
-            program[getPointer(1)] = i.value;
+            mem[getPointer(1)] = i.value;
             pc += 1;
             break;
           }
@@ -159,9 +160,9 @@ export const intcodeRunner = (
           case OPCODE.JLT: {
             let c = getPointer(3);
             if (getValue(1) < getValue(2)) {
-              program[c] = 1;
+              mem[c] = 1;
             } else {
-              program[c] = 0;
+              mem[c] = 0;
             }
 
             pc += 3;
@@ -170,9 +171,9 @@ export const intcodeRunner = (
           case OPCODE.JPE: {
             let c = getPointer(3);
             if (getValue(1) === getValue(2)) {
-              program[c] = 1;
+              mem[c] = 1;
             } else {
-              program[c] = 0;
+              mem[c] = 0;
             }
             pc += 3;
             break;
