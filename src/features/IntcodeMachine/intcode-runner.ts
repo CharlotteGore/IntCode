@@ -127,6 +127,7 @@ export const intcodeRunner = (
           }
           case OPCODE.REA: {
             let i = await gen.next();
+            console.log(`Machine ${input.getId()} has read ${i.value}`);
 
             if (i.done === true) {
               console.warn("Shutting down runner because there is no input");
@@ -139,7 +140,6 @@ export const intcodeRunner = (
           case OPCODE.WRI: {
             let r = getValue(1);
             pc++;
-            console.log("sending value");
             output.addItem(r);
             break;
           }

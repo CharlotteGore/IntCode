@@ -87,8 +87,9 @@ const starOne = (program: number[], params: Record<string, any>) => {
                 let y = await gen.next();
                 inputs[val.value].addItem(x.value!);
                 inputs[val.value].addItem(y.value!);
-                console.log(`Machine ${i} outputted ${val.value} ${x.value}`);
-                console.log(`Machine ${i} outputted ${val.value} ${x.value}`);
+                console.log(
+                  `Machine ${i} emitted ${val.value} ${x.value} and ${y.value}`
+                );
               }
             }
           }

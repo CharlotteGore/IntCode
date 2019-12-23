@@ -4,6 +4,7 @@ import Debugger from "./intcode-debugger";
 import parse from "./intcode-parser";
 import programs from "./programs";
 import { csvToIntArray } from "../Helpers/parsers";
+import { syncIntcodeRunner } from "./intcode-runner-sync";
 
 let defaultInstanceId: number = 0;
 
@@ -53,6 +54,27 @@ export type DebugMachine = {
 
 export type MonitorCallback = (value: number | null) => void;
 export type OutputResultsCallback = (results: Array<number>) => void;
+
+export const createShittyMachine = (
+  config: MachineConfig,
+  input: () => number,
+  output: (value: number) => void,
+  id: number
+) => {
+  let program: number[] = [];
+
+  if (isWithCode(config)) {
+    const codeSrc = programs[config.code];
+    program = parse(codeSrc);
+  }
+
+  if (isWithProgram(config)) {
+    program = config.program.slice(0);
+  }
+
+  const runner = syncIntcodeRunner(program, input, output, id);
+  return runner;
+};
 
 export const createMachine = (config: MachineConfig): Machine => {
   let input: IntcodePipe;
@@ -119,7 +141,8 @@ export const createDebugMachine = (config: MachineConfig): DebugMachine => {
   let input: IntcodePipe;
   let output: IntcodePipe;
   let program: number[] | null = [];
-  let id: number | string = config.id || ++defaultInstanceId;
+  let id: number | string =
+    typeof config.id === "number" ? config.id : ++defaultInstanceId;
   let debug: Debugger = new Debugger(id);
   if (config.io && config.io.input) {
     input = config.io.input;
@@ -129,6 +152,7 @@ export const createDebugMachine = (config: MachineConfig): DebugMachine => {
       : [];
     input = createQueueInput(initialInput);
   }
+  input.setId(id);
   if (config.io && config.io.output) {
     output = config.io.output;
   } else {
