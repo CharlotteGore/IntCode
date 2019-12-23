@@ -1,14 +1,8 @@
 import source from "./input";
 import tests from "./tests";
-import { toIntArray, toLines } from "../../Helpers/parsers";
 
 import { TestFunction } from "../hooks";
-import {
-  createMachine,
-  createDebugMachine
-} from "../../IntcodeMachine/machine";
-import { IntcodePipe } from "../../IntcodeMachine/input-generators/pipe";
-import Debugger from "../../IntcodeMachine/intcode-debugger";
+import { createShittyMachine } from "../../IntcodeMachine/machine";
 
 const runner: TestFunction = async (star: string) => {
   let output: Array<string> = [];
@@ -55,62 +49,103 @@ const runner: TestFunction = async (star: string) => {
 const starOne = (program: number[], params: Record<string, any>) => {
   return new Promise((resolve, reject) => {
     setTimeout(async () => {
-      let inputs: IntcodePipe[] = [];
-      // let outputs: IntcodePipe[] = [];
-      let debuggers: Debugger[] = [];
       let done = false;
+
+      let createIo = (
+        onMachineOutput: (id: number, value: number) => void,
+        onMachineInput: (id: number, value: number) => void
+      ) => {
+        let array: number[][] = [];
+
+        let getMachineIo = (id: number) => {
+          array[id] = [];
+          return {
+            input: (): number => {
+              if (array[id].length === 0) {
+                onMachineInput(id, -1);
+                return -1;
+              } else {
+                let val = array[id].pop()!;
+                onMachineInput(id, val);
+                return val;
+              }
+            },
+            output: (value: number) => {
+              array[id].unshift(value);
+              onMachineOutput(id, value);
+            }
+          };
+        };
+
+        let injectValueToMachine = (id: number, value: number) => {
+          array[id].unshift(value);
+        };
+
+        return {
+          getMachineIo,
+          injectValueToMachine
+        };
+      };
+
+      let outputTracker = new Map<number, number[]>();
+
+      let instructions: number[][] = [];
+
+      let io = createIo(
+        (id: number, value: number) => {
+          debugger;
+          // this is called every time a machine outputs
+          let cached = outputTracker.get(id);
+          if (cached === undefined || cached.length === 0) {
+            outputTracker.set(id, [value]);
+          } else if (cached.length === 2) {
+            if (cached[0] === 255) {
+              console.log(
+                `Machine ${id} outputted ${cached[0]} ${cached[1]} ${value}`
+              );
+              done = true;
+              resolve(value);
+            } else {
+              instructions.push([cached[0], cached[1], id]);
+              instructions.push([cached[0], value, id]);
+              //io.injectValueToMachine(cached[0], cached[1]);
+              //io.injectValueToMachine(cached[0], value);
+              outputTracker.set(id, []);
+            }
+          } else {
+            outputTracker.set(id, cached.concat(value));
+            //if (id !== 255) {
+            //  io.injectValueToMachine(cached[0], cached[1]);
+            //}
+          }
+        },
+        (id: number, value: number) => {
+          // this is called every time a machine requests a value;
+          // console.log(`Machine ${id} has read ${value}`);
+        }
+      );
+      let runners: { step: () => false | null | undefined }[] = [];
 
       // set up the machines
       for (let i = 0; i < 50; i++) {
-        const { input, output, debug } = createDebugMachine({ program, id: i });
-        input.setDefaultOutput(-1);
-        input.addItem(i);
-        inputs.push(input);
-        // outputs.push(output);
-        debuggers.push(debug);
-        // eslint-disable-next-line no-loop-func
-        setTimeout(async () => {
-          let gen = output.generator();
-          while (true) {
-            let val = await gen.next();
-            if (val.done) {
-              break;
-            } else {
-              if (val.value === 255) {
-                await gen.next();
-                let y = await gen.next();
-                done = true;
-                resolve(y.value!);
-                break;
-              } else {
-                let x = await gen.next();
-                let y = await gen.next();
-                inputs[val.value].addItem(x.value!);
-                inputs[val.value].addItem(y.value!);
-                console.log(`Machine ${i} outputted ${val.value} ${x.value}`);
-                console.log(`Machine ${i} outputted ${val.value} ${x.value}`);
-              }
-            }
-          }
-        }, 0);
+        const { input, output } = io.getMachineIo(i);
+        runners[i] = createShittyMachine({ program }, input, output, i);
+        // add the initial value;
+        io.injectValueToMachine(i, i);
       }
 
-      let stepAll = () => {
-        return new Promise(res => {
-          setTimeout(() => {
-            console.log("cycle");
-            for (let i = 0; i < 50; i++) {
-              debuggers[i].step();
-            }
-            res();
-          }, 5);
-        });
-      };
-
-      debugger;
-
       while (!done) {
-        await stepAll();
+        console.log("cycle");
+        for (let i = 0; i < 50; i++) {
+          runners[i].step();
+        }
+        for (let i = 0; i < instructions.length; i++) {
+          console.log(
+            `Machine ${instructions[i][2]} outputted ${instructions[i][0]} ${instructions[i][1]}`
+          );
+          io.injectValueToMachine(instructions[i][0], instructions[i][1]);
+        }
+        instructions = [];
       }
       // resolve("Not Implemented");
     }, 1000);

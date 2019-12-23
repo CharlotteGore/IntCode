@@ -1,4 +1,4 @@
-cycle
+ cycle
 Machine 0 has read 0
 Machine 1 has read 1
 Machine 2 has read 2
@@ -49,7 +49,7 @@ Machine 46 has read 46
 Machine 47 has read 47
 Machine 48 has read 48
 Machine 49 has read 49
-11 cycle
+11cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -100,7 +100,7 @@ Machine 46 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
 Machine 49 has read -1
-11 cycle
+11cycle
 Machine 3 has read -1
 Machine 6 has read -1
 Machine 7 has read -1
@@ -117,7 +117,7 @@ Machine 36 has read -1
 Machine 46 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
-5 cycle
+5cycle
 Machine 3 has read -1
 Machine 6 has read -1
 Machine 7 has read -1
@@ -134,7 +134,7 @@ Machine 36 has read -1
 Machine 46 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
-5 cycle
+5cycle
 Machine 3 has read -1
 Machine 6 has read -1
 Machine 7 has read -1
@@ -151,7 +151,7 @@ Machine 36 has read -1
 Machine 46 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
-5 cycle
+5cycle
 Machine 3 has read -1
 Machine 6 has read -1
 Machine 7 has read -1
@@ -168,7 +168,7 @@ Machine 36 has read -1
 Machine 46 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 5 has read -1
 Machine 12 has read -1
 Machine 28 has read -1
@@ -179,7 +179,7 @@ Machine 37 has read -1
 Machine 39 has read -1
 Machine 40 has read -1
 Machine 44 has read -1
-4 cycle
+4cycle
 Machine 3 has read -1
 Machine 6 has read -1
 Machine 7 has read -1
@@ -244,7 +244,7 @@ Machine 45 outputted 9 66959
 Machine 45 outputted 9 66959
 Machine 49 outputted 3 118394
 Machine 49 outputted 3 118394
- cycle
+cycle
 Machine 5 has read -1
 Machine 12 has read -1
 Machine 28 has read -1
@@ -255,7 +255,7 @@ Machine 37 has read -1
 Machine 39 has read -1
 Machine 40 has read -1
 Machine 44 has read -1
-4 cycle
+4cycle
 Machine 3 has read 295985
 Machine 6 has read -1
 Machine 7 has read 75398
@@ -272,7 +272,7 @@ Machine 36 has read 175148
 Machine 46 has read 4934
 Machine 47 has read -1
 Machine 48 has read 379172
- cycle
+cycle
 Machine 1 has read -1
 Machine 4 has read -1
 Machine 5 has read -1
@@ -299,7 +299,7 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 3 has read -263
 Machine 7 has read 603
 Machine 8 has read 173
@@ -310,7 +310,7 @@ Machine 35 has read 160
 Machine 36 has read 37
 Machine 46 has read 22651
 Machine 48 has read -3
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 17 has read -1
@@ -333,7 +333,7 @@ Machine 26 outputted 48 94793
 Machine 26 outputted 48 94793
 Machine 33 outputted 36 43787
 Machine 33 outputted 36 43787
- cycle
+cycle
 Machine 1 has read -1
 Machine 4 has read -1
 Machine 5 has read -1
@@ -360,14 +360,14 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-4 cycle
+4cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 17 has read 17351
 Machine 20 has read -1
 Machine 27 has read -1
 Machine 47 has read 877
- cycle
+cycle
 Machine 1 has read -1
 Machine 4 has read -1
 Machine 5 has read -1
@@ -397,10 +397,10 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 17 has read 22651
 Machine 47 has read 2
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 20 has read -1
@@ -415,7 +415,7 @@ Machine 16 outputted 35 97514
 Machine 16 outputted 35 97514
 Machine 21 outputted 7 150796
 Machine 21 outputted 7 150796
- cycle
+cycle
 Machine 1 has read -1
 Machine 4 has read -1
 Machine 5 has read -1
@@ -445,12 +445,12 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-4 cycle
+4cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 20 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 1 has read -1
 Machine 4 has read -1
 Machine 5 has read -1
@@ -482,7 +482,7 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-4 cycle
+4cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 20 has read -1
@@ -493,7 +493,7 @@ Machine 2 outputted 48 189586
 Machine 2 outputted 48 189586
 Machine 14 outputted 7 113097
 Machine 14 outputted 7 113097
- cycle
+cycle
 Machine 1 has read -1
 Machine 4 has read -1
 Machine 5 has read -1
@@ -525,12 +525,12 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-4 cycle
+4cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 20 has read 23057
 Machine 27 has read -1
- cycle
+cycle
 Machine 1 has read -1
 Machine 4 has read -1
 Machine 5 has read -1
@@ -562,9 +562,9 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 20 has read 22651
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
@@ -574,7 +574,7 @@ Machine 2 outputted 35 48757
 Machine 2 outputted 35 48757
 Machine 14 outputted 48 284379
 Machine 14 outputted 48 284379
- cycle
+cycle
 Machine 1 has read -1
 Machine 4 has read -1
 Machine 5 has read -1
@@ -606,11 +606,11 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-4 cycle
+4cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 1 has read -1
 Machine 4 has read -1
 Machine 5 has read -1
@@ -643,7 +643,7 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-4 cycle
+4cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
@@ -651,7 +651,7 @@ Machine 0 outputted 20 69171
 Machine 0 outputted 20 69171
 Machine 2 outputted 35 146271
 Machine 2 outputted 35 146271
- cycle
+cycle
 Machine 1 has read -1
 Machine 4 has read -1
 Machine 5 has read -1
@@ -684,11 +684,11 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-4 cycle
+4cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -723,11 +723,11 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-4 cycle
+4cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -762,14 +762,14 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 7 has read 37699
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -805,15 +805,15 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 9 has read 66959
 Machine 11 has read 15815
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -850,19 +850,19 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 8 has read 178077
 Machine 19 has read 112718
 Machine 36 has read 43787
 Machine 46 has read -1
 Machine 48 has read 94793
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 17 has read 34702
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -901,16 +901,16 @@ Machine 44 has read -1
 Machine 45 has read -1
 Machine 48 has read 6679
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 3 has read 59197
 Machine 17 has read 22651
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -946,15 +946,15 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 35 has read 243785
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -990,14 +990,14 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1032,15 +1032,15 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 20 has read 46114
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1075,15 +1075,15 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 20 has read 22651
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1118,14 +1118,14 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1160,14 +1160,14 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1202,14 +1202,14 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1244,14 +1244,14 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1286,14 +1286,14 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1328,16 +1328,16 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 9 has read 133918
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 7 has read 150796
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1374,19 +1374,19 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 7 has read 3
 Machine 36 has read 87574
 Machine 46 has read -1
 Machine 48 has read 189586
- cycle
+cycle
 Machine 19 has read 125
- cycle
+cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1424,17 +1424,17 @@ Machine 44 has read -1
 Machine 45 has read -1
 Machine 48 has read 2
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 3 has read 118394
 Machine 46 has read -1
- cycle
+cycle
 Machine 8 has read 3
- cycle
+cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1471,16 +1471,16 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
-2 cycle
+2cycle
 Machine 46 has read -1
- cycle
+cycle
 Machine 11 has read 4
- cycle
+cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1515,16 +1515,16 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1559,16 +1559,16 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1604,18 +1604,18 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
- cycle
+cycle
 Machine 35 has read 5
- cycle
+cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1650,16 +1650,16 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1694,18 +1694,18 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 20 has read 69171
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 20 has read 22651
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1740,16 +1740,16 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1784,16 +1784,16 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1828,16 +1828,16 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1872,16 +1872,16 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1916,16 +1916,16 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -1961,19 +1961,19 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 19 has read 169077
 Machine 46 has read -1
- cycle
+cycle
 Machine 8 has read 301
- cycle
+cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2009,18 +2009,18 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read 284379
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2055,21 +2055,21 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
 Machine 48 has read 1
- cycle
+cycle
 Machine 11 has read 3163
- cycle
+cycle
 Machine 3 has read 177591
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2104,23 +2104,23 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read 113097
 Machine 11 has read 467
 Machine 17 has read -1
- cycle
+cycle
 Machine 3 has read 3
 Machine 46 has read -1
- cycle
+cycle
 Machine 35 has read 48757
- cycle
+cycle
 Machine 6 has read -1
 Machine 7 has read 1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2155,18 +2155,18 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 35 has read 2
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2201,17 +2201,17 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2246,17 +2246,17 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2291,17 +2291,17 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2336,17 +2336,17 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2381,17 +2381,17 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2426,19 +2426,19 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 9 outputted 15 72661
 Machine 9 outputted 15 72661
- cycle
+cycle
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read 72661
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2473,18 +2473,18 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 15 has read 76778
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2519,17 +2519,17 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2564,17 +2564,17 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2609,19 +2609,19 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 11 has read 6326
- cycle
+cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2656,18 +2656,18 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 11 has read 6679
 Machine 17 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2702,17 +2702,17 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2748,19 +2748,19 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 35 has read 2
- cycle
+cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2795,17 +2795,17 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2842,19 +2842,19 @@ Machine 45 has read -1
 Machine 49 has read -1
 Machine 20 outputted 6 93059
 Machine 20 outputted 6 93059
- cycle
+cycle
 Machine 17 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read 236788
- cycle
+cycle
 Machine 6 has read 93059
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2889,19 +2889,19 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 3 has read 1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 6 has read 11621498760451
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2936,17 +2936,17 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -2981,18 +2981,18 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3027,18 +3027,18 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3073,18 +3073,18 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3119,18 +3119,18 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3165,20 +3165,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 15 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 8 outputted 15 145322
 Machine 8 outputted 15 145322
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3213,18 +3213,18 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 15 has read 145322
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3260,20 +3260,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 20 has read -1
 Machine 19 outputted 35 195028
 Machine 19 outputted 35 195028
- cycle
+cycle
 Machine 9 has read -1
 Machine 15 has read 156219
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3309,21 +3309,21 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 48 outputted 17 52053
 Machine 48 outputted 17 52053
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3359,20 +3359,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 17 has read 52053
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 17 has read -40074
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3410,19 +3410,19 @@ Machine 45 has read -1
 Machine 49 has read -1
 Machine 7 outputted 15 217983
 Machine 7 outputted 15 217983
- cycle
+cycle
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3458,20 +3458,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3507,15 +3507,15 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read 18978
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 11 has read 59
 Machine 27 has read -1
@@ -3523,7 +3523,7 @@ Machine 35 has read 195028
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3559,21 +3559,21 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 35 has read 31250
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3609,20 +3609,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3658,20 +3658,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3707,20 +3707,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3756,20 +3756,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3805,20 +3805,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3854,20 +3854,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3903,20 +3903,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -3952,22 +3952,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 15 has read 217983
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 15 has read 725409
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4003,20 +4003,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4052,20 +4052,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4101,20 +4101,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4150,20 +4150,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4199,20 +4199,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4248,20 +4248,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4297,20 +4297,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4346,20 +4346,20 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4395,22 +4395,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
 Machine 3 outputted 15 290644
 Machine 3 outputted 15 290644
-2 cycle
+2cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4446,22 +4446,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4497,22 +4497,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4548,22 +4548,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4601,22 +4601,22 @@ Machine 45 has read -1
 Machine 49 has read -1
 Machine 17 outputted 6 279177
 Machine 17 outputted 6 279177
- cycle
+cycle
 Machine 7 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read 279177
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4652,23 +4652,23 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 6 has read -20560679057274
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4704,22 +4704,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4755,22 +4755,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4807,23 +4807,23 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
 Machine 15 has read -199617
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4859,22 +4859,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4910,22 +4910,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -4961,22 +4961,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5012,22 +5012,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5063,22 +5063,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5114,22 +5114,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5165,22 +5165,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5216,22 +5216,22 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 27 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5267,24 +5267,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
 Machine 35 outputted 27 53146
 Machine 35 outputted 27 53146
- cycle
+cycle
 Machine 27 has read 53146
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5320,24 +5320,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read 1000000000
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5375,23 +5375,23 @@ Machine 45 has read -1
 Machine 49 has read -1
 Machine 11 outputted 6 372236
 Machine 11 outputted 6 372236
- cycle
+cycle
 Machine 7 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read 372236
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5427,24 +5427,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 6 has read 1623849721288
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5480,23 +5480,23 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5532,23 +5532,23 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5584,23 +5584,23 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5636,23 +5636,23 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5688,23 +5688,23 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5740,23 +5740,23 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5792,23 +5792,23 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5844,23 +5844,23 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -5896,77 +5896,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
-Machine 9 has read -1
-Machine 19 has read -1
-Machine 27 has read -1
-Machine 46 has read -1
- cycle
-Machine 3 has read -1
- cycle
-Machine 35 has read -1
-Machine 36 has read -1
-Machine 47 has read -1
-Machine 48 has read -1
- cycle
-Machine 0 has read -1
-Machine 1 has read -1
-Machine 2 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 8 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 13 has read -1
-Machine 14 has read -1
-Machine 16 has read -1
-Machine 18 has read -1
-Machine 21 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 26 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 33 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
- cycle
-Machine 7 has read -1
-Machine 11 has read -1
-Machine 17 has read -1
-Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6002,24 +5949,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6055,24 +6002,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6108,24 +6055,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6161,25 +6108,78 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
+Machine 35 has read -1
+Machine 36 has read -1
+Machine 47 has read -1
+Machine 48 has read -1
+cycle
+Machine 0 has read -1
+Machine 1 has read -1
+Machine 2 has read -1
+Machine 4 has read -1
+Machine 5 has read -1
+Machine 8 has read -1
+Machine 10 has read -1
+Machine 12 has read -1
+Machine 13 has read -1
+Machine 14 has read -1
+Machine 16 has read -1
+Machine 18 has read -1
+Machine 21 has read -1
+Machine 22 has read -1
+Machine 23 has read -1
+Machine 24 has read -1
+Machine 25 has read -1
+Machine 26 has read -1
+Machine 28 has read -1
+Machine 29 has read -1
+Machine 30 has read -1
+Machine 31 has read -1
+Machine 32 has read -1
+Machine 33 has read -1
+Machine 34 has read -1
+Machine 37 has read -1
+Machine 38 has read -1
+Machine 39 has read -1
+Machine 40 has read -1
+Machine 41 has read -1
+Machine 42 has read -1
+Machine 43 has read -1
+Machine 44 has read -1
+Machine 45 has read -1
+Machine 49 has read -1
+cycle
+Machine 7 has read -1
+Machine 11 has read -1
+Machine 17 has read -1
+Machine 20 has read -1
+cycle
+Machine 9 has read -1
+Machine 19 has read -1
+Machine 27 has read -1
+Machine 46 has read -1
+cycle
+Machine 3 has read -1
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6215,25 +6215,25 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6269,19 +6269,19 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
@@ -6289,7 +6289,7 @@ Machine 47 has read -1
 Machine 48 has read -1
 Machine 15 outputted 47 1754
 Machine 15 outputted 47 1754
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6325,25 +6325,25 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read 1754
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6380,25 +6380,25 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
 Machine 47 has read 758789
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6435,24 +6435,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6489,24 +6489,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6543,24 +6543,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6597,24 +6597,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6651,24 +6651,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6705,24 +6705,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6759,24 +6759,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6813,24 +6813,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6867,24 +6867,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6921,24 +6921,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -6975,24 +6975,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7029,24 +7029,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7083,24 +7083,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7137,24 +7137,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7191,24 +7191,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7245,24 +7245,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7299,24 +7299,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7353,24 +7353,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7407,24 +7407,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7461,26 +7461,26 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
 Machine 47 outputted 36 131361
 Machine 47 outputted 36 131361
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read 131361
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7517,25 +7517,25 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 36 has read 1517578
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7572,24 +7572,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7626,24 +7626,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7680,24 +7680,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7734,24 +7734,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7788,24 +7788,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7842,24 +7842,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7896,24 +7896,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -7950,24 +7950,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8004,24 +8004,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8058,24 +8058,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8112,24 +8112,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8166,24 +8166,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8220,24 +8220,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8274,24 +8274,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8328,24 +8328,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8382,24 +8382,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8436,24 +8436,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8490,24 +8490,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8544,24 +8544,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8598,24 +8598,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8652,24 +8652,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8706,24 +8706,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8760,24 +8760,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8814,24 +8814,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8868,24 +8868,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8922,24 +8922,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -8976,26 +8976,26 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
 Machine 36 outputted 46 2467
 Machine 36 outputted 46 2467
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9032,25 +9032,25 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read 2467
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9088,24 +9088,24 @@ Machine 44 has read -1
 Machine 45 has read -1
 Machine 46 has read 1235308492
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9142,24 +9142,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9196,24 +9196,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9250,24 +9250,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9304,24 +9304,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9358,24 +9358,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9412,24 +9412,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9466,24 +9466,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9520,24 +9520,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9574,24 +9574,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9628,24 +9628,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9682,24 +9682,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9736,24 +9736,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9790,24 +9790,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9844,24 +9844,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9898,24 +9898,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -9952,24 +9952,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10006,24 +10006,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10060,24 +10060,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10114,26 +10114,26 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
 Machine 46 outputted 6 186118
 Machine 46 outputted 6 186118
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read 186118
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10170,25 +10170,25 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 6 has read 27980972652292
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10225,24 +10225,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10279,24 +10279,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10333,24 +10333,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10387,24 +10387,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10441,24 +10441,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10495,24 +10495,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10549,24 +10549,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10603,24 +10603,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10657,24 +10657,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10711,24 +10711,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10765,24 +10765,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10819,24 +10819,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10873,24 +10873,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10927,24 +10927,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -10981,24 +10981,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11035,24 +11035,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11089,24 +11089,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11143,24 +11143,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11197,24 +11197,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11251,24 +11251,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11305,24 +11305,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11359,24 +11359,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11413,24 +11413,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11467,24 +11467,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11521,24 +11521,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11575,26 +11575,26 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
 Machine 6 outputted 27 26573
 Machine 6 outputted 27 26573
- cycle
+cycle
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11631,25 +11631,25 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 27 has read 26573
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11687,24 +11687,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11741,24 +11741,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11795,24 +11795,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11849,24 +11849,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11903,24 +11903,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -11957,24 +11957,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12011,24 +12011,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12065,24 +12065,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12119,24 +12119,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12173,24 +12173,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12227,24 +12227,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12281,24 +12281,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12335,24 +12335,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12389,24 +12389,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12443,24 +12443,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12497,24 +12497,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12551,24 +12551,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12605,24 +12605,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12659,24 +12659,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12713,24 +12713,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12767,24 +12767,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12821,24 +12821,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12875,24 +12875,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12929,24 +12929,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -12983,24 +12983,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13037,24 +13037,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13091,24 +13091,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13145,24 +13145,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13199,24 +13199,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13253,24 +13253,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13307,24 +13307,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13361,24 +13361,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13415,24 +13415,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13469,24 +13469,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13523,24 +13523,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13577,24 +13577,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13631,24 +13631,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13685,24 +13685,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13739,24 +13739,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13793,24 +13793,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13847,24 +13847,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13901,24 +13901,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -13955,24 +13955,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14009,24 +14009,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14063,24 +14063,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14117,24 +14117,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14171,24 +14171,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14225,24 +14225,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14279,24 +14279,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14333,24 +14333,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14387,24 +14387,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14441,24 +14441,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14495,24 +14495,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14549,24 +14549,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14603,24 +14603,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14657,24 +14657,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14711,24 +14711,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14765,24 +14765,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14819,24 +14819,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14873,24 +14873,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14927,24 +14927,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -14981,24 +14981,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15035,24 +15035,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15089,24 +15089,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15143,24 +15143,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15197,24 +15197,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15251,24 +15251,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15305,24 +15305,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15359,24 +15359,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15413,24 +15413,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15467,24 +15467,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15521,24 +15521,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15575,24 +15575,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15629,24 +15629,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15683,24 +15683,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15737,24 +15737,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15791,24 +15791,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15845,24 +15845,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15899,24 +15899,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -15953,24 +15953,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16007,24 +16007,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16061,24 +16061,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16115,24 +16115,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16169,24 +16169,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16223,24 +16223,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16277,24 +16277,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16331,24 +16331,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16385,24 +16385,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16439,24 +16439,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16493,24 +16493,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16547,24 +16547,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16601,24 +16601,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16655,24 +16655,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16709,24 +16709,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16763,24 +16763,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16817,24 +16817,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16871,24 +16871,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16925,24 +16925,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -16979,24 +16979,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17033,24 +17033,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17087,24 +17087,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17141,24 +17141,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17195,24 +17195,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17249,24 +17249,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17303,24 +17303,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17357,24 +17357,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17411,24 +17411,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17465,24 +17465,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17519,24 +17519,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17573,24 +17573,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17627,24 +17627,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17681,24 +17681,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17735,24 +17735,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17789,24 +17789,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17843,24 +17843,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17897,24 +17897,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -17951,24 +17951,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -18005,24 +18005,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -18059,24 +18059,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -18113,24 +18113,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -18167,24 +18167,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -18221,24 +18221,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -18275,24 +18275,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -18329,24 +18329,24 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
 Machine 20 has read -1
- cycle
+cycle
 Machine 9 has read -1
 Machine 19 has read -1
 Machine 46 has read -1
- cycle
+cycle
 Machine 3 has read -1
- cycle
+cycle
 Machine 6 has read -1
 Machine 35 has read -1
 Machine 36 has read -1
 Machine 47 has read -1
 Machine 48 has read -1
- cycle
+cycle
 Machine 0 has read -1
 Machine 1 has read -1
 Machine 2 has read -1
@@ -18383,7 +18383,115 @@ Machine 43 has read -1
 Machine 44 has read -1
 Machine 45 has read -1
 Machine 49 has read -1
- cycle
+cycle
+Machine 7 has read -1
+Machine 11 has read -1
+Machine 17 has read -1
+Machine 20 has read -1
+cycle
+Machine 9 has read -1
+Machine 19 has read -1
+Machine 46 has read -1
+cycle
+Machine 3 has read -1
+cycle
+Machine 6 has read -1
+Machine 35 has read -1
+Machine 36 has read -1
+Machine 47 has read -1
+Machine 48 has read -1
+cycle
+Machine 0 has read -1
+Machine 1 has read -1
+Machine 2 has read -1
+Machine 4 has read -1
+Machine 5 has read -1
+Machine 8 has read -1
+Machine 10 has read -1
+Machine 12 has read -1
+Machine 13 has read -1
+Machine 14 has read -1
+Machine 15 has read -1
+Machine 16 has read -1
+Machine 18 has read -1
+Machine 21 has read -1
+Machine 22 has read -1
+Machine 23 has read -1
+Machine 24 has read -1
+Machine 25 has read -1
+Machine 26 has read -1
+Machine 28 has read -1
+Machine 29 has read -1
+Machine 30 has read -1
+Machine 31 has read -1
+Machine 32 has read -1
+Machine 33 has read -1
+Machine 34 has read -1
+Machine 37 has read -1
+Machine 38 has read -1
+Machine 39 has read -1
+Machine 40 has read -1
+Machine 41 has read -1
+Machine 42 has read -1
+Machine 43 has read -1
+Machine 44 has read -1
+Machine 45 has read -1
+Machine 49 has read -1
+cycle
+Machine 7 has read -1
+Machine 11 has read -1
+Machine 17 has read -1
+Machine 20 has read -1
+cycle
+Machine 9 has read -1
+Machine 19 has read -1
+Machine 46 has read -1
+cycle
+Machine 3 has read -1
+cycle
+Machine 6 has read -1
+Machine 35 has read -1
+Machine 36 has read -1
+Machine 47 has read -1
+Machine 48 has read -1
+cycle
+Machine 0 has read -1
+Machine 1 has read -1
+Machine 2 has read -1
+Machine 4 has read -1
+Machine 5 has read -1
+Machine 8 has read -1
+Machine 10 has read -1
+Machine 12 has read -1
+Machine 13 has read -1
+Machine 14 has read -1
+Machine 15 has read -1
+Machine 16 has read -1
+Machine 18 has read -1
+Machine 21 has read -1
+Machine 22 has read -1
+Machine 23 has read -1
+Machine 24 has read -1
+Machine 25 has read -1
+Machine 26 has read -1
+Machine 28 has read -1
+Machine 29 has read -1
+Machine 30 has read -1
+Machine 31 has read -1
+Machine 32 has read -1
+Machine 33 has read -1
+Machine 34 has read -1
+Machine 37 has read -1
+Machine 38 has read -1
+Machine 39 has read -1
+Machine 40 has read -1
+Machine 41 has read -1
+Machine 42 has read -1
+Machine 43 has read -1
+Machine 44 has read -1
+Machine 45 has read -1
+Machine 49 has read -1
+cycle
 Machine 7 has read -1
 Machine 11 has read -1
 Machine 17 has read -1
