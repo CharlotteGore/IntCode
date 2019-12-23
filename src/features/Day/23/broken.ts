@@ -140,9 +140,9 @@ const starOne = (program: number[], params: Record<string, any>) => {
           runners[i].step();
         }
         for (let i = 0; i < instructions.length; i++) {
-          console.log(
-            `Machine ${instructions[i][2]} outputted ${instructions[i][0]} ${instructions[i][1]}`
-          );
+          //console.log(
+          //  `Machine ${instructions[i][2]} outputted ${instructions[i][0]} ${instructions[i][1]}`
+          //);
           io.injectValueToMachine(instructions[i][0], instructions[i][1]);
         }
         instructions = [];

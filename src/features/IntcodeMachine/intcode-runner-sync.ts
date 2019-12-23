@@ -85,6 +85,10 @@ export const syncIntcodeRunner = (
       modes[PARAM.TWO] = p2;
       modes[PARAM.THREE] = p3;
 
+      if (id === 3) {
+        console.log(OPCODE[op], program[pc], program[pc + 1], program[pc + 2]);
+      }
+
       switch (op!) {
         case OPCODE.ADD: {
           let a = getValue(1);
@@ -104,7 +108,7 @@ export const syncIntcodeRunner = (
         }
         case OPCODE.REA: {
           let i = input();
-          console.log(`Machine ${id} has read ${i}`);
+          //console.log(`Machine ${id} has read ${i}`);
           mem[getPointer(1)] = i;
           pc += 1;
           break;
@@ -113,7 +117,7 @@ export const syncIntcodeRunner = (
           let r = getValue(1);
           pc++;
           output(r);
-          console.log(`Machine ${id} has written ${r}`);
+          //console.log(`Machine ${id} has written ${r}`);
           break;
         }
         case OPCODE.JPT: {

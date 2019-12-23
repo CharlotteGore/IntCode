@@ -1,783 +1,201 @@
 cycle
-Machine 0 has read 0
-Machine 1 has read 1
-Machine 2 has read 2
-Machine 3 has read 3
-Machine 4 has read 4
-Machine 5 has read 5
-Machine 6 has read 6
-Machine 7 has read 7
-Machine 8 has read 8
-Machine 9 has read 9
-Machine 10 has read 10
-Machine 11 has read 11
-Machine 12 has read 12
-Machine 13 has read 13
-Machine 14 has read 14
-Machine 15 has read 15
-Machine 16 has read 16
-Machine 17 has read 17
-Machine 18 has read 18
-Machine 19 has read 19
-Machine 20 has read 20
-Machine 21 has read 21
-Machine 22 has read 22
-Machine 23 has read 23
-Machine 24 has read 24
-Machine 25 has read 25
-Machine 26 has read 26
-Machine 27 has read 27
-Machine 28 has read 28
-Machine 29 has read 29
-Machine 30 has read 30
-Machine 31 has read 31
-Machine 32 has read 32
-Machine 33 has read 33
-Machine 34 has read 34
-Machine 35 has read 35
-Machine 36 has read 36
-Machine 37 has read 37
-Machine 38 has read 38
-Machine 39 has read 39
-Machine 40 has read 40
-Machine 41 has read 41
-Machine 42 has read 42
-Machine 43 has read 43
-Machine 44 has read 44
-Machine 45 has read 45
-Machine 46 has read 46
-Machine 47 has read 47
-Machine 48 has read 48
-Machine 49 has read 49
-11cycle
-Machine 0 has read -1
-Machine 1 has read -1
-Machine 2 has read -1
-Machine 3 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 6 has read -1
-Machine 7 has read -1
-Machine 8 has read -1
-Machine 9 has read -1
-Machine 10 has read -1
-Machine 11 has read -1
-Machine 12 has read -1
-Machine 13 has read -1
-Machine 14 has read -1
-Machine 15 has read -1
-Machine 16 has read -1
-Machine 17 has read -1
-Machine 18 has read -1
-Machine 19 has read -1
-Machine 20 has read -1
-Machine 21 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 26 has read -1
-Machine 27 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 33 has read -1
-Machine 34 has read -1
-Machine 35 has read -1
-Machine 36 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 46 has read -1
-Machine 47 has read -1
-Machine 48 has read -1
-Machine 49 has read -1
-11cycle
-Machine 3 has read -1
-Machine 6 has read -1
-Machine 7 has read -1
-Machine 8 has read -1
-Machine 9 has read -1
-Machine 11 has read -1
-Machine 15 has read -1
-Machine 17 has read -1
-Machine 19 has read -1
-Machine 20 has read -1
-Machine 27 has read -1
-Machine 35 has read -1
-Machine 36 has read -1
-Machine 46 has read -1
-Machine 47 has read -1
-Machine 48 has read -1
-5cycle
-Machine 3 has read -1
-Machine 6 has read -1
-Machine 7 has read -1
-Machine 8 has read -1
-Machine 9 has read -1
-Machine 11 has read -1
-Machine 15 has read -1
-Machine 17 has read -1
-Machine 19 has read -1
-Machine 20 has read -1
-Machine 27 has read -1
-Machine 35 has read -1
-Machine 36 has read -1
-Machine 46 has read -1
-Machine 47 has read -1
-Machine 48 has read -1
-5cycle
-Machine 3 has read -1
-Machine 6 has read -1
-Machine 7 has read -1
-Machine 8 has read -1
-Machine 9 has read -1
-Machine 11 has read -1
-Machine 15 has read -1
-Machine 17 has read -1
-Machine 19 has read -1
-Machine 20 has read -1
-Machine 27 has read -1
-Machine 35 has read -1
-Machine 36 has read -1
-Machine 46 has read -1
-Machine 47 has read -1
-Machine 48 has read -1
-5cycle
-Machine 3 has read -1
-Machine 6 has read -1
-Machine 7 has read -1
-Machine 8 has read -1
-Machine 9 has read -1
-Machine 11 has read -1
-Machine 15 has read -1
-Machine 17 has read -1
-Machine 19 has read -1
-Machine 20 has read -1
-Machine 27 has read -1
-Machine 35 has read -1
-Machine 36 has read -1
-Machine 46 has read -1
-Machine 47 has read -1
-Machine 48 has read -1
+REA 62 1001 62
 cycle
-Machine 5 has read -1
-Machine 12 has read -1
-Machine 28 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 44 has read -1
+ADD 62 11 10
 cycle
-Machine 0 has written 46
-Machine 1 has written 8
-Machine 2 has written 11
-Machine 4 has written 11
-Machine 10 has written 48
-Machine 13 has written 19
-Machine 14 has written 8
-Machine 16 has written 19
-Machine 18 has written 19
-Machine 21 has written 8
-Machine 22 has written 11
-Machine 23 has written 7
-Machine 24 has written 11
-Machine 25 has written 3
-Machine 26 has written 11
-Machine 29 has written 35
-Machine 30 has written 8
-Machine 33 has written 3
-Machine 38 has written 7
-Machine 41 has written 9
-Machine 42 has written 36
-Machine 43 has written 11
-Machine 45 has written 9
-Machine 49 has written 3
-2cycle
-Machine 0 has written 4934
-Machine 1 has written 237436
-Machine 2 has written 9489
-Machine 4 has written 15815
-Machine 10 has written 379172
-Machine 13 has written 225436
-Machine 14 has written 178077
-Machine 16 has written 112718
-Machine 18 has written 56359
-Machine 21 has written 59359
-Machine 22 has written 12652
-Machine 23 has written 75398
-Machine 24 has written 3163
-Machine 25 has written 295985
-Machine 26 has written 6326
-Machine 29 has written 292542
-Machine 30 has written 118718
-Machine 33 has written 59197
-Machine 38 has written 37699
-Machine 41 has written 200877
-Machine 42 has written 175148
-Machine 43 has written 18978
-Machine 45 has written 66959
-Machine 49 has written 118394
+SFT 2231 105 1
 cycle
-Machine 0 has written 22651
-Machine 1 has written 173
-Machine 2 has written 2
-Machine 4 has written 1103
-Machine 10 has written -3
-Machine 13 has written 10
-Machine 14 has written 1
-Machine 16 has written 5
-Machine 18 has written 125
-Machine 21 has written 3
-Machine 22 has written 4
-Machine 23 has written 603
-Machine 24 has written 467
-Machine 25 has written -263
-Machine 26 has written 6679
-Machine 29 has written 160
-Machine 30 has written 301
-Machine 33 has written 11
-Machine 38 has written 401
-Machine 41 has written 2953
-Machine 42 has written 37
-Machine 43 has written 59
-Machine 45 has written 26
-Machine 49 has written 23
-Machine 3 has read -1
-Machine 6 has read -1
-Machine 7 has read -1
-Machine 8 has read -1
-Machine 9 has read -1
-Machine 11 has read -1
-Machine 15 has read -1
-Machine 17 has read -1
-Machine 19 has read -1
-Machine 20 has read -1
-Machine 27 has read -1
-Machine 35 has read -1
-Machine 36 has read -1
-Machine 46 has read -1
-Machine 47 has read -1
-Machine 48 has read -1
+JPT 1 14 2005
 cycle
-Machine 5 has read -1
-Machine 12 has read -1
-Machine 28 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 44 has read -1
-4cycle
-Machine 3 has read 295985
-Machine 6 has read -1
-Machine 7 has read 75398
-Machine 8 has read 237436
-Machine 9 has read 200877
-Machine 11 has read 9489
-Machine 15 has read -1
-Machine 17 has read -1
-Machine 19 has read 225436
-Machine 20 has read -1
-Machine 27 has read -1
-Machine 35 has read 292542
-Machine 36 has read 175148
-Machine 46 has read 4934
-Machine 47 has read -1
-Machine 48 has read 379172
+ADD 0 59197 66
 cycle
-Machine 1 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 18 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
+ADD 0 5 67
 cycle
-Machine 0 has written 17
-Machine 2 has written 47
-Machine 13 has written 35
-Machine 14 has written 9
-Machine 16 has written 19
-Machine 21 has written 3
-Machine 26 has written 48
-Machine 33 has written 36
+ADD 1993 0 68
 cycle
-Machine 3 has read -263
-Machine 7 has read 603
-Machine 8 has read 173
-Machine 9 has read 2953
-Machine 11 has read 2
-Machine 19 has read 10
-Machine 35 has read 160
-Machine 36 has read 37
-Machine 46 has read 22651
-Machine 48 has read -3
+ADD 0 302 69
 cycle
-Machine 0 has written 17351
-Machine 2 has written 877
-Machine 13 has written 243785
-Machine 14 has written 133918
-Machine 16 has written 169077
-Machine 21 has written 177591
-Machine 26 has written 94793
-Machine 33 has written 43787
+MUL 1 1 71
 cycle
-Machine 0 has written 22651
-Machine 2 has written 2
-Machine 13 has written 10
-Machine 14 has written 1
-Machine 16 has written 5
-Machine 21 has written 3
-Machine 26 has written 6679
-Machine 33 has written 11
-Machine 6 has read -1
-Machine 15 has read -1
-Machine 17 has read -1
-Machine 20 has read -1
-Machine 27 has read -1
-Machine 47 has read -1
+MUL 2003 1 72
 cycle
-Machine 1 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 18 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
-4cycle
-Machine 6 has read -1
-Machine 15 has read -1
-Machine 17 has read 17351
-Machine 20 has read -1
-Machine 27 has read -1
-Machine 47 has read 877
+JPT 1 73 0
 cycle
-Machine 1 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 13 has read -1
-Machine 18 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 26 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 33 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
+REA 64 1008 64
 cycle
-Machine 0 has written 17
-Machine 2 has written 36
-Machine 14 has written 3
-Machine 16 has written 35
-Machine 21 has written 7
+JPE 64 -1 62
 cycle
-Machine 17 has read 22651
-Machine 47 has read 2
+JPF 62 88 1006
 cycle
-Machine 0 has written 34702
-Machine 2 has written 87574
-Machine 14 has written 236788
-Machine 16 has written 97514
-Machine 21 has written 150796
+JPF 61 170 1106
 cycle
-Machine 0 has written 22651
-Machine 2 has written 2
-Machine 14 has written 1
-Machine 16 has written 5
-Machine 21 has written 3
-Machine 6 has read -1
-Machine 15 has read -1
-Machine 20 has read -1
-Machine 27 has read -1
+MUL 1 1 61
 cycle
-Machine 1 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 13 has read -1
-Machine 18 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 26 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 33 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
-4cycle
-Machine 6 has read -1
-Machine 15 has read -1
-Machine 20 has read -1
-Machine 27 has read -1
+ADD 0 0 63
 cycle
-Machine 1 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 13 has read -1
-Machine 16 has read -1
-Machine 18 has read -1
-Machine 21 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 26 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 33 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
+JLT 63 67 62
 cycle
-Machine 0 has written 20
-Machine 2 has written 48
-Machine 14 has written 7
-2cycle
-Machine 0 has written 23057
-Machine 2 has written 189586
-Machine 14 has written 113097
+JPF 62 203 1002
 cycle
-Machine 0 has written 22651
-Machine 2 has written 2
-Machine 14 has written 1
-Machine 6 has read -1
-Machine 15 has read -1
-Machine 20 has read -1
-Machine 27 has read -1
+MUL 63 2 194
 cycle
-Machine 1 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 13 has read -1
-Machine 16 has read -1
-Machine 18 has read -1
-Machine 21 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 26 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 33 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
-4cycle
-Machine 6 has read -1
-Machine 15 has read -1
-Machine 20 has read 23057
-Machine 27 has read -1
+ADD 68 194 194
 cycle
-Machine 1 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 13 has read -1
-Machine 16 has read -1
-Machine 18 has read -1
-Machine 21 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 26 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 33 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
+JPF 1993 73 1001
 cycle
-Machine 0 has written 20
-Machine 2 has written 35
-Machine 14 has written 48
+REA 64 1008 64
 cycle
-Machine 20 has read 22651
+JPE 64 -1 62
 cycle
-Machine 0 has written 46114
-Machine 2 has written 48757
-Machine 14 has written 284379
+JPF 62 88 1006
 cycle
-Machine 0 has written 22651
-Machine 2 has written 2
-Machine 14 has written 1
-Machine 6 has read -1
-Machine 15 has read -1
-Machine 27 has read -1
+JPF 61 170 1106
 cycle
-Machine 1 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 13 has read -1
-Machine 16 has read -1
-Machine 18 has read -1
-Machine 21 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 26 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 33 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
-4cycle
-Machine 6 has read -1
-Machine 15 has read -1
-Machine 27 has read -1
+JPF 0 73 3
 cycle
-Machine 1 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 13 has read -1
-Machine 14 has read -1
-Machine 16 has read -1
-Machine 18 has read -1
-Machine 21 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 26 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 33 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
+REA 64 1008 64
 cycle
-Machine 0 has written 20
-Machine 2 has written 35
-2cycle
-Machine 0 has written 69171
-Machine 2 has written 146271
+JPE 64 -1 62
 cycle
-Machine 0 has written 22651
-Machine 2 has written 2
-Machine 6 has read -1
-Machine 15 has read -1
-Machine 27 has read -1
+JPF 62 88 1006
 cycle
-Machine 1 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 13 has read -1
-Machine 14 has read -1
-Machine 16 has read -1
-Machine 18 has read -1
-Machine 21 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 26 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 33 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
-4cycle
-Machine 6 has read -1
-Machine 15 has read -1
-Machine 27 has read -1
+JPF 61 170 1106
 cycle
-index.ts:118 false
-Machine 0 has read -1
-Machine 1 has read -1
-Machine 2 has read -1
-Machine 4 has read -1
-Machine 5 has read -1
-Machine 10 has read -1
-Machine 12 has read -1
-Machine 13 has read -1
-Machine 14 has read -1
-Machine 16 has read -1
-Machine 18 has read -1
-Machine 21 has read -1
-Machine 22 has read -1
-Machine 23 has read -1
-Machine 24 has read -1
-Machine 25 has read -1
-Machine 26 has read -1
-Machine 28 has read -1
-Machine 29 has read -1
-Machine 30 has read -1
-Machine 31 has read -1
-Machine 32 has read -1
-Machine 33 has read -1
-Machine 34 has read -1
-Machine 37 has read -1
-Machine 38 has read -1
-Machine 39 has read -1
-Machine 40 has read -1
-Machine 41 has read -1
-Machine 42 has read -1
-Machine 43 has read -1
-Machine 44 has read -1
-Machine 45 has read -1
-Machine 49 has read -1
+JPF 0 73 3
+cycle
+REA 64 1008 64
+cycle
+JPE 64 -1 62
+cycle
+JPF 62 88 1006
+cycle
+JPF 61 170 1106
+cycle
+JPF 0 73 3
+cycle
+REA 64 1008 64
+cycle
+JPE 64 -1 62
+cycle
+JPF 62 88 1006
+cycle
+JPF 61 170 1106
+cycle
+JPF 0 73 3
+cycle
+REA 64 1008 64
+cycle
+JPE 64 -1 62
+cycle
+JPF 62 88 1006
+cycle
+JPF 61 170 1106
+cycle
+JPF 0 73 3
+cycle
+REA 64 1008 64
+cycle
+JPE 64 -1 62
+cycle
+JPF 62 88 1006
+cycle
+REA 65 20102 1
+cycle
+MUL 1 64 1
+cycle
+ADD 0 66 2
+cycle
+ADD 0 105 0
+cycle
+JPT 1 436 1201
+cycle
+SFT 8 21202 -6
+cycle
+MUL -6 10 -5
+cycle
+JLT -7 -5 -5
+cycle
+JPT -5 521 21102
+cycle
+MUL -1 1 -4
+cycle
+MUL -6 -1 -6
+cycle
+JLT -7 0 -5
+cycle
+JPT -5 547 22201
+cycle
+ADD -7 -6 -7
+cycle
+ADD -4 1 -4
+cycle
+JPF 0 529 22102
+cycle
+JLT -7 0 -5
+cycle
+JPT -5 547 22201
+cycle
+ADD -7 -6 -7
+cycle
+ADD -4 1 -4
+cycle
+JPF 0 529 22102
+cycle
+JLT -7 0 -5
+cycle
+JPT -5 547 22201
+cycle
+ADD -7 -6 -7
+cycle
+ADD -4 1 -4
+cycle
+JPF 0 529 22102
+cycle
+JLT -7 0 -5
+cycle
+JPT -5 547 22201
+cycle
+ADD -7 -6 -7
+cycle
+ADD -4 1 -4
+cycle
+JPF 0 529 22102
+cycle
+JLT -7 0 -5
+cycle
+JPT -5 547 22201
+cycle
+ADD -7 -6 -7
+cycle
+ADD -4 1 -4
+cycle
+JPF 0 529 22102
+cycle
+JLT -7 0 -5
+cycle
+JPT -5 547 22201
+cycle
+ADD -7 -6 -7
+cycle
+ADD -4 1 -4
+cycle
+JPF 0 529 22102
+cycle
+JLT -7 0 -5
+cycle
+JPT -5 547 22201
+cycle
+MUL 1 -4 -7
+cycle
+SFT -8 2105 1
+cycle
+JPT 1 0 109
+cycle
+ADD 1 -1 64
+cycle
+JLT 64 0 62
+cycle
+JPT 62 73 7
+cycle
+JLT 64 67 62
+index.ts:151 false

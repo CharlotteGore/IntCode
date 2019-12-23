@@ -108,6 +108,15 @@ export const intcodeRunner = (
           if (control) await control.next();
         }
 
+        if (input.getId() === 3) {
+          console.log(
+            OPCODE[op],
+            program[pc],
+            program[pc + 1],
+            program[pc + 2]
+          );
+        }
+
         switch (op!) {
           case OPCODE.ADD: {
             let a = getValue(1);
