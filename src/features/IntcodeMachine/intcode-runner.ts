@@ -141,6 +141,7 @@ export const intcodeRunner = (
             let r = getValue(1);
             pc++;
             output.addItem(r);
+            console.log(`Machine ${input.getId()} has written ${r}`);
             break;
           }
           case OPCODE.JPT: {

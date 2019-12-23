@@ -113,6 +113,7 @@ export const syncIntcodeRunner = (
           let r = getValue(1);
           pc++;
           output(r);
+          console.log(`Machine ${id} has written ${r}`);
           break;
         }
         case OPCODE.JPT: {
