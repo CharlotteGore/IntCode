@@ -42,6 +42,7 @@ export const intcodeRunner = (
   let rb: RelativeBase = initialRB;
   let control: AsyncGenerator<boolean, boolean, boolean>;
   let mem = program;
+  let gen = input.generator();
 
   let modes: ParameterModes = {
     [PARAM.ONE]: MODE.POSITION,
@@ -125,7 +126,8 @@ export const intcodeRunner = (
             break;
           }
           case OPCODE.REA: {
-            let i = await input.generator().next();
+            let i = await gen.next();
+
             if (i.done === true) {
               console.warn("Shutting down runner because there is no input");
               return null;
@@ -137,6 +139,7 @@ export const intcodeRunner = (
           case OPCODE.WRI: {
             let r = getValue(1);
             pc++;
+            console.log("sending value");
             output.addItem(r);
             break;
           }
@@ -146,7 +149,6 @@ export const intcodeRunner = (
             } else {
               pc += 2;
             }
-
             break;
           }
           case OPCODE.JPF: {

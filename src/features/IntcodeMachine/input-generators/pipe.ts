@@ -1,13 +1,15 @@
-export type IntcodePipe = {
+export interface IntcodePipe {
   generator: () => AsyncGenerator<number, null, boolean>;
   addItem: (item: number) => void;
   close: () => void;
   setId: (id: string | number) => void;
   getId: () => string | number | null;
-};
+  setDefaultOutput: (value: number) => void;
+}
 
 const createIntcodePipe = (array: Array<number | null> = []): IntcodePipe => {
   let _id: string | number | null = null;
+  let defaultOutput: number | null = null;
   async function* generator(): AsyncGenerator<number, null, boolean> {
     while (true) {
       if (array.length) {
@@ -16,6 +18,8 @@ const createIntcodePipe = (array: Array<number | null> = []): IntcodePipe => {
           return null;
         }
         yield next!;
+      } else if (defaultOutput !== null) {
+        yield defaultOutput;
       } else {
         await itemAvailable();
       }
@@ -23,6 +27,10 @@ const createIntcodePipe = (array: Array<number | null> = []): IntcodePipe => {
   }
 
   let unblocker: (() => void) | null = null;
+
+  const setDefaultOutput = (value: number) => {
+    defaultOutput = value;
+  };
 
   const itemAvailable = async (): Promise<boolean> => {
     return new Promise(resolve => {
@@ -54,7 +62,8 @@ const createIntcodePipe = (array: Array<number | null> = []): IntcodePipe => {
     addItem,
     close,
     getId,
-    setId
+    setId,
+    setDefaultOutput
   };
 };
 

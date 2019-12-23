@@ -3,6 +3,12 @@ import tests from "./tests";
 import { toIntArray, toLines } from "../../Helpers/parsers";
 
 import { TestFunction } from "../hooks";
+import {
+  createMachine,
+  createDebugMachine
+} from "../../IntcodeMachine/machine";
+import { IntcodePipe } from "../../IntcodeMachine/input-generators/pipe";
+import Debugger from "../../IntcodeMachine/intcode-debugger";
 
 const runner: TestFunction = async (star: string) => {
   let output: Array<string> = [];
@@ -46,10 +52,68 @@ const runner: TestFunction = async (star: string) => {
   }
 };
 
-const starOne = (input: string, params: Record<string, any>) => {
+const starOne = (program: number[], params: Record<string, any>) => {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Not Implemented");
+    setTimeout(async () => {
+      let inputs: IntcodePipe[] = [];
+      // let outputs: IntcodePipe[] = [];
+      let debuggers: Debugger[] = [];
+      let done = false;
+
+      // set up the machines
+      for (let i = 0; i < 50; i++) {
+        const { input, output, debug } = createDebugMachine({ program });
+        input.setDefaultOutput(-1);
+        input.addItem(i);
+        inputs.push(input);
+        // outputs.push(output);
+        debuggers.push(debug);
+        // eslint-disable-next-line no-loop-func
+        setTimeout(async () => {
+          let gen = output.generator();
+          while (true) {
+            let val = await gen.next();
+            if (val.done) {
+              break;
+            } else {
+              if (val.value === 255) {
+                await gen.next();
+                let y = await gen.next();
+                done = true;
+                resolve(y.value!);
+                break;
+              } else {
+                let x = await gen.next();
+                let y = await gen.next();
+                inputs[val.value].addItem(x.value!);
+                inputs[val.value].addItem(y.value!);
+                console.log(
+                  `Machine ${i} emitted ${val.value}, ${x.value} and ${y.value}`
+                );
+              }
+            }
+          }
+        }, 0);
+      }
+
+      let stepAll = () => {
+        return new Promise(res => {
+          setTimeout(() => {
+            console.log("cycle");
+            for (let i = 0; i < 50; i++) {
+              debuggers[i].step();
+            }
+            res();
+          }, 1);
+        });
+      };
+
+      debugger;
+
+      while (!done) {
+        await stepAll();
+      }
+      // resolve("Not Implemented");
     }, 1000);
   });
 };

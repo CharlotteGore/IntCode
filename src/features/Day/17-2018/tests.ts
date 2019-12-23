@@ -9,7 +9,7 @@ export default {
       x=498, y=10..13
       x=504, y=10..13
       y=13, x=498..504`,
-      expected: `57`,
+      expected: 57,
       params: {
         starOne: {
           water: [500, 0]
