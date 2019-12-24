@@ -134,7 +134,7 @@ const starOne = (program: number[], params: Record<string, any>) => {
         io.injectValueToMachine(i, i);
       }
 
-      let count = 100;
+      let count = 500;
       while (!done && count > 0) {
         console.log("cycle");
         for (let i = 0; i < 50; i++) {
