@@ -68,6 +68,8 @@ export const intcodeRunner = (
     }
   };
 
+  let iterations = 0;
+
   return {
     cloneData: (): [number[], number, number] => [
       mem.slice(0, mem.length - 1),
@@ -85,6 +87,7 @@ export const intcodeRunner = (
       }
 
       while (true) {
+        iterations++;
         let inst = mem[pc++];
         let op: OPCODE | null;
 
@@ -101,15 +104,9 @@ export const intcodeRunner = (
           draft[PARAM.THREE] = p3;
         });
 
-        if (debug) {
-          debug.pc = pc - 1;
-          debug.op = op;
-          debug.modes = modes;
-          if (control) await control.next();
-        }
-
         if (input.getId() === 3) {
           console.log(
+            iterations,
             OPCODE[op],
             program[pc],
             program[pc + 1],
@@ -136,7 +133,7 @@ export const intcodeRunner = (
           }
           case OPCODE.REA: {
             let i = await gen.next();
-            console.log(`Machine ${input.getId()} has read ${i.value}`);
+            //console.log(`Machine ${input.getId()} has read ${i.value}`);
 
             if (i.done === true) {
               console.warn("Shutting down runner because there is no input");
@@ -150,7 +147,7 @@ export const intcodeRunner = (
             let r = getValue(1);
             pc++;
             output.addItem(r);
-            console.log(`Machine ${input.getId()} has written ${r}`);
+            //console.log(`Machine ${input.getId()} has written ${r}`);
             break;
           }
           case OPCODE.JPT: {
@@ -208,6 +205,13 @@ export const intcodeRunner = (
           default: {
             throw new Error(`Invalid Op Code ${op!}`);
           }
+        }
+
+        if (debug) {
+          debug.pc = pc - 1;
+          debug.op = op;
+          debug.modes = modes;
+          if (control) await control.next();
         }
       }
     }

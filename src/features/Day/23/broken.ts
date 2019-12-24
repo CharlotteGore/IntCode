@@ -134,7 +134,8 @@ const starOne = (program: number[], params: Record<string, any>) => {
         io.injectValueToMachine(i, i);
       }
 
-      while (!done) {
+      let count = 100;
+      while (!done && count > 0) {
         console.log("cycle");
         for (let i = 0; i < 50; i++) {
           runners[i].step();
@@ -146,6 +147,7 @@ const starOne = (program: number[], params: Record<string, any>) => {
           io.injectValueToMachine(instructions[i][0], instructions[i][1]);
         }
         instructions = [];
+        count--;
       }
       // resolve("Not Implemented");
     }, 1000);

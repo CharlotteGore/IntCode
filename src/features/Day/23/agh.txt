@@ -1,201 +1,201 @@
 cycle
-REA 62 1001 62
+1 "REA" 62 1001 62
 cycle
-ADD 62 11 10
+2 "ADD" 62 11 10
 cycle
-SFT 2231 105 1
+3 "SFT" 2231 105 1
 cycle
-JPT 1 14 2005
+4 "JPT" 1 14 2005
 cycle
-ADD 0 59197 66
+5 "ADD" 0 59197 66
 cycle
-ADD 0 5 67
+6 "ADD" 0 5 67
 cycle
-ADD 1993 0 68
+7 "ADD" 1993 0 68
 cycle
-ADD 0 302 69
+8 "ADD" 0 302 69
 cycle
-MUL 1 1 71
+9 "MUL" 1 1 71
 cycle
-MUL 2003 1 72
+10 "MUL" 2003 1 72
 cycle
-JPT 1 73 0
+11 "JPT" 1 73 0
 cycle
-REA 64 1008 64
+12 "REA" 64 1008 64
 cycle
-JPE 64 -1 62
+13 "JPE" 64 -1 62
 cycle
-JPF 62 88 1006
+14 "JPF" 62 88 1006
 cycle
-JPF 61 170 1106
+15 "JPF" 61 170 1106
 cycle
-MUL 1 1 61
+16 "MUL" 1 1 61
 cycle
-ADD 0 0 63
+17 "ADD" 0 0 63
 cycle
-JLT 63 67 62
+18 "JLT" 63 67 62
 cycle
-JPF 62 203 1002
+19 "JPF" 62 203 1002
 cycle
-MUL 63 2 194
+20 "MUL" 63 2 194
 cycle
-ADD 68 194 194
+21 "ADD" 68 194 194
 cycle
-JPF 1993 73 1001
+22 "JPF" 1993 73 1001
 cycle
-REA 64 1008 64
+23 "REA" 64 1008 64
 cycle
-JPE 64 -1 62
+24 "JPE" 64 -1 62
 cycle
-JPF 62 88 1006
+25 "JPF" 62 88 1006
 cycle
-JPF 61 170 1106
+26 "JPF" 61 170 1106
 cycle
-JPF 0 73 3
+27 "JPF" 0 73 3
 cycle
-REA 64 1008 64
+28 "REA" 64 1008 64
 cycle
-JPE 64 -1 62
+29 "JPE" 64 -1 62
 cycle
-JPF 62 88 1006
+30 "JPF" 62 88 1006
 cycle
-JPF 61 170 1106
+31 "JPF" 61 170 1106
 cycle
-JPF 0 73 3
+32 "JPF" 0 73 3
 cycle
-REA 64 1008 64
+33 "REA" 64 1008 64
 cycle
-JPE 64 -1 62
+34 "JPE" 64 -1 62
 cycle
-JPF 62 88 1006
+35 "JPF" 62 88 1006
 cycle
-JPF 61 170 1106
+36 "JPF" 61 170 1106
 cycle
-JPF 0 73 3
+37 "JPF" 0 73 3
 cycle
-REA 64 1008 64
+38 "REA" 64 1008 64
 cycle
-JPE 64 -1 62
+39 "JPE" 64 -1 62
 cycle
-JPF 62 88 1006
+40 "JPF" 62 88 1006
 cycle
-JPF 61 170 1106
+41 "JPF" 61 170 1106
 cycle
-JPF 0 73 3
+42 "JPF" 0 73 3
 cycle
-REA 64 1008 64
+43 "REA" 64 1008 64
 cycle
-JPE 64 -1 62
+44 "JPE" 64 -1 62
 cycle
-JPF 62 88 1006
+45 "JPF" 62 88 1006
 cycle
-JPF 61 170 1106
+46 "JPF" 61 170 1106
 cycle
-JPF 0 73 3
+47 "JPF" 0 73 3
 cycle
-REA 64 1008 64
+48 "REA" 64 1008 64
 cycle
-JPE 64 -1 62
+49 "JPE" 64 -1 62
 cycle
-JPF 62 88 1006
+50 "JPF" 62 88 1006
 cycle
-REA 65 20102 1
+51 "REA" 65 20102 1
 cycle
-MUL 1 64 1
+52 "MUL" 1 64 1
 cycle
-ADD 0 66 2
+53 "ADD" 0 66 2
 cycle
-ADD 0 105 0
+54 "ADD" 0 105 0
 cycle
-JPT 1 436 1201
+55 "JPT" 1 436 1201
 cycle
-SFT 8 21202 -6
+56 "SFT" 8 21202 -6
 cycle
-MUL -6 10 -5
+57 "MUL" -6 10 -5
 cycle
-JLT -7 -5 -5
+58 "JLT" -7 -5 -5
 cycle
-JPT -5 521 21102
+59 "JPT" -5 521 21102
 cycle
-MUL -1 1 -4
+60 "MUL" -1 1 -4
 cycle
-MUL -6 -1 -6
+61 "MUL" -6 -1 -6
 cycle
-JLT -7 0 -5
+62 "JLT" -7 0 -5
 cycle
-JPT -5 547 22201
+63 "JPT" -5 547 22201
 cycle
-ADD -7 -6 -7
+64 "ADD" -7 -6 -7
 cycle
-ADD -4 1 -4
+65 "ADD" -4 1 -4
 cycle
-JPF 0 529 22102
+66 "JPF" 0 529 22102
 cycle
-JLT -7 0 -5
+67 "JLT" -7 0 -5
 cycle
-JPT -5 547 22201
+68 "JPT" -5 547 22201
 cycle
-ADD -7 -6 -7
+69 "ADD" -7 -6 -7
 cycle
-ADD -4 1 -4
+70 "ADD" -4 1 -4
 cycle
-JPF 0 529 22102
+71 "JPF" 0 529 22102
 cycle
-JLT -7 0 -5
+72 "JLT" -7 0 -5
 cycle
-JPT -5 547 22201
+73 "JPT" -5 547 22201
 cycle
-ADD -7 -6 -7
+74 "ADD" -7 -6 -7
 cycle
-ADD -4 1 -4
+75 "ADD" -4 1 -4
 cycle
-JPF 0 529 22102
+76 "JPF" 0 529 22102
 cycle
-JLT -7 0 -5
+77 "JLT" -7 0 -5
 cycle
-JPT -5 547 22201
+78 "JPT" -5 547 22201
 cycle
-ADD -7 -6 -7
+79 "ADD" -7 -6 -7
 cycle
-ADD -4 1 -4
+80 "ADD" -4 1 -4
 cycle
-JPF 0 529 22102
+81 "JPF" 0 529 22102
 cycle
-JLT -7 0 -5
+82 "JLT" -7 0 -5
 cycle
-JPT -5 547 22201
+83 "JPT" -5 547 22201
 cycle
-ADD -7 -6 -7
+84 "ADD" -7 -6 -7
 cycle
-ADD -4 1 -4
+85 "ADD" -4 1 -4
 cycle
-JPF 0 529 22102
+86 "JPF" 0 529 22102
 cycle
-JLT -7 0 -5
+87 "JLT" -7 0 -5
 cycle
-JPT -5 547 22201
+88 "JPT" -5 547 22201
 cycle
-ADD -7 -6 -7
+89 "ADD" -7 -6 -7
 cycle
-ADD -4 1 -4
+90 "ADD" -4 1 -4
 cycle
-JPF 0 529 22102
+91 "JPF" 0 529 22102
 cycle
-JLT -7 0 -5
+92 "JLT" -7 0 -5
 cycle
-JPT -5 547 22201
+93 "JPT" -5 547 22201
 cycle
-MUL 1 -4 -7
+94 "MUL" 1 -4 -7
 cycle
-SFT -8 2105 1
+95 "SFT" -8 2105 1
 cycle
-JPT 1 0 109
+96 "JPT" 1 0 109
 cycle
-ADD 1 -1 64
+97 "ADD" 1 -1 64
 cycle
-JLT 64 0 62
+98 "JLT" 64 0 62
 cycle
-JPT 62 73 7
+99 "JPT" 62 73 7
 cycle
-JLT 64 67 62
-index.ts:151 false
+false
+100 "JLT" 64 67 62

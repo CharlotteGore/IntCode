@@ -110,9 +110,12 @@ const starOne = (program: number[], params: Record<string, any>) => {
 
       debugger;
 
-      while (!done) {
+      let count = 100;
+      while (!done && count > 0) {
         await stepAll();
+        count--;
       }
+      console.log(done);
       // resolve("Not Implemented");
     }, 1000);
   });

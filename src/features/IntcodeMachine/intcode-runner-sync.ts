@@ -64,9 +64,10 @@ export const syncIntcodeRunner = (
   };
 
   let halted: boolean = false;
-
+  let iterations = 0;
   return {
     step: () => {
+      iterations++;
       if (halted) {
         console.warn("machine is done");
         return false;
@@ -86,7 +87,13 @@ export const syncIntcodeRunner = (
       modes[PARAM.THREE] = p3;
 
       if (id === 3) {
-        console.log(OPCODE[op], program[pc], program[pc + 1], program[pc + 2]);
+        console.log(
+          iterations,
+          OPCODE[op],
+          program[pc],
+          program[pc + 1],
+          program[pc + 2]
+        );
       }
 
       switch (op!) {
