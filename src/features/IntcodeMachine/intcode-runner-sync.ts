@@ -1,6 +1,3 @@
-import Debugger from "./intcode-debugger";
-import produce from "immer";
-
 export enum MODE {
   POSITION = 0,
   IMMEDIATE = 1,
@@ -86,7 +83,7 @@ export const syncIntcodeRunner = (
       modes[PARAM.TWO] = p2;
       modes[PARAM.THREE] = p3;
 
-      if (id === 3) {
+      if (id === 0) {
         console.log(
           iterations,
           OPCODE[op],

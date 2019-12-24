@@ -104,7 +104,7 @@ export const intcodeRunner = (
           draft[PARAM.THREE] = p3;
         });
 
-        if (input.getId() === 3) {
+        if (input.getId() === 0) {
           console.log(
             iterations,
             OPCODE[op],

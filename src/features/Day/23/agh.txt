@@ -5,21 +5,21 @@ cycle
 cycle
 3 "SFT" 2231 105 1
 cycle
-4 "JPT" 1 14 2005
+4 "JPT" 1 11 2005
 cycle
-5 "ADD" 0 59197 66
+5 "MUL" 1 22171 66
 cycle
-6 "ADD" 0 5 67
+6 "ADD" 1 0 67
 cycle
-7 "ADD" 1993 0 68
+7 "MUL" 2032 1 68
 cycle
-8 "ADD" 0 302 69
+8 "ADD" 556 0 69
 cycle
-9 "MUL" 1 1 71
+9 "MUL" 1 6 71
 cycle
-10 "MUL" 2003 1 72
+10 "MUL" 2034 1 72
 cycle
-11 "JPT" 1 73 0
+11 "JPF" 0 73 1
 cycle
 12 "REA" 64 1008 64
 cycle
@@ -41,49 +41,49 @@ cycle
 cycle
 21 "ADD" 68 194 194
 cycle
-22 "JPF" 1993 73 1001
+22 "JPF" 2032 73 1001
 cycle
-23 "REA" 64 1008 64
+23 "ADD" 63 1 63
 cycle
-24 "JPE" 64 -1 62
+24 "JPT" 1 178 21101
 cycle
-25 "JPF" 62 88 1006
+25 "JLT" 63 67 62
 cycle
-26 "JPF" 61 170 1106
+26 "JPF" 62 203 1002
 cycle
-27 "JPF" 0 73 3
+27 "ADD" 0 210 0
 cycle
-28 "REA" 64 1008 64
+28 "JPT" 1 69 2101
 cycle
-29 "JPE" 64 -1 62
+29 "SFT" 1 101 1
 cycle
-30 "JPF" 62 88 1006
+30 "ADD" 1 68 564
 cycle
-31 "JPF" 61 170 1106
+31 "ADD" 0 2033 0
 cycle
-32 "JPF" 0 73 3
+32 "SFT" -1 2105 1
 cycle
-33 "REA" 64 1008 64
+33 "JPT" 1 0 1102
 cycle
-34 "JPE" 64 -1 62
+34 "ADD" 0 1 70
 cycle
-35 "JPF" 62 88 1006
+35 "MUL" 0 1 63
 cycle
-36 "JPF" 61 170 1106
+36 "JLT" 63 71 62
 cycle
-37 "JPF" 0 73 3
+37 "JPF" 62 250 1002
 cycle
-38 "REA" 64 1008 64
+38 "MUL" 63 2 234
 cycle
-39 "JPE" 64 -1 62
+39 "ADD" 72 234 234
 cycle
-40 "JPF" 62 88 1006
+40 "WRI" 2034 101 1
 cycle
-41 "JPF" 61 170 1106
+41 "ADD" 1 234 240
 cycle
-42 "JPF" 0 73 3
+42 "WRI" 2035 4 70
 cycle
-43 "REA" 64 1008 64
+43 "WRI" 70 1001 63
 Machine 0 emitted 46 4934
 Machine 0 emitted 46 22651
 Machine 1 emitted 8 237436
@@ -133,25 +133,25 @@ Machine 45 emitted 9 26
 Machine 49 emitted 3 118394
 Machine 49 emitted 3 23
 cycle
-44 "JPE" 64 -1 62
+44 "ADD" 63 1 63
 cycle
-45 "JPF" 62 88 1006
+45 "JPF" 0 218 1105
 cycle
-46 "JPF" 61 170 1106
+46 "JLT" 63 71 62
 cycle
-47 "JPF" 0 73 3
+47 "JPF" 62 250 1002
 cycle
-48 "REA" 64 1008 64
+48 "MUL" 63 2 234
 cycle
-49 "JPE" 64 -1 62
+49 "ADD" 72 234 234
 cycle
-50 "JPF" 62 88 1006
+50 "WRI" 2036 101 1
 cycle
-51 "REA" 65 20102 1
+51 "ADD" 1 234 240
 cycle
-52 "MUL" 1 64 1
+52 "WRI" 2037 4 70
 cycle
-53 "ADD" 0 66 2
+53 "WRI" 70 1001 63
 Machine 0 emitted 17 17351
 Machine 0 emitted 17 22651
 Machine 2 emitted 47 877
@@ -169,25 +169,25 @@ Machine 26 emitted 48 6679
 Machine 33 emitted 36 43787
 Machine 33 emitted 36 11
 cycle
-54 "ADD" 0 105 0
+54 "ADD" 63 1 63
 cycle
-55 "JPT" 1 436 1201
+55 "JPF" 0 218 1105
 cycle
-56 "SFT" 8 21202 -6
+56 "JLT" 63 71 62
 cycle
-57 "MUL" -6 10 -5
+57 "JPF" 62 250 1002
 cycle
-58 "JLT" -7 -5 -5
+58 "MUL" 63 2 234
 cycle
-59 "JPT" -5 521 21102
+59 "ADD" 72 234 234
 cycle
-60 "MUL" -1 1 -4
+60 "WRI" 2038 101 1
 cycle
-61 "MUL" -6 -1 -6
+61 "ADD" 1 234 240
 cycle
-62 "JLT" -7 0 -5
+62 "WRI" 2039 4 70
 cycle
-63 "JPT" -5 547 22201
+63 "WRI" 70 1001 63
 Machine 0 emitted 17 34702
 Machine 0 emitted 17 22651
 Machine 2 emitted 36 87574
@@ -199,25 +199,25 @@ Machine 16 emitted 35 5
 Machine 21 emitted 7 150796
 Machine 21 emitted 7 3
 cycle
-64 "ADD" -7 -6 -7
+64 "ADD" 63 1 63
 cycle
-65 "ADD" -4 1 -4
+65 "JPF" 0 218 1105
 cycle
-66 "JPF" 0 529 22102
+66 "JLT" 63 71 62
 cycle
-67 "JLT" -7 0 -5
+67 "JPF" 62 250 1002
 cycle
-68 "JPT" -5 547 22201
+68 "MUL" 63 2 234
 cycle
-69 "ADD" -7 -6 -7
+69 "ADD" 72 234 234
 cycle
-70 "ADD" -4 1 -4
+70 "WRI" 2040 101 1
 cycle
-71 "JPF" 0 529 22102
+71 "ADD" 1 234 240
 cycle
-72 "JLT" -7 0 -5
+72 "WRI" 2041 4 70
 cycle
-73 "JPT" -5 547 22201
+73 "WRI" 70 1001 63
 Machine 0 emitted 20 23057
 Machine 0 emitted 20 22651
 Machine 2 emitted 48 189586
@@ -225,25 +225,25 @@ Machine 2 emitted 48 2
 Machine 14 emitted 7 113097
 Machine 14 emitted 7 1
 cycle
-74 "ADD" -7 -6 -7
+74 "ADD" 63 1 63
 cycle
-75 "ADD" -4 1 -4
+75 "JPF" 0 218 1105
 cycle
-76 "JPF" 0 529 22102
+76 "JLT" 63 71 62
 cycle
-77 "JLT" -7 0 -5
+77 "JPF" 62 250 1002
 cycle
-78 "JPT" -5 547 22201
+78 "MUL" 63 2 234
 cycle
-79 "ADD" -7 -6 -7
+79 "ADD" 72 234 234
 cycle
-80 "ADD" -4 1 -4
+80 "WRI" 2042 101 1
 cycle
-81 "JPF" 0 529 22102
+81 "ADD" 1 234 240
 cycle
-82 "JLT" -7 0 -5
+82 "WRI" 2043 4 70
 cycle
-83 "JPT" -5 547 22201
+83 "WRI" 70 1001 63
 Machine 0 emitted 20 46114
 Machine 0 emitted 20 22651
 Machine 2 emitted 35 48757
@@ -251,882 +251,854 @@ Machine 2 emitted 35 2
 Machine 14 emitted 48 284379
 Machine 14 emitted 48 1
 cycle
-84 "ADD" -7 -6 -7
+84 "ADD" 63 1 63
 cycle
-85 "ADD" -4 1 -4
+85 "JPF" 0 218 1105
 cycle
-86 "JPF" 0 529 22102
+86 "JLT" 63 71 62
 cycle
-87 "JLT" -7 0 -5
+87 "JPF" 62 250 1002
 cycle
-88 "JPT" -5 547 22201
+88 "MUL" 63 2 234
 cycle
-89 "ADD" -7 -6 -7
+89 "ADD" 72 234 234
 cycle
-90 "ADD" -4 1 -4
+90 "WRI" 2044 101 1
 cycle
-91 "JPF" 0 529 22102
+91 "ADD" 1 234 240
 cycle
-92 "JLT" -7 0 -5
+92 "WRI" 2045 4 70
 cycle
-93 "JPT" -5 547 22201
+93 "WRI" 70 1001 63
 Machine 0 emitted 20 69171
 Machine 0 emitted 20 22651
 Machine 2 emitted 35 146271
 Machine 2 emitted 35 2
 cycle
-94 "MUL" 1 -4 -7
+94 "ADD" 63 1 63
 cycle
-95 "SFT" -8 2105 1
+95 "JPF" 0 218 1105
 cycle
-96 "JPT" 1 0 109
+96 "JLT" 63 71 62
 cycle
-97 "ADD" 1 -1 64
+97 "JPF" 62 250 1002
 cycle
-98 "JLT" 64 0 62
+98 "JPT" 1 73 109
 cycle
-99 "JPT" 62 73 7
+99 "REA" 64 1008 64
 cycle
-100 "JLT" 64 67 62
+100 "JPE" 64 -1 62
 cycle
-101 "JPF" 62 73 1002
+101 "JPF" 62 88 1006
 cycle
-102 "MUL" 64 2 133
+102 "JPF" 61 170 1106
 cycle
-103 "ADD" 133 68 133
+103 "JPF" 0 73 3
 cycle
-104 "MUL" 1 2001 62
+104 "REA" 64 1008 64
 cycle
-105 "ADD" 133 1 140
+105 "JPE" 64 -1 62
 cycle
-106 "JPE" 2002 65 63
+106 "JPF" 62 88 1006
 cycle
-107 "MUL" 63 62 62
+107 "JPF" 61 170 1106
 cycle
-108 "JPT" 62 73 1002
+108 "JPF" 0 73 3
 cycle
-109 "MUL" 64 2 161
+109 "REA" 64 1008 64
 cycle
-110 "ADD" 161 68 161
+110 "JPE" 64 -1 62
 cycle
-111 "ADD" 0 1 2001
+111 "JPF" 62 88 1006
 cycle
-112 "ADD" 161 1 169
+112 "JPF" 61 170 1106
 cycle
-113 "ADD" 65 0 2002
+113 "JPF" 0 73 3
 cycle
-114 "MUL" 1 1 61
+114 "REA" 64 1008 64
 cycle
-115 "ADD" 0 0 63
+115 "JPE" 64 -1 62
 cycle
-116 "JLT" 63 67 62
+116 "JPF" 62 88 1006
 cycle
-117 "JPF" 62 203 1002
+117 "JPF" 61 170 1106
 cycle
-118 "MUL" 63 2 194
+118 "JPF" 0 73 3
 cycle
-119 "ADD" 68 194 194
+119 "REA" 64 1008 64
 cycle
-120 "JPF" 1993 73 1001
+120 "JPE" 64 -1 62
 cycle
-121 "REA" 64 1008 64
+121 "JPF" 62 88 1006
 cycle
-122 "JPE" 64 -1 62
+122 "JPF" 61 170 1106
 cycle
-123 "JPF" 62 88 1006
+123 "JPF" 0 73 3
 cycle
-124 "REA" 65 20102 1
+124 "REA" 64 1008 64
 cycle
-125 "MUL" 1 64 1
+125 "JPE" 64 -1 62
 cycle
-126 "ADD" 0 66 2
+126 "JPF" 62 88 1006
 cycle
-127 "ADD" 0 105 0
+127 "JPF" 61 170 1106
 cycle
-128 "JPT" 1 436 1201
+128 "JPF" 0 73 3
 cycle
-129 "SFT" 8 21202 -6
+129 "REA" 64 1008 64
 cycle
-130 "MUL" -6 10 -5
+130 "JPE" 64 -1 62
 cycle
-131 "JLT" -7 -5 -5
+131 "JPF" 62 88 1006
 cycle
-132 "JPT" -5 521 21102
+132 "JPF" 61 170 1106
 cycle
-133 "MUL" -1 1 -4
+133 "JPF" 0 73 3
 cycle
-134 "MUL" -6 -1 -6
+134 "REA" 64 1008 64
 cycle
-135 "JLT" -7 0 -5
+135 "JPE" 64 -1 62
 cycle
-136 "JPT" -5 547 22201
+136 "JPF" 62 88 1006
 cycle
-137 "ADD" -7 -6 -7
+137 "JPF" 61 170 1106
 cycle
-138 "ADD" -4 1 -4
+138 "JPF" 0 73 3
 cycle
-139 "JPF" 0 529 22102
+139 "REA" 64 1008 64
 cycle
-140 "JLT" -7 0 -5
+140 "JPE" 64 -1 62
 cycle
-141 "JPT" -5 547 22201
+141 "JPF" 62 88 1006
 cycle
-142 "ADD" -7 -6 -7
+142 "JPF" 61 170 1106
 cycle
-143 "ADD" -4 1 -4
+143 "JPF" 0 73 3
 cycle
-144 "JPF" 0 529 22102
+144 "REA" 64 1008 64
 cycle
-145 "JLT" -7 0 -5
+145 "JPE" 64 -1 62
 cycle
-146 "JPT" -5 547 22201
+146 "JPF" 62 88 1006
 cycle
-147 "MUL" 1 -4 -7
+147 "JPF" 61 170 1106
 cycle
-148 "SFT" -8 2105 1
+148 "JPF" 0 73 3
 cycle
-149 "JPT" 1 0 109
+149 "REA" 64 1008 64
 cycle
-150 "ADD" 1 -1 64
+150 "JPE" 64 -1 62
 cycle
-151 "JLT" 64 0 62
+151 "JPF" 62 88 1006
 cycle
-152 "JPT" 62 73 7
+152 "JPF" 61 170 1106
 cycle
-153 "JLT" 64 67 62
+153 "JPF" 0 73 3
 cycle
-154 "JPF" 62 73 1002
+154 "REA" 64 1008 64
 cycle
-155 "MUL" 64 2 133
+155 "JPE" 64 -1 62
 cycle
-156 "ADD" 133 68 133
+156 "JPF" 62 88 1006
 cycle
-157 "MUL" 1 1993 62
+157 "JPF" 61 170 1106
 cycle
-158 "ADD" 133 1 140
+158 "JPF" 0 73 3
 cycle
-159 "JPE" 1994 65 63
+159 "REA" 64 1008 64
 cycle
-160 "MUL" 63 62 62
+160 "JPE" 64 -1 62
 cycle
-161 "JPT" 62 73 1002
+161 "JPF" 62 88 1006
 cycle
-162 "MUL" 64 2 161
+162 "JPF" 61 170 1106
 cycle
-163 "ADD" 161 68 161
+163 "JPF" 0 73 3
 cycle
-164 "ADD" 0 1 1993
+164 "REA" 64 1008 64
 cycle
-165 "ADD" 161 1 169
+165 "JPE" 64 -1 62
 cycle
-166 "ADD" 65 0 1994
+166 "JPF" 62 88 1006
 cycle
-167 "MUL" 1 1 61
+167 "JPF" 61 170 1106
 cycle
-168 "ADD" 0 0 63
+168 "JPF" 0 73 3
 cycle
-169 "JLT" 63 67 62
+169 "REA" 64 1008 64
 cycle
-170 "JPF" 62 203 1002
+170 "JPE" 64 -1 62
 cycle
-171 "MUL" 63 2 194
+171 "JPF" 62 88 1006
 cycle
-172 "ADD" 68 194 194
+172 "JPF" 61 170 1106
 cycle
-173 "JPF" 1993 73 1001
+173 "JPF" 0 73 3
 cycle
-174 "ADD" 63 1 63
+174 "REA" 64 1008 64
 cycle
-175 "JPT" 1 178 21101
+175 "JPE" 64 -1 62
 cycle
-176 "JLT" 63 67 62
+176 "JPF" 62 88 1006
 cycle
-177 "JPF" 62 203 1002
+177 "JPF" 61 170 1106
 cycle
-178 "MUL" 63 2 194
+178 "JPF" 0 73 3
 cycle
-179 "ADD" 68 194 194
+179 "REA" 64 1008 64
 cycle
-180 "JPF" 1995 73 1001
+180 "JPE" 64 -1 62
 cycle
-181 "REA" 64 1008 64
+181 "JPF" 62 88 1006
 cycle
-182 "JPE" 64 -1 62
+182 "JPF" 61 170 1106
 cycle
-183 "JPF" 62 88 1006
+183 "JPF" 0 73 3
 cycle
-184 "REA" 65 20102 1
+184 "REA" 64 1008 64
 cycle
-185 "MUL" 1 64 1
+185 "JPE" 64 -1 62
 cycle
-186 "ADD" 0 66 2
+186 "JPF" 62 88 1006
 cycle
-187 "ADD" 0 105 0
+187 "JPF" 61 170 1106
 cycle
-188 "JPT" 1 436 1201
+188 "JPF" 0 73 3
 cycle
-189 "SFT" 8 21202 -6
+189 "REA" 64 1008 64
 cycle
-190 "MUL" -6 10 -5
+190 "JPE" 64 -1 62
 cycle
-191 "JLT" -7 -5 -5
+191 "JPF" 62 88 1006
 cycle
-192 "JPT" -5 521 21102
+192 "JPF" 61 170 1106
 cycle
-193 "MUL" -1 1 -4
+193 "JPF" 0 73 3
 cycle
-194 "MUL" -6 -1 -6
+194 "REA" 64 1008 64
 cycle
-195 "JLT" -7 0 -5
+195 "JPE" 64 -1 62
 cycle
-196 "JPT" -5 547 22201
+196 "JPF" 62 88 1006
 cycle
-197 "ADD" -7 -6 -7
+197 "JPF" 61 170 1106
 cycle
-198 "ADD" -4 1 -4
+198 "JPF" 0 73 3
 cycle
-199 "JPF" 0 529 22102
-Machine 0 emitted 46 4934
-Machine 0 emitted 46 17
+199 "REA" 64 1008 64
 cycle
-200 "JLT" -7 0 -5
+200 "JPE" 64 -1 62
 cycle
-201 "JPT" -5 547 22201
+201 "JPF" 62 88 1006
 cycle
-202 "ADD" -7 -6 -7
+202 "JPF" 61 170 1106
 cycle
-203 "ADD" -4 1 -4
+203 "JPF" 0 73 3
 cycle
-204 "JPF" 0 529 22102
+204 "REA" 64 1008 64
 cycle
-205 "JLT" -7 0 -5
+205 "JPE" 64 -1 62
 cycle
-206 "JPT" -5 547 22201
+206 "JPF" 62 88 1006
 cycle
-207 "ADD" -7 -6 -7
+207 "JPF" 61 170 1106
 cycle
-208 "ADD" -4 1 -4
+208 "JPF" 0 73 3
 cycle
-209 "JPF" 0 529 22102
-Machine 0 emitted 17 17351
-Machine 0 emitted 17 17
+209 "REA" 64 1008 64
 cycle
-210 "JLT" -7 0 -5
+210 "JPE" 64 -1 62
 cycle
-211 "JPT" -5 547 22201
+211 "JPF" 62 88 1006
 cycle
-212 "MUL" 1 -4 -7
+212 "JPF" 61 170 1106
 cycle
-213 "SFT" -8 2105 1
+213 "JPF" 0 73 3
 cycle
-214 "JPT" 1 0 109
+214 "REA" 64 1008 64
 cycle
-215 "ADD" 1 -1 64
+215 "JPE" 64 -1 62
 cycle
-216 "JLT" 64 0 62
+216 "JPF" 62 88 1006
 cycle
-217 "JPT" 62 73 7
+217 "JPF" 61 170 1106
 cycle
-218 "JLT" 64 67 62
+218 "JPF" 0 73 3
 cycle
-219 "JPF" 62 73 1002
-Machine 0 emitted 17 34702
-Machine 0 emitted 17 17
+219 "REA" 64 1008 64
 cycle
-220 "MUL" 64 2 133
+220 "JPE" 64 -1 62
 cycle
-221 "ADD" 133 68 133
+221 "JPF" 62 88 1006
 cycle
-222 "MUL" 1 1995 62
+222 "JPF" 61 170 1106
 cycle
-223 "ADD" 133 1 140
+223 "JPF" 0 73 3
 cycle
-224 "JPE" 1996 65 63
+224 "REA" 64 1008 64
 cycle
-225 "MUL" 63 62 62
+225 "JPE" 64 -1 62
 cycle
-226 "JPT" 62 73 1002
+226 "JPF" 62 88 1006
 cycle
-227 "MUL" 64 2 161
+227 "JPF" 61 170 1106
 cycle
-228 "ADD" 161 68 161
+228 "JPF" 0 73 3
 cycle
-229 "ADD" 0 1 1995
-Machine 0 emitted 20 23057
-Machine 0 emitted 20 17
+229 "REA" 64 1008 64
 cycle
-230 "ADD" 161 1 169
+230 "JPE" 64 -1 62
 cycle
-231 "ADD" 65 0 1996
+231 "JPF" 62 88 1006
 cycle
-232 "MUL" 1 1 61
+232 "JPF" 61 170 1106
 cycle
-233 "ADD" 0 0 63
+233 "JPF" 0 73 3
 cycle
-234 "JLT" 63 67 62
+234 "REA" 64 1008 64
 cycle
-235 "JPF" 62 203 1002
+235 "JPE" 64 -1 62
 cycle
-236 "MUL" 63 2 194
+236 "JPF" 62 88 1006
 cycle
-237 "ADD" 68 194 194
+237 "JPF" 61 170 1106
 cycle
-238 "JPF" 1993 73 1001
+238 "JPF" 0 73 3
 cycle
-239 "ADD" 63 1 63
-Machine 0 emitted 20 46114
-Machine 0 emitted 20 17
+239 "REA" 64 1008 64
 cycle
-240 "JPT" 1 178 21101
+240 "JPE" 64 -1 62
 cycle
-241 "JLT" 63 67 62
+241 "JPF" 62 88 1006
 cycle
-242 "JPF" 62 203 1002
+242 "JPF" 61 170 1106
 cycle
-243 "MUL" 63 2 194
+243 "JPF" 0 73 3
 cycle
-244 "ADD" 68 194 194
+244 "REA" 64 1008 64
 cycle
-245 "JPF" 1995 73 1001
+245 "JPE" 64 -1 62
 cycle
-246 "ADD" 63 1 63
+246 "JPF" 62 88 1006
 cycle
-247 "JPT" 1 178 21101
+247 "JPF" 61 170 1106
 cycle
-248 "JLT" 63 67 62
+248 "JPF" 0 73 3
 cycle
-249 "JPF" 62 203 1002
-Machine 0 emitted 20 69171
-Machine 0 emitted 20 17
+249 "REA" 64 1008 64
 cycle
-250 "MUL" 63 2 194
+250 "JPE" 64 -1 62
 cycle
-251 "ADD" 68 194 194
+251 "JPF" 62 88 1006
 cycle
-252 "JPF" 1997 73 1001
+252 "JPF" 61 170 1106
 cycle
-253 "REA" 64 1008 64
+253 "JPF" 0 73 3
 cycle
-254 "JPE" 64 -1 62
+254 "REA" 64 1008 64
 cycle
-255 "JPF" 62 88 1006
+255 "JPE" 64 -1 62
 cycle
-256 "REA" 65 20102 1
+256 "JPF" 62 88 1006
 cycle
-257 "MUL" 1 64 1
+257 "JPF" 61 170 1106
 cycle
-258 "ADD" 0 66 2
+258 "JPF" 0 73 3
 cycle
-259 "ADD" 0 105 0
+259 "REA" 64 1008 64
 cycle
-260 "JPT" 1 436 1201
+260 "JPE" 64 -1 62
 cycle
-261 "SFT" 8 21202 -6
+261 "JPF" 62 88 1006
 cycle
-262 "MUL" -6 10 -5
+262 "JPF" 61 170 1106
 cycle
-263 "JLT" -7 -5 -5
+263 "JPF" 0 73 3
 cycle
-264 "JPT" -5 521 21102
+264 "REA" 64 1008 64
 cycle
-265 "MUL" -1 1 -4
+265 "JPE" 64 -1 62
 cycle
-266 "MUL" -6 -1 -6
+266 "JPF" 62 88 1006
 cycle
-267 "JLT" -7 0 -5
+267 "JPF" 61 170 1106
 cycle
-268 "JPT" -5 547 22201
+268 "JPF" 0 73 3
 cycle
-269 "ADD" -7 -6 -7
+269 "REA" 64 1008 64
 cycle
-270 "ADD" -4 1 -4
+270 "JPE" 64 -1 62
 cycle
-271 "JPF" 0 529 22102
+271 "JPF" 62 88 1006
 cycle
-272 "JLT" -7 0 -5
+272 "JPF" 61 170 1106
 cycle
-273 "JPT" -5 547 22201
+273 "JPF" 0 73 3
 cycle
-274 "ADD" -7 -6 -7
+274 "REA" 64 1008 64
 cycle
-275 "ADD" -4 1 -4
+275 "JPE" 64 -1 62
 cycle
-276 "JPF" 0 529 22102
+276 "JPF" 62 88 1006
 cycle
-277 "JLT" -7 0 -5
+277 "JPF" 61 170 1106
 cycle
-278 "JPT" -5 547 22201
+278 "JPF" 0 73 3
 cycle
-279 "ADD" -7 -6 -7
+279 "REA" 64 1008 64
 cycle
-280 "ADD" -4 1 -4
+280 "JPE" 64 -1 62
 cycle
-281 "JPF" 0 529 22102
+281 "JPF" 62 88 1006
 cycle
-282 "JLT" -7 0 -5
+282 "JPF" 61 170 1106
 cycle
-283 "JPT" -5 547 22201
+283 "JPF" 0 73 3
 cycle
-284 "ADD" -7 -6 -7
+284 "REA" 64 1008 64
 cycle
-285 "ADD" -4 1 -4
+285 "JPE" 64 -1 62
 cycle
-286 "JPF" 0 529 22102
+286 "JPF" 62 88 1006
 cycle
-287 "JLT" -7 0 -5
+287 "JPF" 61 170 1106
 cycle
-288 "JPT" -5 547 22201
+288 "JPF" 0 73 3
 cycle
-289 "MUL" 1 -4 -7
+289 "REA" 64 1008 64
 cycle
-290 "SFT" -8 2105 1
+290 "JPE" 64 -1 62
 Machine 9 emitted 15 72661
 Machine 9 emitted 15 76778
 cycle
-291 "JPT" 1 0 109
+291 "JPF" 62 88 1006
 cycle
-292 "ADD" 1 -1 64
+292 "JPF" 61 170 1106
 cycle
-293 "JLT" 64 0 62
+293 "JPF" 0 73 3
 cycle
-294 "JPT" 62 73 7
+294 "REA" 64 1008 64
 cycle
-295 "JLT" 64 67 62
+295 "JPE" 64 -1 62
 cycle
-296 "JPF" 62 73 1002
+296 "JPF" 62 88 1006
 cycle
-297 "MUL" 64 2 133
+297 "JPF" 61 170 1106
 cycle
-298 "ADD" 133 68 133
+298 "JPF" 0 73 3
 cycle
-299 "MUL" 1 1997 62
+299 "REA" 64 1008 64
 cycle
-300 "ADD" 133 1 140
+300 "JPE" 64 -1 62
 cycle
-301 "JPE" 1998 65 63
+301 "JPF" 62 88 1006
 cycle
-302 "MUL" 63 62 62
+302 "JPF" 61 170 1106
 cycle
-303 "JPT" 62 73 1002
+303 "JPF" 0 73 3
 cycle
-304 "MUL" 64 2 161
+304 "REA" 64 1008 64
 cycle
-305 "ADD" 161 68 161
+305 "JPE" 64 -1 62
 cycle
-306 "ADD" 0 1 1997
+306 "JPF" 62 88 1006
 cycle
-307 "ADD" 161 1 169
+307 "JPF" 61 170 1106
 cycle
-308 "ADD" 65 0 1998
+308 "JPF" 0 73 3
 cycle
-309 "MUL" 1 1 61
+309 "REA" 64 1008 64
 cycle
-310 "ADD" 0 0 63
+310 "JPE" 64 -1 62
 cycle
-311 "JLT" 63 67 62
+311 "JPF" 62 88 1006
 cycle
-312 "JPF" 62 203 1002
+312 "JPF" 61 170 1106
 cycle
-313 "MUL" 63 2 194
+313 "JPF" 0 73 3
 cycle
-314 "ADD" 68 194 194
+314 "REA" 64 1008 64
 cycle
-315 "JPF" 1993 73 1001
+315 "JPE" 64 -1 62
 cycle
-316 "ADD" 63 1 63
+316 "JPF" 62 88 1006
 cycle
-317 "JPT" 1 178 21101
+317 "JPF" 61 170 1106
 cycle
-318 "JLT" 63 67 62
+318 "JPF" 0 73 3
 cycle
-319 "JPF" 62 203 1002
+319 "REA" 64 1008 64
 cycle
-320 "MUL" 63 2 194
+320 "JPE" 64 -1 62
 cycle
-321 "ADD" 68 194 194
+321 "JPF" 62 88 1006
 cycle
-322 "JPF" 1995 73 1001
+322 "JPF" 61 170 1106
 cycle
-323 "ADD" 63 1 63
+323 "JPF" 0 73 3
 cycle
-324 "JPT" 1 178 21101
+324 "REA" 64 1008 64
 cycle
-325 "JLT" 63 67 62
+325 "JPE" 64 -1 62
 cycle
-326 "JPF" 62 203 1002
+326 "JPF" 62 88 1006
 cycle
-327 "MUL" 63 2 194
+327 "JPF" 61 170 1106
 cycle
-328 "ADD" 68 194 194
+328 "JPF" 0 73 3
 cycle
-329 "JPF" 1997 73 1001
+329 "REA" 64 1008 64
 cycle
-330 "ADD" 63 1 63
+330 "JPE" 64 -1 62
 cycle
-331 "JPT" 1 178 21101
+331 "JPF" 62 88 1006
 cycle
-332 "JLT" 63 67 62
+332 "JPF" 61 170 1106
 cycle
-333 "JPF" 62 203 1002
+333 "JPF" 0 73 3
 cycle
-334 "MUL" 63 2 194
+334 "REA" 64 1008 64
 Machine 20 emitted 6 93059
 Machine 20 emitted 6 11621498760451
 cycle
-335 "ADD" 68 194 194
+335 "JPE" 64 -1 62
 cycle
-336 "JPF" 1999 73 1001
+336 "JPF" 62 88 1006
 cycle
-337 "REA" 64 1008 64
+337 "JPF" 61 170 1106
 cycle
-338 "JPE" 64 -1 62
+338 "JPF" 0 73 3
 cycle
-339 "JPF" 62 88 1006
+339 "REA" 64 1008 64
 cycle
-340 "REA" 65 20102 1
+340 "JPE" 64 -1 62
 cycle
-341 "MUL" 1 64 1
+341 "JPF" 62 88 1006
 cycle
-342 "ADD" 0 66 2
+342 "JPF" 61 170 1106
 cycle
-343 "ADD" 0 105 0
+343 "JPF" 0 73 3
 cycle
-344 "JPT" 1 436 1201
+344 "REA" 64 1008 64
 cycle
-345 "SFT" 8 21202 -6
+345 "JPE" 64 -1 62
 cycle
-346 "MUL" -6 10 -5
+346 "JPF" 62 88 1006
 cycle
-347 "JLT" -7 -5 -5
+347 "JPF" 61 170 1106
 cycle
-348 "JPT" -5 521 21102
+348 "JPF" 0 73 3
 cycle
-349 "MUL" -1 1 -4
+349 "REA" 64 1008 64
 cycle
-350 "MUL" -6 -1 -6
+350 "JPE" 64 -1 62
 cycle
-351 "JLT" -7 0 -5
+351 "JPF" 62 88 1006
 cycle
-352 "JPT" -5 547 22201
+352 "JPF" 61 170 1106
 cycle
-353 "ADD" -7 -6 -7
+353 "JPF" 0 73 3
 cycle
-354 "ADD" -4 1 -4
+354 "REA" 64 1008 64
 cycle
-355 "JPF" 0 529 22102
+355 "JPE" 64 -1 62
 cycle
-356 "JLT" -7 0 -5
+356 "JPF" 62 88 1006
 cycle
-357 "JPT" -5 547 22201
+357 "JPF" 61 170 1106
 cycle
-358 "ADD" -7 -6 -7
+358 "JPF" 0 73 3
 cycle
-359 "ADD" -4 1 -4
+359 "REA" 64 1008 64
 cycle
-360 "JPF" 0 529 22102
+360 "JPE" 64 -1 62
 cycle
-361 "JLT" -7 0 -5
+361 "JPF" 62 88 1006
 cycle
-362 "JPT" -5 547 22201
+362 "JPF" 61 170 1106
 cycle
-363 "ADD" -7 -6 -7
+363 "JPF" 0 73 3
 cycle
-364 "ADD" -4 1 -4
+364 "REA" 64 1008 64
 cycle
-365 "JPF" 0 529 22102
+365 "JPE" 64 -1 62
 cycle
-366 "JLT" -7 0 -5
+366 "JPF" 62 88 1006
 cycle
-367 "JPT" -5 547 22201
+367 "JPF" 61 170 1106
 cycle
-368 "ADD" -7 -6 -7
+368 "JPF" 0 73 3
 cycle
-369 "ADD" -4 1 -4
+369 "REA" 64 1008 64
 cycle
-370 "JPF" 0 529 22102
+370 "JPE" 64 -1 62
 cycle
-371 "JLT" -7 0 -5
+371 "JPF" 62 88 1006
 cycle
-372 "JPT" -5 547 22201
+372 "JPF" 61 170 1106
 cycle
-373 "ADD" -7 -6 -7
+373 "JPF" 0 73 3
 Machine 8 emitted 15 145322
 Machine 8 emitted 15 156219
 cycle
-374 "ADD" -4 1 -4
+374 "REA" 64 1008 64
 cycle
-375 "JPF" 0 529 22102
+375 "JPE" 64 -1 62
 cycle
-376 "JLT" -7 0 -5
+376 "JPF" 62 88 1006
 cycle
-377 "JPT" -5 547 22201
+377 "JPF" 61 170 1106
 cycle
-378 "MUL" 1 -4 -7
+378 "JPF" 0 73 3
 cycle
-379 "SFT" -8 2105 1
+379 "REA" 64 1008 64
 cycle
-380 "JPT" 1 0 109
+380 "JPE" 64 -1 62
 Machine 19 emitted 35 195028
 Machine 19 emitted 35 31250
 cycle
-381 "ADD" 1 -1 64
+381 "JPF" 62 88 1006
 cycle
-382 "JLT" 64 0 62
-Machine 0 emitted 46 4934
-Machine 0 emitted 46 20
+382 "JPF" 61 170 1106
 cycle
-383 "JPT" 62 73 7
+383 "JPF" 0 73 3
 cycle
-384 "JLT" 64 67 62
+384 "REA" 64 1008 64
 cycle
-385 "JPF" 62 73 1002
+385 "JPE" 64 -1 62
 cycle
-386 "MUL" 64 2 133
+386 "JPF" 62 88 1006
 cycle
-387 "ADD" 133 68 133
+387 "JPF" 61 170 1106
 Machine 48 emitted 17 52053
 Machine 48 emitted 17 -40074
 cycle
-388 "MUL" 1 1999 62
+388 "JPF" 0 73 3
 cycle
-389 "ADD" 133 1 140
+389 "REA" 64 1008 64
 cycle
-390 "JPE" 2000 65 63
+390 "JPE" 64 -1 62
 cycle
-391 "MUL" 63 62 62
+391 "JPF" 62 88 1006
 cycle
-392 "JPT" 62 73 1002
-Machine 0 emitted 17 17351
-Machine 0 emitted 17 20
+392 "JPF" 61 170 1106
 cycle
-393 "MUL" 64 2 161
+393 "JPF" 0 73 3
 cycle
-394 "ADD" 161 68 161
+394 "REA" 64 1008 64
 Machine 7 emitted 15 217983
 Machine 7 emitted 15 725409
 cycle
-395 "ADD" 0 1 1999
+395 "JPE" 64 -1 62
 cycle
-396 "ADD" 161 1 169
+396 "JPF" 62 88 1006
 cycle
-397 "ADD" 65 0 2000
+397 "JPF" 61 170 1106
 cycle
-398 "MUL" 1 1 61
+398 "JPF" 0 73 3
 cycle
-399 "ADD" 0 0 63
+399 "REA" 64 1008 64
 cycle
-400 "JLT" 63 67 62
+400 "JPE" 64 -1 62
 cycle
-401 "JPF" 62 203 1002
+401 "JPF" 62 88 1006
 cycle
-402 "MUL" 63 2 194
-Machine 0 emitted 17 34702
-Machine 0 emitted 17 20
+402 "JPF" 61 170 1106
 cycle
-403 "ADD" 68 194 194
+403 "JPF" 0 73 3
 cycle
-404 "JPF" 1993 73 1001
+404 "REA" 64 1008 64
 cycle
-405 "ADD" 63 1 63
+405 "JPE" 64 -1 62
 cycle
-406 "JPT" 1 178 21101
+406 "JPF" 62 88 1006
 cycle
-407 "JLT" 63 67 62
+407 "JPF" 61 170 1106
 cycle
-408 "JPF" 62 203 1002
+408 "JPF" 0 73 3
 cycle
-409 "MUL" 63 2 194
+409 "REA" 64 1008 64
 cycle
-410 "ADD" 68 194 194
+410 "JPE" 64 -1 62
 cycle
-411 "JPF" 1995 73 1001
+411 "JPF" 62 88 1006
 cycle
-412 "ADD" 63 1 63
-Machine 0 emitted 20 23057
-Machine 0 emitted 20 20
+412 "JPF" 61 170 1106
 cycle
-413 "JPT" 1 178 21101
+413 "JPF" 0 73 3
 cycle
-414 "JLT" 63 67 62
+414 "REA" 64 1008 64
 cycle
-415 "JPF" 62 203 1002
+415 "JPE" 64 -1 62
 cycle
-416 "MUL" 63 2 194
+416 "JPF" 62 88 1006
 cycle
-417 "ADD" 68 194 194
+417 "JPF" 61 170 1106
 cycle
-418 "JPF" 1997 73 1001
+418 "JPF" 0 73 3
 cycle
-419 "ADD" 63 1 63
+419 "REA" 64 1008 64
 cycle
-420 "JPT" 1 178 21101
+420 "JPE" 64 -1 62
 cycle
-421 "JLT" 63 67 62
+421 "JPF" 62 88 1006
 cycle
-422 "JPF" 62 203 1002
-Machine 0 emitted 20 46114
-Machine 0 emitted 20 20
+422 "JPF" 61 170 1106
 cycle
-423 "MUL" 63 2 194
+423 "JPF" 0 73 3
 cycle
-424 "ADD" 68 194 194
+424 "REA" 64 1008 64
 cycle
-425 "JPF" 1999 73 1001
+425 "JPE" 64 -1 62
 cycle
-426 "ADD" 63 1 63
+426 "JPF" 62 88 1006
 cycle
-427 "JPT" 1 178 21101
+427 "JPF" 61 170 1106
 cycle
-428 "JLT" 63 67 62
+428 "JPF" 0 73 3
 cycle
-429 "JPF" 62 203 1002
+429 "REA" 64 1008 64
 cycle
-430 "MUL" 63 2 194
+430 "JPE" 64 -1 62
 cycle
-431 "ADD" 68 194 194
+431 "JPF" 62 88 1006
 cycle
-432 "JPF" 2001 73 1001
-Machine 0 emitted 20 69171
-Machine 0 emitted 20 20
+432 "JPF" 61 170 1106
 cycle
-433 "ADD" 63 1 63
+433 "JPF" 0 73 3
 cycle
-434 "JPT" 1 178 21101
+434 "REA" 64 1008 64
 cycle
-435 "JLT" 63 67 62
+435 "JPE" 64 -1 62
 cycle
-436 "JPF" 62 203 1002
+436 "JPF" 62 88 1006
 cycle
-437 "ADD" 0 210 0
-Machine 9 emitted 15 72661
-Machine 9 emitted 15 -2953
+437 "JPF" 61 170 1106
 cycle
-438 "JPT" 1 69 2101
+438 "JPF" 0 73 3
 cycle
-439 "SFT" 4 21102 1
+439 "REA" 64 1008 64
 cycle
-440 "MUL" 1 1 -3
+440 "JPE" 64 -1 62
 cycle
-441 "MUL" 1 0 -2
+441 "JPF" 62 88 1006
 cycle
-442 "JLT" -2 67 -1
+442 "JPF" 61 170 1106
 cycle
-443 "JPF" -1 342 1202
+443 "JPF" 0 73 3
 cycle
-444 "MUL" -2 2 332
+444 "REA" 64 1008 64
 cycle
-445 "ADD" 1 332 332
+445 "JPE" 64 -1 62
 cycle
-446 "ADD" 68 332 332
+446 "JPF" 62 88 1006
 cycle
-447 "MUL" 1994 -3 -3
+447 "JPF" 61 170 1106
 cycle
-448 "ADD" -2 1 -2
+448 "JPF" 0 73 3
 cycle
-449 "JPF" 0 312 21202
+449 "REA" 64 1008 64
 cycle
-450 "JLT" -2 67 -1
+450 "JPE" 64 -1 62
 cycle
-451 "JPF" -1 342 1202
+451 "JPF" 62 88 1006
 cycle
-452 "MUL" -2 2 332
+452 "JPF" 61 170 1106
 cycle
-453 "ADD" 1 332 332
+453 "JPF" 0 73 3
 cycle
-454 "ADD" 68 332 332
-Machine 20 emitted 6 93059
-Machine 20 emitted 6 8722152617
+454 "REA" 64 1008 64
 cycle
-455 "MUL" 1996 -3 -3
+455 "JPE" 64 -1 62
 cycle
-456 "ADD" -2 1 -2
+456 "JPF" 62 88 1006
 cycle
-457 "JPF" 0 312 21202
+457 "JPF" 61 170 1106
 cycle
-458 "JLT" -2 67 -1
+458 "JPF" 0 73 3
 cycle
-459 "JPF" -1 342 1202
+459 "REA" 64 1008 64
 cycle
-460 "MUL" -2 2 332
+460 "JPE" 64 -1 62
 cycle
-461 "ADD" 1 332 332
+461 "JPF" 62 88 1006
 cycle
-462 "ADD" 68 332 332
+462 "JPF" 61 170 1106
 cycle
-463 "MUL" 1998 -3 -3
+463 "JPF" 0 73 3
 cycle
-464 "ADD" -2 1 -2
+464 "REA" 64 1008 64
 cycle
-465 "JPF" 0 312 21202
+465 "JPE" 64 -1 62
 cycle
-466 "JLT" -2 67 -1
+466 "JPF" 62 88 1006
 cycle
-467 "JPF" -1 342 1202
+467 "JPF" 61 170 1106
 cycle
-468 "MUL" -2 2 332
+468 "JPF" 0 73 3
 cycle
-469 "ADD" 1 332 332
+469 "REA" 64 1008 64
 cycle
-470 "ADD" 68 332 332
+470 "JPE" 64 -1 62
 cycle
-471 "MUL" 2000 -3 -3
+471 "JPF" 62 88 1006
 cycle
-472 "ADD" -2 1 -2
+472 "JPF" 61 170 1106
 cycle
-473 "JPF" 0 312 21202
+473 "JPF" 0 73 3
 cycle
-474 "JLT" -2 67 -1
+474 "REA" 64 1008 64
 cycle
-475 "JPF" -1 342 1202
+475 "JPE" 64 -1 62
 cycle
-476 "MUL" -2 2 332
+476 "JPF" 62 88 1006
 cycle
-477 "ADD" 1 332 332
+477 "JPF" 61 170 1106
 cycle
-478 "ADD" 68 332 332
+478 "JPF" 0 73 3
 cycle
-479 "MUL" 2002 -3 -3
+479 "REA" 64 1008 64
 cycle
-480 "ADD" -2 1 -2
+480 "JPE" 64 -1 62
 cycle
-481 "JPF" 0 312 21202
+481 "JPF" 62 88 1006
 cycle
-482 "JLT" -2 67 -1
+482 "JPF" 61 170 1106
 cycle
-483 "JPF" -1 342 1202
+483 "JPF" 0 73 3
 cycle
-484 "MUL" -3 1 -3
+484 "REA" 64 1008 64
 cycle
-485 "SFT" -4 2106 0
+485 "JPE" 64 -1 62
 cycle
-486 "JPF" 0 0 109
+486 "JPF" 62 88 1006
 cycle
-487 "ADD" 0 1 70
+487 "JPF" 61 170 1106
 cycle
-488 "MUL" 0 1 63
+488 "JPF" 0 73 3
 cycle
-489 "JLT" 63 71 62
+489 "REA" 64 1008 64
 cycle
-490 "JPF" 62 250 1002
+490 "JPE" 64 -1 62
 cycle
-491 "MUL" 63 2 234
+491 "JPF" 62 88 1006
 cycle
-492 "ADD" 72 234 234
+492 "JPF" 61 170 1106
 cycle
-493 "WRI" 2003 101 1
+493 "JPF" 0 73 3
 cycle
-494 "ADD" 1 234 240
+494 "REA" 64 1008 64
 cycle
-495 "WRI" 2004 4 70
+495 "JPE" 64 -1 62
 cycle
-496 "WRI" 70 1001 63
+496 "JPF" 62 88 1006
 Machine 3 emitted 15 290644
 Machine 3 emitted 15 -199617
 cycle
-497 "ADD" 63 1 63
+497 "JPF" 61 170 1106
 cycle
-498 "JPF" 0 218 1105
+498 "JPF" 0 73 3
 cycle
-499 "JLT" 63 71 62
+499 "REA" 64 1008 64
 cycle
-500 "JPF" 62 250 1002
+500 "JPE" 64 -1 62
