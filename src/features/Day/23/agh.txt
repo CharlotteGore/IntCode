@@ -84,6 +84,54 @@ cycle
 42 "JPF" 0 73 3
 cycle
 43 "REA" 64 1008 64
+Machine 0 emitted 46 4934
+Machine 0 emitted 46 22651
+Machine 1 emitted 8 237436
+Machine 1 emitted 8 173
+Machine 2 emitted 11 9489
+Machine 2 emitted 11 2
+Machine 4 emitted 11 15815
+Machine 4 emitted 11 1103
+Machine 10 emitted 48 379172
+Machine 10 emitted 48 -3
+Machine 13 emitted 19 225436
+Machine 13 emitted 19 10
+Machine 14 emitted 8 178077
+Machine 14 emitted 8 1
+Machine 16 emitted 19 112718
+Machine 16 emitted 19 5
+Machine 18 emitted 19 56359
+Machine 18 emitted 19 125
+Machine 21 emitted 8 59359
+Machine 21 emitted 8 3
+Machine 22 emitted 11 12652
+Machine 22 emitted 11 4
+Machine 23 emitted 7 75398
+Machine 23 emitted 7 603
+Machine 24 emitted 11 3163
+Machine 24 emitted 11 467
+Machine 25 emitted 3 295985
+Machine 25 emitted 3 -263
+Machine 26 emitted 11 6326
+Machine 26 emitted 11 6679
+Machine 29 emitted 35 292542
+Machine 29 emitted 35 160
+Machine 30 emitted 8 118718
+Machine 30 emitted 8 301
+Machine 33 emitted 3 59197
+Machine 33 emitted 3 11
+Machine 38 emitted 7 37699
+Machine 38 emitted 7 401
+Machine 41 emitted 9 200877
+Machine 41 emitted 9 2953
+Machine 42 emitted 36 175148
+Machine 42 emitted 36 37
+Machine 43 emitted 11 18978
+Machine 43 emitted 11 59
+Machine 45 emitted 9 66959
+Machine 45 emitted 9 26
+Machine 49 emitted 3 118394
+Machine 49 emitted 3 23
 cycle
 44 "JPE" 64 -1 62
 cycle
@@ -104,6 +152,22 @@ cycle
 52 "MUL" 1 64 1
 cycle
 53 "ADD" 0 66 2
+Machine 0 emitted 17 17351
+Machine 0 emitted 17 22651
+Machine 2 emitted 47 877
+Machine 2 emitted 47 2
+Machine 13 emitted 35 243785
+Machine 13 emitted 35 10
+Machine 14 emitted 9 133918
+Machine 14 emitted 9 1
+Machine 16 emitted 19 169077
+Machine 16 emitted 19 5
+Machine 21 emitted 3 177591
+Machine 21 emitted 3 3
+Machine 26 emitted 48 94793
+Machine 26 emitted 48 6679
+Machine 33 emitted 36 43787
+Machine 33 emitted 36 11
 cycle
 54 "ADD" 0 105 0
 cycle
@@ -124,6 +188,16 @@ cycle
 62 "JLT" -7 0 -5
 cycle
 63 "JPT" -5 547 22201
+Machine 0 emitted 17 34702
+Machine 0 emitted 17 22651
+Machine 2 emitted 36 87574
+Machine 2 emitted 36 2
+Machine 14 emitted 3 236788
+Machine 14 emitted 3 1
+Machine 16 emitted 35 97514
+Machine 16 emitted 35 5
+Machine 21 emitted 7 150796
+Machine 21 emitted 7 3
 cycle
 64 "ADD" -7 -6 -7
 cycle
@@ -144,6 +218,12 @@ cycle
 72 "JLT" -7 0 -5
 cycle
 73 "JPT" -5 547 22201
+Machine 0 emitted 20 23057
+Machine 0 emitted 20 22651
+Machine 2 emitted 48 189586
+Machine 2 emitted 48 2
+Machine 14 emitted 7 113097
+Machine 14 emitted 7 1
 cycle
 74 "ADD" -7 -6 -7
 cycle
@@ -164,6 +244,12 @@ cycle
 82 "JLT" -7 0 -5
 cycle
 83 "JPT" -5 547 22201
+Machine 0 emitted 20 46114
+Machine 0 emitted 20 22651
+Machine 2 emitted 35 48757
+Machine 2 emitted 35 2
+Machine 14 emitted 48 284379
+Machine 14 emitted 48 1
 cycle
 84 "ADD" -7 -6 -7
 cycle
@@ -184,6 +270,10 @@ cycle
 92 "JLT" -7 0 -5
 cycle
 93 "JPT" -5 547 22201
+Machine 0 emitted 20 69171
+Machine 0 emitted 20 22651
+Machine 2 emitted 35 146271
+Machine 2 emitted 35 2
 cycle
 94 "MUL" 1 -4 -7
 cycle
@@ -396,6 +486,8 @@ cycle
 198 "ADD" -4 1 -4
 cycle
 199 "JPF" 0 529 22102
+Machine 0 emitted 46 4934
+Machine 0 emitted 46 17
 cycle
 200 "JLT" -7 0 -5
 cycle
@@ -416,6 +508,8 @@ cycle
 208 "ADD" -4 1 -4
 cycle
 209 "JPF" 0 529 22102
+Machine 0 emitted 17 17351
+Machine 0 emitted 17 17
 cycle
 210 "JLT" -7 0 -5
 cycle
@@ -436,6 +530,8 @@ cycle
 218 "JLT" 64 67 62
 cycle
 219 "JPF" 62 73 1002
+Machine 0 emitted 17 34702
+Machine 0 emitted 17 17
 cycle
 220 "MUL" 64 2 133
 cycle
@@ -456,6 +552,8 @@ cycle
 228 "ADD" 161 68 161
 cycle
 229 "ADD" 0 1 1995
+Machine 0 emitted 20 23057
+Machine 0 emitted 20 17
 cycle
 230 "ADD" 161 1 169
 cycle
@@ -476,6 +574,8 @@ cycle
 238 "JPF" 1993 73 1001
 cycle
 239 "ADD" 63 1 63
+Machine 0 emitted 20 46114
+Machine 0 emitted 20 17
 cycle
 240 "JPT" 1 178 21101
 cycle
@@ -496,6 +596,8 @@ cycle
 248 "JLT" 63 67 62
 cycle
 249 "JPF" 62 203 1002
+Machine 0 emitted 20 69171
+Machine 0 emitted 20 17
 cycle
 250 "MUL" 63 2 194
 cycle
@@ -578,6 +680,8 @@ cycle
 289 "MUL" 1 -4 -7
 cycle
 290 "SFT" -8 2105 1
+Machine 9 emitted 15 72661
+Machine 9 emitted 15 76778
 cycle
 291 "JPT" 1 0 109
 cycle
@@ -666,6 +770,8 @@ cycle
 333 "JPF" 62 203 1002
 cycle
 334 "MUL" 63 2 194
+Machine 20 emitted 6 93059
+Machine 20 emitted 6 11621498760451
 cycle
 335 "ADD" 68 194 194
 cycle
@@ -744,6 +850,8 @@ cycle
 372 "JPT" -5 547 22201
 cycle
 373 "ADD" -7 -6 -7
+Machine 8 emitted 15 145322
+Machine 8 emitted 15 156219
 cycle
 374 "ADD" -4 1 -4
 cycle
@@ -758,10 +866,14 @@ cycle
 379 "SFT" -8 2105 1
 cycle
 380 "JPT" 1 0 109
+Machine 19 emitted 35 195028
+Machine 19 emitted 35 31250
 cycle
 381 "ADD" 1 -1 64
 cycle
 382 "JLT" 64 0 62
+Machine 0 emitted 46 4934
+Machine 0 emitted 46 20
 cycle
 383 "JPT" 62 73 7
 cycle
@@ -772,6 +884,8 @@ cycle
 386 "MUL" 64 2 133
 cycle
 387 "ADD" 133 68 133
+Machine 48 emitted 17 52053
+Machine 48 emitted 17 -40074
 cycle
 388 "MUL" 1 1999 62
 cycle
@@ -782,10 +896,14 @@ cycle
 391 "MUL" 63 62 62
 cycle
 392 "JPT" 62 73 1002
+Machine 0 emitted 17 17351
+Machine 0 emitted 17 20
 cycle
 393 "MUL" 64 2 161
 cycle
 394 "ADD" 161 68 161
+Machine 7 emitted 15 217983
+Machine 7 emitted 15 725409
 cycle
 395 "ADD" 0 1 1999
 cycle
@@ -802,6 +920,8 @@ cycle
 401 "JPF" 62 203 1002
 cycle
 402 "MUL" 63 2 194
+Machine 0 emitted 17 34702
+Machine 0 emitted 17 20
 cycle
 403 "ADD" 68 194 194
 cycle
@@ -822,6 +942,8 @@ cycle
 411 "JPF" 1995 73 1001
 cycle
 412 "ADD" 63 1 63
+Machine 0 emitted 20 23057
+Machine 0 emitted 20 20
 cycle
 413 "JPT" 1 178 21101
 cycle
@@ -842,6 +964,8 @@ cycle
 421 "JLT" 63 67 62
 cycle
 422 "JPF" 62 203 1002
+Machine 0 emitted 20 46114
+Machine 0 emitted 20 20
 cycle
 423 "MUL" 63 2 194
 cycle
@@ -862,6 +986,8 @@ cycle
 431 "ADD" 68 194 194
 cycle
 432 "JPF" 2001 73 1001
+Machine 0 emitted 20 69171
+Machine 0 emitted 20 20
 cycle
 433 "ADD" 63 1 63
 cycle
@@ -872,6 +998,8 @@ cycle
 436 "JPF" 62 203 1002
 cycle
 437 "ADD" 0 210 0
+Machine 9 emitted 15 72661
+Machine 9 emitted 15 -2953
 cycle
 438 "JPT" 1 69 2101
 cycle
@@ -906,6 +1034,8 @@ cycle
 453 "ADD" 1 332 332
 cycle
 454 "ADD" 68 332 332
+Machine 20 emitted 6 93059
+Machine 20 emitted 6 8722152617
 cycle
 455 "MUL" 1996 -3 -3
 cycle
@@ -990,6 +1120,8 @@ cycle
 495 "WRI" 2004 4 70
 cycle
 496 "WRI" 70 1001 63
+Machine 3 emitted 15 290644
+Machine 3 emitted 15 -199617
 cycle
 497 "ADD" 63 1 63
 cycle
@@ -998,4 +1130,3 @@ cycle
 499 "JLT" 63 71 62
 cycle
 500 "JPF" 62 250 1002
-false
