@@ -83,16 +83,6 @@ export const syncIntcodeRunner = (
       modes[PARAM.TWO] = p2;
       modes[PARAM.THREE] = p3;
 
-      if (id === 0) {
-        console.log(
-          iterations,
-          OPCODE[op],
-          program[pc],
-          program[pc + 1],
-          program[pc + 2]
-        );
-      }
-
       switch (op!) {
         case OPCODE.ADD: {
           let a = getValue(1);

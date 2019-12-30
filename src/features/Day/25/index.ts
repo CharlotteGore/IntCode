@@ -3,6 +3,8 @@ import tests from "./tests";
 import { toIntArray, toLines } from "../../Helpers/parsers";
 
 import { TestFunction } from "../hooks";
+import { IntcodePipe } from "../../IntcodeMachine/input-generators/pipe";
+import { createMachine } from "../../IntcodeMachine/machine";
 
 const runner: TestFunction = async (star: string) => {
   let output: Array<string> = [];
@@ -46,10 +48,57 @@ const runner: TestFunction = async (star: string) => {
   }
 };
 
-const starOne = (input: string, params: Record<string, any>) => {
+const NEWLINE = "\n".charCodeAt(0);
+
+const writeLine = (pipe: IntcodePipe, line: string) => {
+  for (const c of Array.from(line)) {
+    pipe.addItem(c.charCodeAt(0));
+  }
+  pipe.addItem(NEWLINE);
+};
+
+const readLine = (
+  generator: AsyncGenerator<number, null, boolean>
+): Promise<string> => {
+  return new Promise(async resolve => {
+    let str = "";
+    while (true) {
+      let a = await generator.next();
+      if (!a.done) {
+        debugger;
+        let c = String.fromCharCode(a.value);
+        if (a.value === NEWLINE) {
+          resolve(str);
+          break;
+        } else if (a.value > 127) {
+          resolve("INT: " + a.value.toString());
+          break;
+        } else {
+          str += c;
+        }
+      } else {
+        resolve("Code halted");
+        break;
+      }
+    }
+  });
+};
+
+declare global {
+  interface Window {
+    w: any;
+  }
+}
+
+const starOne = (program: number[], params: Record<string, any>) => {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Not Implemented");
+    setTimeout(async () => {
+      const { output, input } = createMachine({ program });
+      window.w = writeLine.bind(null, input);
+      while (true) {
+        let val = await readLine(output.generator());
+        console.log(val);
+      }
     }, 1000);
   });
 };

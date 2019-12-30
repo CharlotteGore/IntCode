@@ -1,4 +1,8 @@
 export default {
-  input: ``,
+  input: `..#.#
+.#.##
+...#.
+...##
+#.###`,
   params: {}
 };

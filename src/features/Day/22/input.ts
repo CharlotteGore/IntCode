@@ -1,3 +1,5 @@
+import BigN from "bignumber.js";
+
 export default {
   input: `deal into new stack
   cut 9037
@@ -102,8 +104,8 @@ export default {
   params: {
     l: 10007,
     c: 2019,
-    l2: 119315717514047,
-    ln2: 101741582076661,
-    c2: 2020
+    l2: new BigN(119315717514047),
+    ln2: new BigN(101741582076661),
+    c2: new BigN(2020)
   }
 };

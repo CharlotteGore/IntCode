@@ -1,12 +1,8 @@
 import source from "./input";
 import tests from "./tests";
-import { toIntArray, toLines } from "../../Helpers/parsers";
 
 import { TestFunction } from "../hooks";
-import {
-  createMachine,
-  createDebugMachine
-} from "../../IntcodeMachine/machine";
+import { createDebugMachine } from "../../IntcodeMachine/machine";
 import { IntcodePipe } from "../../IntcodeMachine/input-generators/pipe";
 import Debugger from "../../IntcodeMachine/intcode-debugger";
 

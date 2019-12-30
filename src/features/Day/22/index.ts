@@ -1,7 +1,5 @@
 import source from "./input";
 import tests from "./tests";
-import { toIntArray, toLines } from "../../Helpers/parsers";
-
 import { TestFunction } from "../hooks";
 
 const runner: TestFunction = async (star: string) => {
@@ -46,145 +44,119 @@ const runner: TestFunction = async (star: string) => {
   }
 };
 
-type CardPointer = Card | null;
+enum Ops {
+  CUT = 0,
+  DINC = 1,
+  REV = 2,
+  NULL = 3
+}
 
-type Card = {
-  id: number;
-  pos: number;
-  next: CardPointer;
-  // prev: CardPointer;
+type Op = {
+  op: Ops;
+  param: bigint;
 };
 
-type Stack = Card;
-
-const dealIntoNewStack = (head: CardPointer) => {
-  let current: CardPointer = head;
-  let prev: CardPointer = null;
-  let next: CardPointer = null;
-
-  while (current !== null) {
-    next = current.next;
-    current.next = prev;
-    prev = current;
-    current = next;
-  }
-
-  return prev;
-};
-
-const cutNCards = (n: number, head: CardPointer, cardsLength: number) => {
-  if (n < 0) {
-    n = cardsLength + n;
-  }
-  let current: CardPointer = head;
-  let oldTop: CardPointer = head;
-
-  let next: CardPointer = null;
-  let prev: CardPointer = null;
-  let newTop: CardPointer = null;
-  let count = 0;
-  while (current !== null) {
-    prev = current;
-    next = current.next;
-    current = next;
-
-    if (count === n - 1) {
-      newTop = current!;
-      prev.next = null;
+const toOperations = (input: string): Op[] =>
+  input.split(/\n/).map(m => {
+    m = m.trim();
+    if (m === "deal into new stack") {
+      return {
+        op: Ops.REV,
+        param: BigInt(0)
+      };
+    } else if (m.substr(0, 3) === "cut") {
+      return {
+        op: Ops.CUT,
+        param: BigInt(parseInt(m.substr(4), 10))
+      };
+    } else if (m.substr(0, 4) === "deal") {
+      return {
+        op: Ops.DINC,
+        param: BigInt(parseInt(m.substr(20), 10))
+      };
+    } else {
+      return {
+        op: Ops.NULL,
+        param: BigInt(0)
+      };
     }
-    count++;
-  }
-  let lastCard: CardPointer = prev as Card;
-  lastCard.next = oldTop;
-  return newTop;
+  });
+
+const mod = (a: bigint, b: bigint) => ((a % b) + b) % b;
+
+type Shuffle = {
+  add: bigint;
+  multiply: bigint;
 };
 
-const dealWithIncrementN = (
-  n: number,
-  head: CardPointer,
-  cardsLength: number
-) => {
-  let current: CardPointer = head;
-  let next: CardPointer = null;
-  let pos = 0;
-  let cards: Map<number, Card> = new Map();
-  while (current !== null) {
-    cards.set(pos, current);
-    next = current.next;
-    current = next;
-    pos = (pos + n) % cardsLength;
+const combineShuffle = (opa: Shuffle, opb: Shuffle, size: bigint) => {
+  /*
+    combining two shuffles...
+    multiply = multiplyA * multiplyB % size;
+    add = addA * multiplyB + addB;
+  */
+  return {
+    add: mod(opa.add * opb.multiply + opb.add, size),
+    multiply: mod(opa.multiply * opb.multiply, size)
+  };
+};
+
+const modularInverse = (v: bigint, d: bigint): bigint => {
+  let x = BigInt(1);
+  let y = BigInt(0);
+  let od = d;
+  while (v > 1) {
+    let q = BigInt(~~(v / d));
+    let r = v % d;
+    v = d;
+    d = r;
+
+    let ny = x - q * y;
+    x = y;
+    y = ny;
   }
-  // fix the list
-  for (let i = 1; i < cardsLength - 1; i++) {
-    cards.get(i)!.next = cards.get(i + 1)!;
-  }
-  cards.get(0)!.next = cards.get(1)!;
-  cards.get(cardsLength - 1)!.next = null;
-  return cards.get(0);
+  return mod(x, od);
 };
 
 const starOne = (input: string, params: Record<string, any>) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      let cards: Map<number, Card> = new Map();
-      let cardsLength = params.l;
-      for (let i = 0, j = -1, k = 1; i < cardsLength; i++, j++, k++) {
-        cards.set(i, {
-          id: i,
-          pos: i,
-          next: null
-        });
-        if (j >= 0) cards.get(j)!.next = cards.get(i)!;
+      let card = BigInt(2019);
+      let size = BigInt(10007);
+
+      let ops = toOperations(input);
+
+      let add = BigInt(0);
+      let multiply = BigInt(1);
+      let minusOne = BigInt(-1);
+
+      for (const { op, param } of ops) {
+        switch (op) {
+          case Ops.CUT:
+            add = mod(add - param, size);
+            break;
+          case Ops.DINC:
+            add = mod(add * param, size);
+            multiply = mod(multiply * param, size);
+            break;
+          case Ops.REV:
+            add = mod(add * minusOne - BigInt(1), size);
+            multiply = mod(multiply * minusOne, size);
+            break;
+        }
       }
+
+      console.log(
+        `((${multiply} * ${card}) + ${add}) % ${size} = ${mod(
+          card * multiply + add,
+          size
+        )}`
+      );
+      card = mod(card * multiply + add, size);
+
       debugger;
 
-      let stack: Stack = cards.get(0)!;
-      // stack = dealIntoNewStack(stack)!;
-
-      input.split(/\n/).forEach(m => {
-        let nextStack: CardPointer = stack;
-        m = m.trim();
-        if (m === "deal into new stack") {
-          nextStack = dealIntoNewStack(stack)!;
-        } else if (m.substr(0, 3) === "cut") {
-          nextStack = cutNCards(parseInt(m.substr(4)), stack, cardsLength)!;
-        } else if (m.substr(0, 4) === "deal") {
-          nextStack = dealWithIncrementN(
-            parseInt(m.substr(20)),
-            stack,
-            cardsLength
-          )!;
-        } else {
-          throw new Error("unexpected input");
-        }
-
-        if (nextStack === null) {
-          throw new Error("previous op fucked it");
-        } else {
-          stack = nextStack;
-        }
-      });
-
-      let pos = 0;
-      let c = stack;
-      while (true) {
-        if (c.next) {
-          pos++;
-          if (c.id === params.c) {
-            resolve(pos - 1);
-            break;
-          } else {
-            c = c.next;
-          }
-        } else {
-          break;
-        }
-      }
-
-      //stack = cutNCards(2019, stack, cardsLength)!;
-      //console.log(stack);
-
-      //resolve(stack.id);
+      resolve(card);
     }, 10);
   });
 };
@@ -192,7 +164,65 @@ const starOne = (input: string, params: Record<string, any>) => {
 const starTwo = (input: string, params: Record<string, any>) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("Seriously fuck knows");
+      let iterations = 101741582076661;
+      let size = BigInt(119315717514047);
+
+      let ops = toOperations(input);
+      let add = BigInt(0);
+      let multiply = BigInt(1);
+      let minusOne = BigInt(-1);
+      for (const { op, param } of ops) {
+        switch (op) {
+          case Ops.CUT:
+            add = mod(add - param, size);
+            break;
+          case Ops.DINC:
+            add = mod(add * param, size);
+            multiply = mod(multiply * param, size);
+            break;
+          case Ops.REV:
+            add = mod(add * minusOne - BigInt(1), size);
+            multiply = mod(multiply * minusOne, size);
+            break;
+        }
+      }
+
+      let powers: Record<number, Shuffle> = {};
+
+      powers[1] = {
+        add,
+        multiply
+      };
+
+      let current: Shuffle = powers[1];
+      for (let i = 2; iterations > i; i *= 2) {
+        powers[i] = combineShuffle(current, current, size);
+        current = powers[i];
+      }
+
+      let result: Shuffle = {
+        add: BigInt(0),
+        multiply: BigInt(1)
+      };
+
+      let t = iterations;
+      while (t > 0) {
+        let pow = Math.pow(2, ~~Math.log2(t));
+        result = combineShuffle(result, powers[pow], size);
+        t -= pow;
+      }
+
+      console.log(`To find position of card after ${iterations} iterations in a deck of size ${size} is:
+      ((${result.multiply} * x) + ${result.add}) % ${size}
+      `);
+
+      let theFuckingResult = mod(
+        (BigInt(2020) - result.add) * modularInverse(result.multiply, size),
+        size
+      );
+
+      resolve(theFuckingResult);
+      // and honestly I still don't understand any of this.
     }, 1000);
   });
 };
